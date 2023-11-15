@@ -1,0 +1,151 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Visioconférence
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : WD Visioconférence
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Visioconférence
+    internal_properties : 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
+    configuration_id : 15571958594028232064
+    type : 1
+    generation_name : WD Visioconférence.exe
+    version :
+     version : VI200066R
+     internal_generation_version : 2
+     autoincrement_version : false
+    icon_filename : .\visio conf.ico
+    language : 1
+ elements :
+  identifier : 0x4af4493c00150018
+  elements :
+   -
+     name : FEN_Dialogue
+     identifier : 0x3fe085e658d00070
+     internal_properties : CAAAAAgAAACimJqOPWpCXXA18HhRYgaD4JPP18UFRzFSGndK2VhE7Agm6rdqlqi2Qf3n0VGPa12nrw==
+     physical_name : .\FEN_Dialogue.wdw
+     type : 2
+   -
+     name : FEN_Smiley
+     identifier : 0x40110e3a00001615
+     internal_properties : CAAAAAgAAADhXdnN+qcPICXKsbkCNNHSr+L+pnSE8exKRAPOW6b0HNh0ume5R2f3hrIslBzUrBzkbA==
+     physical_name : .\FEN_Smiley.wdw
+     type : 2
+   -
+     name : FEN_Correspondant
+     identifier : 0x3fe193d8552ed79d
+     internal_properties : CAAAAAgAAAD1Ud3B/lvTjFFWHWWuQSGS76w64jaOKcOOd/IfGuc34Rs1/ZSNq8NTIh6YYCDQqBjgYA==
+     physical_name : .\FEN_Correspondant.wdw
+     type : 2
+   -
+     name : FEN_Principale
+     identifier : 0x3fe0760c7cc116b5
+     internal_properties : CAAAAAgAAABfO7drWAUtPodoU9/whFtodRRMVHR+vtaOmI5UedbEbIScVttL9QkZ5FBKtn5yDoJKyg==
+     physical_name : .\FEN_Principale.wdw
+     type : 2
+   -
+     name : Procedures globales de WD Visioconférence
+     identifier : 0x3fe0749a1f36777f
+     internal_properties : CAAAAAgAAADZtYGFIh8XGD3y6VFqUMmi11oWDsx0t2FSGhcqb6JoiIywXkPRb4+ffroknGScZFS8RA==
+     physical_name : .\Procedures globales de WD Visioconference.wdg
+     type : 7
+   -
+     name : FEN_CONFIGURATION_TUN_STURN
+     identifier : 0x455c7d3502e26560
+     internal_properties : CAAAAAgAAABLx7NXVBEZwo5b7AwyHQNkCbrkNOQ0h01OL2Zbqncn0W+NkcQT957371ROqmpmEoZO1g==
+     physical_name : .\FEN_CONFIGURATION_TUN_STURN.wdw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\Description.rtf
+   -
+     physical_name : .\Description.gif
+  analysis : .\WD Visioconférence.ana\WD Visioconférence.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAAAzNJu2jGArQa09g09W5jnjcqwiKGw5+lW6a/c6YMkduFQs3wm+WQ01p7F3bTjazvQuIeSI7sc+QhHS/D8GHB1cGGUgu6ha6eiITMKHs7nN2WAw5bA0rBBnYUg7oiFO4FY/S5x7zmiwePRTOJ6vUFb0KK9sODBfrtgsfmX+dYPB7qtrpuKG86m8tME1m5YtxYzAWjU9dcDHPURodFWU71iGOGsMFu9vIwzS6Mr/2xAkAzAp7oE+iOenplSHLIg=
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAACNAsbr1Tt84ypuawmiYjpTJshmxPXPrnFDqBLk4L8751Bd0fkGnTN/FHdEJRfiyebng4nPqht4y3r7q8wluU/WNoqMFmVC5JYe3zkIcLALcqzR8BQOspRD1h/qJjoUh7l+InXd18LSqWN9nSoHJgD0D05GGlzxct+gSZNKPWECAQ==
+     code : |1-
+      GLOBAL	
+      CONSTANT
+      	// Nom des sockets utilisées
+      	
+      	
+      	csNomSocketRequete = "SocketRequete"			   				// Socket permettant d'effectuer des demandes de présence
+      	csNomSocketFichier = "SocketReceptionFichier"						// Socket permettant le transfert des fichiers
+      	
+      	// Nom des threads utilisés
+      	csNomThreadRequete = "ThreadRequete"
+      	csThreadFichier = "LECTFICHIER"
+      	// Numéros de ports associés aux sockets
+      	
+      	cnPortSocketRequete = 16000					// Port associé à la socket csNomSocketRequete
+      	cnPortSocketFichier = 17000					// Port associé à la socket csNomSocketFichier
+      	
+      	// Messages du protocole
+      	csACKOK = "100 CONNECTION ACCEPTED"			// Message de confirmation
+      	csNONDISPO = "500 SERVER FULL"					// Utilisateur non disponible
+      	csFINCOM = "700"								// Demande de fin de communication
+      	csREQ = "100"								// Requête de connexion
+      	csFICHIER = "300"							// Demande d'envoi de fichier
+      	csFICHIER_ERREUR = "503 Erreur Fichier"			// Erreur dans l'envoi du fichier
+      	csREFUSE ="502 CONNECTION REFUSED" 			// Connexion refusée
+      	csMessage = "200"							// Message
+      	csFichierRefusé = "305 Fichier refusé"				// Fichier en attente d'envoi a été refusé par le correspondant
+      	csFinFichier = "310 FichierTerminé"				// Message de fin de fichier lors d'un envoi
+      	csFichierAnnulé = "315 Fichier Annulé"			// Message d'annulation de fichier		
+      FIN
+      
+      gbArrêtApplication est un booléen <section critique>
+      
+      // Gestion du fichier des contacts
+      HCréationSiInexistant(correspondants)			// Création du fichier des contacts si nécessaire
+      
+      
+      // Ouverture de la socket de présence
+      OuvertureSocketPresence()
+      
+      // On gère les threads en manuels (chaque procédure n'est pas une section critique)
+      ThreadMode(threadSectionCritique)
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Visioconférence
+     identifier : 0x4af4493d001d0086
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

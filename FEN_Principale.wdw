@@ -1,0 +1,1130 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Principale
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Principale
+ identifier : 0x2680c8831280cd69
+ internal_properties : CAAAAAgAAABfMDuZNHRQmR5vKjrq3lCKJspTG6z7X40oayAkxKR49ZqT7b7o4VzZJrCvUfsh48P4z7TlzIQdgqDTu7P/3fbm5sR6qATYMAef5Fu7IJStvK/FcjnpUJ0ImjgDIRiw3y0rl6hqMQBXIQjWhxJ1xZOq5ljo6icwNpPmBmrCICvDL1T3tQTaIVeVpT8eOoUrbZxc0kbJinzV84KBTTgDKgEXP0AC0hm1y1NijRqJvjRsIkGt3SUCFFlM+MHM1HXLczDcY/RC3FfLx8shk+Uo0M9uZBROvJ5e/hkmIIyMIAuGCn+BNQt44fp6h6afWCpyZSjyXuWwlO2dxLrLV7sqTA55iSdMMRddg+GgSnzUaVNhAUFfEDZHtHjh0N3i4LojsHsg0FjjR32aIeOmHimCbxFVYeT4qpfVRt+v5VLX7Db8on/nFdT8PcuomK9QLQ52t6qtLseIBGjbB+Dn/pKOzrjkNobZ+LC1xm1tIi1I56CpCkn/Tv6uZGJRhKRxOlGsNQ16FOEJkDwnlHI6ZR3/fCVV9FrBu7aG27lDK8bWdOTFSs5ooP2M272jITMqYqxdjw0IyQM2pPRni9eK6A314YtegbDgwd0RxREM6JdG2XYfH2Auf11kFih7yB8I+rmSN3ss3B7qGHhxSRYFoyr+Sjnp3aketdRiFv1D1zBZA9aLSScN6P8M4yQ/4xBnseqbeb6kUJPfW/MOKnedwAvGX08wTcNFB9kJDW+M+fA/rsYb+0hcyqT5s2kTxOdqeoJofzDvKwZpf9lXHopHDgkusDkpIFnbQFBcvqnw+hQhzTC5mJMwo/9gxLCLp3df+XAz05c7Tv8bGa/j4mdXkEO3W+biZZR3UQ6Wcl0C5jGiX2QtMfM3cTiqezr9sfbNOlyV31TY6qg0Ob4ODR6igCUGa+iCAgIvDLoMJuSe+U2GBbv0Sts=
+ properties :
+  width : 590
+  height : 794
+  widthClient : 588
+  heightClient : 762
+ controls :
+  -
+    name : ConfEnvoi
+    identifier : 0x2680c883128fcd69
+    internal_properties : CAAAAAgAAADCEyvvwyE2vnHwC/usNcZpjjDtZUdOmLR66u8jiW4+w/gskOd2UUL8JFt0JhYtTFh0dICIwGu9Fmx1K6sm+UQ++ZxooVeDEw4VcO1Eq5dRmm72HO7rg//9daslWYVW+RNqUhM/dSzqNfeRePWM5HnL14YVxM8//ZbN9prQWx562m3DhOZ6BDWKCGKoqwx7r8/dMuziq0ZJ6+ZsSomVNzi5wbujRiBX0xPeKhB56l5ucKxWisopd55AB3QPdZAZqiSDEhD4mTq4YdslJFgKJTwJDR1gmzkGnzz4qZZxy/U6RClROHZJIODhmaT0aMxiYw9tiqqpISJb+hMLYtZGOW5kCQ4VJx47Xv5uEh/nyC/IarWE3akYhG7nOoHKNLZ0GopgtcAaJlX+bg8XckMks4yfH6rOFXmbaTCuw55hAtbd7bUYDTT3TfRzYb8Co6pvnHXZovn0OX5x1yX61QbeNl+E+zOXZi2S7xP5qwCUAVaLMuVgUUtUkRgxhRtbEFOLTcpdo2vSAcX9bfkY8eLohEPRRA==
+    properties :
+     x : 368
+     y : 231
+     width : 196
+     height : 124
+    type : 25
+    code_elements :
+     type_code : 50
+     p_codes : []
+  -
+    name : BTN_APPEL
+    identifier : 0x2680c8831290cd69
+    internal_properties : CAAAAAgAAADBUJ/2eGqMTvTZTXDsZoy+D8erWvB3XIPFLjcoqAuI8U1/lIFCt/DYrBiUl+2EIcJKO5spGHD28xXnY4KLwvtY5q0vpCalUmIX7ezO4KrA63h6WUVIrF9CGeTIXduxMouLPNjbSn4QuYKDlvIzrL+Ld0/TKBMAeEnXBhZdoRIUE1s4Qlxt2xLYUsKFh9YjnG2SMv7tsz8YzVBPtmwkJOkXQxP4X2vsQNSNTcIDDCVOETRwzcZz0EDREidmQWjNRDaHWf8fI59qCejPfrVS49b7Jlanh49/cRs0F57mIHraS6J/B/RuaUvyfIZMf9Hk7v5ZzbPSbQEy+q127CYukilGKmTpLIOnxz5RtcAGoFn1zFYlBamVnRng3o/GlzpWmvw2QWZ9NTrTE1mEiBIZO3w9PVSIdESEbxYXTLTy+v5p9koYSuRCmbysOVBc9iSyDxbnyNCY2shRiHaSjib0+wPm0boRQxEnQ5JPuM+M4EhiZhl+4/MEv7Tl58euGaiidQfNh5ElwcHGh6NoyjyxygcTI6yhxsd+BFUyLs0/fcT0Jf/L75c6zfzdOcuVTHWUAyYWX5+hM3sj0gcAhW+sMox4RsjilILZyI+PbS1Rsj75FhYC5KFWygmzWvO6IqhtzTy/JkYm0VGIapSYKUbVGCQlpPlF+hnpP2bTTFcdqnHaY3sHhJeJCZu9GFJ4IKAZ9SF6xn0uN9iZDV5iLR0qg566CQuOP39NpuJnbss7COkfzxNAsd6tuThsGelsYf2GXaXFZ2xyBvnfdxFPdSdAtyGKSA86ewiMq9or6XLbTY3xa03mlCeX44jqdiBBEVE1yYzPMYQ6IPvERBN8zz+pRW/BKD9E2NXFjYw0sv3Z+PKKm2Ewsp/OI7qSS3ST83ZX5Y/5ZOVQ3SWt9DkF1+/WpwmvOQdaliaYLs57And+klyGOSBEhFqvna68X/S3JVHgvH1LugAh8nyJd6MW+2Nk6yO+XaRmrHA9ug==
+    properties :
+     x : 367
+     y : 386
+     width : 197
+     height : 47
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         si gfbEnComm = Faux ALORS
+         	// Vérification de l'adresse IP 
+         	
+         	si CMB_CORRESPONDANT..ValeurAffichée <> "" ALORS
+         		// Connexion
+         	
+         		Connexion(CMB_CORRESPONDANT[CMB_CORRESPONDANT])
+         		gfsAdresseIPVisio = CMB_CORRESPONDANT[CMB_CORRESPONDANT]	
+         	sinon 
+         		erreur("Aucun correspondant sélectionné")
+         		retour
+         	FIN
+         sinon
+         	si ouinon("Voulez-vous couper la connexion en cours ?") = Oui ALORS
+         		FluxDéconnecte(FluxReception)
+         		gfbEnComm = Faux
+         		gfbCoupe = vrai
+         		BTN_APPEL..Libellé = "VisioConférence"
+         		GPE_OPTIONS..etat = grisé
+         	FIN
+         fin
+        type : 18
+      -
+        type : 161
+        enabled : false
+      -
+        code : |1-
+         LIB_VISIOCONF..visible = vrai
+         LIB_DIALOGUE..visible = faux
+         LIB_GENERAL..Visible = Faux
+        type : 66048
+  -
+    name : BTN_DIALOGUE
+    identifier : 0x2680c8831291cd69
+    internal_properties : CAAAAAgAAAAvX+lw3lgA18WxWCyvyNTNOtDFusQ6ExXo9WXvGyn6UbAla0wpKj/agRpreYcVNlkTfGQ/9kvmoosCXj86O3UZR5hJbJ10+pP76TfI/b1ONQOsLrDZmJ6pZmMBgPcWVtuwT8rOTRZvFxCURCJUH4UdSlyUm7iDR/ZKj+bZ1dYgxkD0Lny7Aae8UtO+gIzORGszkgYX/J1Y5epquUVzzHKM895iGKNKNmk9mDqf7NyRPn+QPzG4Gcx4SwLKxH29xVcZRSS1HFQZc/9tss9dskRfVfqmMFhfO95LJDmsAC135wtiymnx8rPuGTX1NIt9wEyu18ubcITW/DsSekGIX1XwsUIrbNyCn5c9Eb2A0jsezVBWw8JpaW5KmZ+plnnOJLGEjBJppIQKG+2qhfl45p1u36mzs3cBBuiv+zV1csOBw3Lzqo4WlbLFs+RzeR5q7evqtI66xE2YtiZ7MEh4OD+DwTazK/PQQDZ/+NdHQRUMYqk4Hm56JRCM51rECZncKBhVNzTjeKMICXqK3w2GDbCOFMcSSD7pE28jjx48+n3/NJfC9A8NKzquuOaEF6Nr3LBMV3L8C8eVtZt43WD2LasSjqgCewbLBW8P212JcSXSeiol10PGV8X/1AxZbbbbZ1L0bLlavGJRyeU7eizhYf4l7I+wNZ9lR5Oyyx5IqQ55OmWFxFw7nCsJDOWTAZgL4NiyvsMpOR3Ant8QJ46f2zjNJrWNrnZYEHXiE1Npb1FeJLVAnaOwzo5Rd1ipZD1EwEVx9H0SiTghLTdIVLz1iBEtayYHHJ7xoxTRoSpGboF8KevXK+Fo2yvpsH0mSKobOBRruvBza+4bliHaIZ0yRts5cnVcoMiMPYnoP9oAaHjtAkuQk8CK6jBcm79xWk1W33fQiM3n5jOV65eRxia6m7t0ZY5LjOLOKgkE3QYq2IULMsLlTp+FG7aNU4P9/rt4DdtvF58OxA8Wk+m98NudqFnDXqkrW2e5as6epNUJNDjw1/NntShu7IxkaQP5w7NIN2AYDwi4Q3I2ZdFpgaMvmdvhWJ2qelBZNrnNdkg4rA==
+    properties :
+     x : 367
+     y : 448
+     width : 197
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAADpwWyO8j8477yPtOg7LDRCQOO/FxnAVqKlyTW5EBpWNEh10KyhkCNxgL9WeLOiFkeo1/wNg5N5s+FMh9wYk99vTvOE2rtXP0tIAIu7dN5+/YBs/mqW2fsIFoCMEW4SPrimCYNzPwNHHOXaph5E7CpIhNGWOtIL83Lqgq3LjyRe
+        code : |1+
+         si gfbEnComm ALORS
+         	// On est en visioconFérence
+         	// On prend l'adresse IP correspondant à la visioconférence
+         	gfsAdresseIP = gfsAdresseIPVisio
+         	ThreadExécute("ThreadReqDebutMsg",threadNormal,EnvoieRequeteDebutMessage,gfsAdresseIP)
+         	BTN_DIALOGUE..etat = Grisé
+         	
+         sinon
+         	
+         	si CMB_CORRESPONDANT..ValeurAffichée<> "" alors
+         		// On envoi une requête de demande de connexion au correspondant sélectionné
+         		// Note : on utilise ici un thread pour des questions de gestion d'affichage
+         		// L'interface ne doit être gérée que dans un seul thread
+         		// Stocke l'adresse IP du correspondant
+         		gfsAdresseIP = CMB_CORRESPONDANT[CMB_CORRESPONDANT]
+         		ThreadExécute("ThreadReqDebutMsg",threadNormal,EnvoieRequeteDebutMessage,CMB_CORRESPONDANT[CMB_CORRESPONDANT])
+         		BTN_DIALOGUE..etat = Grisé
+         	sinon
+         		erreur("Vous devez sélectionner un correspondant")
+         	fin
+         
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+      -
+        code : |1-
+         LIB_DIALOGUE..visible = vrai
+         LIB_VISIOCONF..visible = faux
+         LIB_GENERAL..Visible = Faux
+        type : 66048
+  -
+    name : BTN_QUITTER
+    identifier : 0x2680c8831292cd69
+    internal_properties : CAAAAAgAAADhkwBzpco8Z+D1XUHRqqDOM86Ducdckc4DmLO+JGZLrxepWtztSiRWuOBwjqVN6l9b9BMYek3vtLFpqYB2LbBSSajkaEeOi5+VubpJ8pRTWrXgNfDbK+9VHDTaZIm5NA5lSqW2UYojEGI6ZT85BclUMxz9jpBYEzhwloSS5iXHFnUx0nzjmv/64og4xTeyvCH0xlo08dr4NJi0xIkF9a82YqmuHs1dWBk/0hCm/OzDQNLWER+zXnIbwEkivlIHpdan9j5kj1hac8DrR7KNnWbWgU2wz1/mXXrjFhy2X4L06+am1srGdBBxC9u/fJCfvG7bkqXcibyHRzFDGgGfHviZqZNjzqZOXnXxKyPA+5FVH/rgSiDZzsuPcSEM3w8NphiE/u4vdKautbp0eOxnFeYUehoS7GZ/uwertuPaXKVV3v6oAXG2PyzSZCIOKCSN15OENNmP6St0wB2MS0oACzbtM6jjWPekLuVBsgcET9ZmJYqMTysADl8W9gDe1+mDhl+BW8OcVnHWWd7kvGXMRywdEYBowFwnDj28mTwNzYWQvsXn2FuBmFmB9eXsqmaNR+ADI+9L9r8HsyhVT+1q/d5HYzfrrajM7tII52n0B6xo0CRP583TYhXj0pK1VCBa9gl0Ta9iHSqxFq2XRr6HTusCozhLOX2kbDnGR62+4+2p4NnNMiYftb0CFhoSro3miOJGIPcu7aMN6DN1GdGVMSvzvYV1J/imG3iO3C4dqxATTuhL4NWjCW3oGo2hqTYGsHLCUrGbz2++SwLgL81uUcCj+4oZAYOLYJ8j+crZGEcx/ITJ/WNR1qUQb+i/EEXmOLCYy7MNkC1zrKXBm01DQYoLy+q70ouDn7blRihaYRc93lKU37WKz7peD6mWipt/y/r3bGJjrNUdWVYfHEQhkYIPXUcuFpnAy9hyQUyBIumWH1DjyFtRn/pWv4xqFTMAFe94HBUFTqe4lerIF4v+K3ZdRPqmVMX33lTdv50JXD6A6Oa/LM9C1ymSICBgY6HkDg==
+    properties :
+     x : 367
+     y : 511
+     width : 197
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAACxg1Tfy9WaVtFqZ+hED/7/mSvebHZ3l1NxGLNe6GUpIVuOgOA92j2h8glfFrQKk3wpnChUZiq9AZmo08S5B/MPJs5/4tKfPxEjva17x0EV3Yy2DxbLUnEA87OA2/iQMJvqtqpwL5r89PrcDVY=
+        code : |1-
+         si gfbenDialogue = Vrai ALORS
+         	// mise au premier plan de la fenêtre principale
+         	fenetat(mafenetre..nom,DessusTout)
+         	// demande confirmation à l'utilisateur pour la fermeture
+         	si ouinon("Êtes-vous sûr de vouloir couper toutes les dialogues en cours?")=Oui ALORS
+         		// Arrêt du thread d'écoute	
+         		FEN_Dialogue.Fermeture(Vrai)
+         		// Fermeture de la fenêtre
+         		PostMessage(Handle(FEN_Dialogue),"FinComm",correspondants.IDCorrespondants,correspondants.IDCorrespondants)
+         		ferme(FEN_Dialogue)
+         	sinon
+         		// On annule et on sort de la procédure
+         		retour
+         	FIN
+         FIN
+         // On passe le booléen d'arrêt à vrai pour que les threads d'écoute se termine
+         gbArrêtApplication = Vrai
+         
+         // Vérification des connexions visioconférence
+         si gfbEnComm<>0 ALORS
+         	fenetat(mafenetre..nom,DessusTout)
+         	si ouinon("Êtes-vous sûr de vouloir couper la visioconférence en cours ?")=Oui ALORS
+         		FluxDéconnecte(FluxReception)
+         	FIN
+         FIN
+         
+         // On attend la terminaison du thread d'écoute
+         ThreadAttend(csNomThreadRequete)
+         
+         // Ferme la fenêtre principale
+         ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : INTERR_ENVOI
+    identifier : 0x2680c8831293cd78
+    internal_properties : CAAAAAgAAAAfvgNUR9GWmpMk/NzoJx+kVKNS6QLh1RLjv4mfVu0Lw4JGweE/eGBjmPkrIEw0lCACN4zwjRjVtnpx0lainJCMYk6p03BWnUCbffgi2OSDyHSABO78PhfgdWODa/JFYBuUDaabhUtR6m7JSvIKAQRQCGcDSjQlTTp0m/YBDQyWPXQ6AvI5YSbgV6FLHJq6LDexaa7lrWhQak+A2e4+xiqnxbhSoEePqcfX4gww41tWrcuk+Zu8bl1juEgUeKasLZBqwpWKykmmuOrnuf58f/+a13nNn+o1P7lftnOzdre8P1oCACTHgeeCDXdtgU7mvyyoSD3D6eGm+aQLy/PZphxzREcwZ9P3+/QifAFdD0oHljAo6L48kW8vfeSTDp/sIE50gbYqr/andw53iG7gnLfL1ovNmA2L2MQmHlfWggTvabi69BddPB/HDrz0MpKhrMbFeCoJz99hctYG2wsEWHKtSGzeQL+I9EXPFV0AkmiWsit/aqvQWe0FEMSHsuHjFxZiX9NKrWGgUZHBEO3aPVwyK1CsslYzmwewl2lUAUcIeGLUZubKC0zw3dBBYa090snfxRccDJWke6zQa8EAex5DPlqlOqYYlDzwrbK1wMU7jbhnjWkttxsaMwZT7PLnE3MttYDStwLvMOTFnv9MgD82imtK0m1oAAdxzsmOr9poGBT3uY4W+ko+nuqphs9i2/DhSVT3F/7C6kgqE359ySopm/lGrL42Ke1sznST47X66aghxrPVw6aJ5ZfH7LfQSpkPcVtE64Qn7PGIdk/p+sJ0B0kAgYQQDsfJa2FQ1tnMSj/C+0ihe9U0F2C7Sfqh4BhBN1nwI6zW522B/FHxZ65Owc+1Tqciah7E0/NOyRx57qTyDjmSZp4bh3YILYU0kD5yBnNvbx2tSi+p7EUROu+obbGOhzxr3oUUrEqOw9U890Cy9LEFmCyldgcXwxV1wlDH0f8pkLr5KiwdC1uln6qtlB327nN5Kn0mwJMDIeB8MECRW3hbhhGRVJ9mVMo1pXoJ4fwAart5tmEcNBvmOZMFMqryayBwWuhm+zNRAxcqyJUgKvTtxE28hm5PIV+oIMn4N6JbS8wf2N1ZRvTV6fgKs2CwDoc6XH7ID1SHg7zWk8a9JewAA+DUZVt4LjLQoWfGtVjnwre+upCBHCtWjrgEGQ==
+    properties :
+     x : 372
+     y : 354
+     width : 192
+     height : 26
+    options :
+     -
+       internal_properties : CAAAAAgAAAAY2ntIlxpunBg6AaYjCJfRkieqlTWH+OF1yZcpQE1R+8vFJ2gR3M01VSLPM+sUM+/N4NuFGyqs5N+MHfhjFCS3FMjTACk6IjO/6N6Ow981RMUr/hAIjToxCTbSCfasPpH3vQb0Rfu2658OO7HgioG8PuVWVMcoWDDPj/23WZVXCbNNq5iN/SsJywCdRKYFXw==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1-
+         moimeme = Vrai
+        type : 14
+      -
+        code : |1-
+         
+         si INTERR_ENVOI = vrai ALORS
+         	confenvoi..Visible = vrai
+         sinon
+         	confenvoi..Visible = faux
+         FIN
+        type : 17
+  -
+    name : BTN_AJOUTCONTACT
+    identifier : 0x2680c8831294cd78
+    internal_properties : CAAAAAgAAACycePb1vQqjYLdxkNTGeLjh2B+UcFdtkb6U6NKeJN0Mp9sXa8pqnOu73guIdwBfDz6Wd1ee0X1wM120OuzZ0ofa5DvSIOEZ1JRD7HxF1nF+4bTEqAJkGkBGsiO6AdNnIem3ZvuIeQiS4KVnK/AvVCbILK7EaxtVJ8sXneAp65P57xN2V2qD+MFL+qEZFDEKScYZzdMxsKe399VPPcbJQwhI5vHiHdpHHjwHnAV1hvXt66WlBm1mW8YWW+h5uwLs4wgs+1Ds/IGx9IO8aWUOliBpIR2XtRe9imKHfaN7uymkFyhrCFJahFn/pkm6SqWWkjs3TPJeR9WFBjiPfiC/2q9DCx/rILYih9UsYcXuy6VDWnzvVL3IJXs2qWj1lHLKUNdP6+Kppr0STw8ZtFuC6S5PNnimz2RsZgiiHwPIKvtS+kwXBMURG1PxJQRgx9gJ+xq4C/ixe4INe+QYpCl9w6VfCC7ic2/rA5oMmUJFLGXu1TDELqswLv266GwG3Z8yEJPZl7TCtbtBZzxQfMRuG5kX/I9BV4kNopbW+5v1mT0bzoSbGWLJ1HJBfeyrnQzNRQWUZ1vasoi2NAtjtOFqkBRFMlPmAP5vjRDsN9BWECnWrUMbH9DRqGUzM8sBltT4Mo3opM0BQ9SKU45I5NJsJxM4+xflEKcr6otLJuexVDeiQ0RAT6x/VHAWgxLcY6f5sO/17OLRO6Z/w/MeavPQLTkXStxa3y1BBqXyRSxQhUc/ZTR3y6x+ajUcs2vyxi/1vVfryRhiS38yQngv9yE4AkfCmp8VDAFJWawkODdCoBibm/lDGlaKTSKWAFsioBPS75VgBZl5AGO4ndNET2Y037deHOrqB98zMqwnWxBT0Tewhrnvi7LdrNIIlpyBB5u5TNYmYoYJeOsS/GR8nKfZiZgAALwhmIzfnaQD7LgvqwilgPWw07aT4RjraqBgyprTSQ0eCzYS1Q=
+    properties :
+     x : 360
+     y : 24
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         // Ouverture de la fenêtre d'ajout de correspondant
+         ouvre(FEN_Correspondant)
+         // Mise a jour de la liste des connectés
+         RefreshListeCorrespondants
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : ConfRéception
+    identifier : 0x2680c8831295cd78
+    internal_properties : CAAAAAgAAADgK7cTB/CyjFzDzxPc8r0CGaM3Ln0WWyavbm21MIOqL0ZFhl6P6rU6LuU5KPMMdAPOaeei5kHhu3auyrjWxlunfVKjPMAKyMDstanMv5JTnqfuAwx4WhPyB+KrHzmwzJC/jq3DgBuumXB+alQnkEE2ohFU3Z2Kt7yCrlWJZBeHUR+DOhEoNCHEbGyDygI71oNk1YO1G/3dJQpoRoBF5GlIUilcT4FYPwRtlJk+8+qAcF4FSnsozdDm8bjyDrLG/BVdi0UM3aFHgwwuQs/bFiRKPwF/S0J71xksIQsW7WZzoqnw3fkZkVW052djHVt3cb4x31c8Ew1M2IVsoJM3JXHEWSQLzjnymyoSIq4fwoFWhmJ/S9NzPNZzTcDwobVJvPEZITxCIgH1aujE0qMkeW2n2J0DTi0FcQP3ZRyfB+tlcRu6EBSZ+9csilwfFBy0EPKpMKISHj2t5a+5xRgEWq/1GENkXyVmhfL3zSjB6IPpd4tWobFy9LpNXo0oNp6AofVk
+    properties :
+     x : 24
+     y : 193
+     width : 309
+     height : 303
+    type : 25
+    code_elements :
+     type_code : 50
+     p_codes : []
+  -
+    name : BTN_MODIFCONTACT
+    identifier : 0x2680c8831296cd78
+    internal_properties : CAAAAAgAAAAJsYmqUFurhlXBWTg8yqj3goI4byubdqbV5TDfdva6qXSYR61hYoCPV9BwCgzCdEJoPtXgv8UkUcoTWLWOfQcCJ8EkjfcHxSp5iAkdnKXOfDakAO7IUNLCZIUAbTo5I4DlIlc1QPirmMfk1QxOuDP8U6gfNG5Y4Fi/oBSbITOnjbw9hP/eYEnpOyBnKr0IrjO1u35KHgHy90ZKZjUMhMf/ePZtZAp3ogkehT/eIkG7E8qHcIeUUn6I6DhKKxNGJz3a4YLel2SfiqqO+4kcHcJ09yqIssFlDSy29AK/rPjWpl+NI2c9Dr057uSUepgPrBsOZDJRYl3AM+lBg6jhvwRl0+RvWmYz7ew2jjSNkf9KFkxqMzK2TNXYonyvB/NMkHTg2MUH5xXAkMVMC4xUpOR1T7AXRMVKVvipD9g916PA8BkfeH7Csj/wKzf8tLxA062gAgMzWjRaL4YZAjpS9pU17sheTRUFhUhtabSgKmdf5nB2dhWF63qmOhNccJv58d3/V2Jobbzj4MhaJhA52EsSOLqyztP6yCXjNJwfPXaEbIxPdkLeZ9lKSe7FFU9sUIaL2dJrIBsppNHFEkk0P99dGYVA1lGuT8p0V3JwTLYvTZlLRsTy4kEx+ugJk5Ep1E2PIEuJotpl6M0kNefAOECc8jLbwMPbT517WSwBpYic55OeAfjbZ62lErTCvtbJNwZzth18s/Uf6KUn4yq5xzFG9srNXsk3OwGtfvKlIEk9xpgnF+rHpJXihJ2wSv+eULYK09PjRzz3qvulEMVId+7tu8g5X6k1ERaPpzPHV8LMaVOYHxFRoKfeeQO+Pu/QDnSgzl8m3hqzIHWn/FyO7HgApi6vj2+rRWTQNJewae6ii9JhfFfm/4T03BWkh4s07OJPXRESKXEwyjl/HYY2uVV2gXypbfimXe548hPUiT35yxEvzzLSfBu7pL5+I/zPWoH1DZvBXT2K
+    properties :
+     x : 274
+     y : 24
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         si CMB_CORRESPONDANT..ValeurAffichée <> "" ALORS
+         	hlitrecherchepremier(Correspondants,Adresse,CMB_CORRESPONDANT[CMB_CORRESPONDANT])
+         	
+         	ouvre(FEN_Correspondant,correspondants.IDCorrespondants)
+         	RefreshListeCorrespondants
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_DIALOGUE
+    identifier : 0x2680c8831297cd78
+    internal_properties : CAAAAAgAAAD9xLFt1/ORaoV5D8ITFgUJ9yY7o9rdT2I69dYwAK3mkNBAFiDzm6m6me6xvmexTfTqWNrwNUNEAJqvoGOC+yGiO+djiq+ZlKt00PsKlRDfBM5oQYkmKcRNf/xv0y5k7NBo6tKSJ3Nx02t4wykjXf5qoVIxfFUwMy3g6mFHZjV92LdJlriQGD3Z3s8z+HQmHlQ6SAVQiJbA+2+Z2zMM8MFg9VdG5agmAz9z2prvcNvp7AjNzUrAl/fr13cBW7TeeIxKas2XOz+YLJYPakH2naL4rNOBMjQnlwtPJAxofjN2YU+fFKshIewiHQaPDHUw15SxTHmB8hVXVH/WchxZhl77JyhUwKx80tKdOe0IvL2vHRVpP14oiHEFdJEauEOfwv1jrka2SpKD6zvIpdG31W2Q5l8kC3T6Vh6N9w4QQnN4EiC16plI3qd3nK4xv7rqJabEIhKEXbNxiUwfg9D/aZ9WlBN3dz/OnmKVMLA1UkulkJPmzCyRPXkR7WFJagF16ldR/ksYYNtRhEJUQjf9cwmY8kBiHoIxySrOiJ4Qu8wl/A1di9TfIsPoZtIJjBn0RTH5NA2IiKmISt13tTBBiPbnOUDcL04gdkia1lWNIHLGlDbPmFeI+R/ydguQ8dcGCsfbakcSnaSDH+VJAU1I3Cfok65QDrXuRCFM+O1wZzKXz3/267gPZWUsogJehnw6hj0jAWeBR1EKqDizGJ/RhWVIXi+cRKK/7TOdwEfgPYpLnA6WHTJuYV6qhrHZNqkWH+KFSu4Qx9QjyaCdtwuNP1wmehmUGbkv4wIEMYodFtHM/A/IdkTE+bJ/+ZCMYw3FHvxF1lDbnlqeAjuqL5JltPZzmkDNlFxROWD7k3+mzf0rxrDrAwXOldOyuUgvhkJ0ES7qxBwJm7bX0lO19o6V2lwcAux8
+    properties :
+     x : 24
+     y : 565
+     width : 530
+     height : 128
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_VISIOCONF
+    identifier : 0x2680c8831298cd78
+    internal_properties : CAAAAAgAAAA6zVvllMAIfRC9GBka8GUDODqNOAs45exlHETa+C7kxhsjCx4MC4cRtmsmnUBXwtc7vHICOxTGz90HnaHwZKX+KKPKkRnwdtvT9p3Kx8IMzrspN8sOcR8leA7yXPNIw6DpGJ48gvGnSbNlc6fCF9xrSjCvN1lI2p8rQc29DnUL22RK78ZxCdUvCW9Fa/LXfvHFaaz3tlgdYLUUbf2cLifV85ANB1FyxNp1cuI3NZ6+YZ5DCnFToZLFyTtk9MkfhebNQefe6MjjDl2ZTtUjl8B5JHrJgBiFWrx1S0z0uAJEZKnPffxS2X3ykPP5cdJXdGgBQ9wx/oJ3RgSSBIZrBGUtDnNRWOQLg+dUXfJsSq6QjYg6q4xqKdGSA4bXr6cJeSpoUrTKti+aSzgrHwjEhM1GvPJRV86T0RpJk8I7guOD99dHULKaogBNhAWI8ub8LDTN2iNrP4/1G7EBCOr02zXvYBWvBNjrpj4jL+t2bJUuNBrx0OrAvmGxJ3XZLLa1WJZZD4IG8+ocw5VgTw3rbLHN8wgfxIed3/IrULGUMhAtSVUHvAzyUs+LF7hJ52VVOyPo5BWYlMZDq3FH1bHM5+N7jlqV8fx0Sd4VkSsYR7OQ9aTIITBlY7Ob9CS1oHBAS7pbHNuoFgrbwlWd2FawVeYcNVkwfag1tgxVX2aSGv8Ij0Mjzz7TGp8S3rE3nMvg0kM1nYj8oJ7DFlZUFxj7zKtbAxFqouIHWy8RCTJXOczQw5pcCvAyrsNrAL5lQXv3R/+0fkIHoSifjR+lfmthWT4LoMJA4aNNOjgGt8ZASrlAAmJRWAtQrJvwCMT4B6J+rl4AAvQVbI1xikMOTClpereGL5kY1gOhG4J3WzkwLjmuLB2m6g1nEC/kcvJTx0Pdii4tFtoGJDaScCsLDHqy877erYBXD54P2YpzbhVEwW2Z/fVmNhjblFKSYjtJuclbUVkS3/71fZ0RHSsjxsbPP3Igkn1GE01WDeEYWs1OnkpdE7U9g0dVo2wMzgpIrGh5AGLTmG35J4rb+J9YfAShKpEtz1e4/DC5IFojZ03CUkBid+AwS48bcUci9uIQEcXPnIvFLyAm5WYV4aGKlaKd4FZ0zDA70dsdEq2Awm3sz/bas5SmkbsimicwNe/a5S7+ly8+
+    properties :
+     x : 24
+     y : 565
+     width : 530
+     height : 182
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : INT_RECEPTION
+    identifier : 0x2680c8831299cd78
+    internal_properties : CAAAAAgAAACXmxTMVeyzA/wO/Cbq1SBff1eeNfPKZ/7AyoyiGIRoQ+Wxu4pi2aWOdn4XIVAMA9O7VqAn7kmm811BtSLDvavPcJfl4FxxUIjQ6xBisLtlVcJPagseChzCO68IyhQ/EJ/ac0FS3aEm/iHqDNPMPhZe6nyyowx8n+wkFEzwgXwJbbYD3SzFDs8FxCD1VF7a0GmnYvztQYv28BVd3wYo7NeBtXh4oYV++r0SvD0g1EATyNmR2gGs94nd+jnDiwtVxS6Kkq6ey/MOmHdtduuWjCAgE8+/UwGOtqYRltYgPCjF780YT8UrgPCaWNrDtbstb+yfM16vwdgQk42drnI3BMawRZ4q2XiDZYcEFkAF1gtXxPD9AphbUHeWI+9/uL/MK1+L1kzW7yCnwjaf9xkMw3BRTUzW7UrNmgLi1u8Th3KExjm/EOOnxzw1yuNcDA9BbgaVGPyaPpUj2o0qFWYkAH/WcOmIw3MCpXDv2Lxo0i254xsTn8lDHRhbt6BN/9eIG9TuEtKHfmMOAYWT2aIRU8FyEYF76OB6c52khyTPT9UIDZjfQeD7q+5zF4P0ade5FnkNOjR7bNa8vSwvrBCU/pSs5SHdEBT1MvJQ0rHJ5WdgMBvb96n4bnqDRuYMS1gJx/krAgJxp/CPumP3ouEIOvLyeRi+bgbXcLTEVd424bWrN8ovixzcXP0Ohy777Jgw7yU/T/mHgATB/RepL5E+yvHJRqZxx8JrXMBgeTM+qYlOIPA79m7F670DnndfeAe042b883EyoV+QiPFBIhGkhsrUIfJQhpwe/a6TrSpEaP8Pig7phPl05NZFNLPgXb814cQVREDL6+WpO4KbRYwe32bavXU4eSbuCGI/jYnwC4ktpRMaAM3QaXbnZ8xO/y6VzdQY2S+z3r4HE/yLE1QK5Hsop1bedjpj+6nRTxlARKrxNKfXPRHwf2wWZToWBLmfnKD9nrhBWjjmMikjAWHRlzslmYj71jS2onhIeHkeJbZ5ky0hkk7+Y/HQyAkbySexnQrh11vMqtoJ1dpL6SA9Lp8kyYEOplCux2ZQ9OpaicfGMKX0fIqEgQfXyZLJlu4JNF1tnISygsbjlr7QLY9K2HbnFj5KSnq+1T+aiGfd4buKPNnJYuEfzZyJzDGNEDlG/Ba2QImPFQyXtgdaaFH1bZFm1xxb9tEPRyvn4AcqwMuBusY4PrfK79YApeG8OfuC7kGYnc8l0arbYU31
+    properties :
+     x : 24
+     y : 502
+     width : 122
+     height : 57
+    options :
+     -
+       internal_properties : CAAAAAgAAAAbU33n2UbbM19ap1iPKEJ7ewnmWLjwYjOhs908E4jaknU/WLBBjM9WRg9DR8iySrJn5PVGoj+1+nwvQN+4vhLkHsvU7ZhC8oGd6pyTPuMJ8vexYFHPOd5VcXrqxk2WNKNNn9ZeAPZ9TrjNFxn+fJ3bNQWgX0PHAA==
+     -
+       internal_properties : CAAAAAgAAAAh8TOA12Iwgcr80F6JJKL3tRa4KcbozIoAG3Qbl/MZhe5y2mh5MJi5UoFmqfTkg/Q189yzRTxi/iD1IKyun+0ICyI9DkB4DhC8wHl7P9FX7ZEmYz4RgUKk8OhPpho8QPBhsYk0EYHOIT/Uv8jNx+yCmbwcyw==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1-
+         // On met les deux options à vrai
+         moimeme[1]..Valeur = vrai
+         moimeme[2]..Valeur = vrai
+        type : 14
+      -
+        code : |1-
+         
+         si ouinon("Voulez-vous appliquer les modifications maintenant ?")=oui
+         	ModifieFlux()
+         fin
+        type : 17
+  -
+    name : INT_ENVOI
+    identifier : 0x2680c883129acd78
+    internal_properties : CAAAAAgAAAASBp+nImGGXmtfMI8kciG/6VJVqsVtarC4v8ryoO1Hk39tYKh8BfdsiuC3tw5FHp5B1AHeX5SsxP2CzIJOSeh9l4OB2DJKMhvxHLdCW+C1yxsMH8CdbD35+heGOcgysLdurHUcx/+Nx0Gw9PJSo+R8dOLh5CB51OVnMQeItD2Uqkl/029PUDFPbOYh46YGyuhRx1GKrAbhZQRQ0x8GZlLzKZaViUilJUz0wJHVB2s0IlYs8fh+3jD5RpWmg3i+u6F9UwQb3c7HK4q3Vvxd7bOOOyE4CE3gNdAqaMOUx/f2rqW73HyPZDRH1CQrj9G0TuKk1tTNowsBQPSbgJCA407tWDi+RSOFIe7jiE1YCsDdmkMcNIAIPVKuAaEXSMZXrz8d80nvKlhSzk2kqFlC37BMyyCbHXRCOs9G1dxMew2fJNmozYh/VMRLHTlpx4ZuVBXPOrfScYd5j0OXY2Y71Fm5dOlHOcLylUj68+Ee7N1Zu2Fppr3e5/sp/IURLLyedBChGBEdzhqv3NC6spxKipY7CoIJ6ubl69QJUWOSqPKE+EKSi2RhyaqMKrTXidfgQW1Gwldw8RgBvo6Tiy1OMQKwvspcP9R8bDWTm3FzzWU0yKGiJSPVy+rhmFBaijttwb+JDok/A9SC9HFTXvADlw4Vze7T1Izh2e1ihsKUACrNq02tMeZL146mP3/n3eaSnugi6azKvm7ND6IVM+mIUfUbv2t0ToTQuKosUyy6Oc6y1N98zAGEPGLvsZZadRLC6QBHzbQ/dCNQ+97EGYCLYp4RfsHz9smjQH7JGFLmNERQG7rViUzNTLyLCik1gJgMOPy5lvalivgwEGfOFuOxbNOZFCaDloddhwPIGhStTF+L51VG16zhKCxd+WyoBCy8FEJlNulz0V+foEHrduES1bjllrZoLwLFdDQvCafYuCSS6dOjNiQiRovpz88E+l0pFMExhK5Lpov5zicFlXAwrDctgtbGzfc2pGbG4OgRTBciZRqnIC7MkXAbWoId9+7pha1OPn4faevKbmm5CZfpq1YoRu1XNC023wtIDp7ed+PZHRhDheNJE3PxvCi6xizAa/NqGuJ4XaaKCHLxc3LjbtB8bOqiMvGlRl7Zc9+0tmZahnt7aKxydzXnNe4VMO7H0C5swcL3Uoq4tEU4qb00Zt7rqE9YQZhIUCnvnPUDFm/3PIZzjJUwKuttYP3POphSQJyR/tB8aLVY3Mhw
+    properties :
+     x : 233
+     y : 502
+     width : 104
+     height : 58
+    options :
+     -
+       internal_properties : CAAAAAgAAAAhiUPly7y5kX24Bc4loqhNKV+UzhouwBFPkTPaqeIAxDt9boYTwv2kdF3RvVYM2AxdoqsM1MhhzlxpUtitlzmrT/mKp9IIvMsreCoNsJHbwCVnroOZdxAHJ6CAaC+0FoGrfTTwckTPIE5TrYNgGn85k9uOYU39Og==
+     -
+       internal_properties : CAAAAAgAAADLD12qKZQai8yGrth3pixpHwyiM9jSzpQCHVrtZS0rd4B4LGIDqiLT/FucM+p+NU5HgUs91x7U8DjVbXEhFPB9mLRPfNbidPZWKtMh5TvtB4sYbSQ/UxDyAvpRpBg+Rvpru4PKjwNMn7leycbD8TpMw2a2oQ==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1+
+         // On met les deux options à vrai
+         moimeme[1]..Valeur = vrai
+         moimeme[2]..Valeur = vrai
+        type : 14
+      -
+        code : |1-
+         si ouinon("Voulez-vous appliquer les modifications maintenant ?")=oui
+         	ModifieFlux()
+         fin
+        type : 17
+  -
+    name : LIB_GENERAL
+    identifier : 0x2680c883129bcd78
+    internal_properties : CAAAAAgAAAB9wQiNumKqrsGGs2eI8s90ZuRIi9idJ1XwkU/aHAMw5PC40hDApQcrRQA3/BjqFbqhtbMGlpqXsn8LZ7EiAntqmbPUxYOg+smgfRTrAPqb1GdY/UH1fqQG1/ogzGpWRp8bDqhH/mC2owFB09RJQZeMeppcHfTTaLMOIpjz4JhiJzOHoSIwAhp/xyLeQ0uLYY4pKWOpNfw13HMFUcKpXMYPhFFhpJfspdUSt1Zg7TEKWvEMi5Xz/fGko/43uB9W6bmLkk1yFFQ3V96FKZi1pinR7BUAopxwbNIX/PLWqynkXF/FNr3NZCWc+6FYjLgZMm6SEq67+hKZmOwwW10exmUlwzGvOMTdyP21hIsk4/WMON82/dZayeVq6gq0P4b4Z8k5/uao3rWskw+kUanG7fVcPmVrAKL8dfZJWT0icgOEy91oIDL78pD0HGFhM0TUfauFnbQTyg1b5px160sGxPIn15Rlak4/uNL0sRJr1g2EDqv0HiKL6NEJoH2wV0/0WquN6p23pdFqf1UB2gOq/VLlbYv+/gUTT2leRbKCBfCsnCEWjKZYw/7r7540mM4vzwyUi7m44Dbs1+FpY01/qQjuZb5eqh3r7oQxKB4jpe4SmxYDrjzHYuPGGUaCyw6b1I0xfVU7HR+jjImp7hp+DpSY3ZLfxiAZtjkqOdi57xfikJDyPD+caqcOyJM36f6qUWP6gsp4NCPtIXjkpambSmojMi/FRwhXt230SWe0WV+coiUA5ICKLkEkuYltm/AFA5rRon06FT4YtaCbEgcFKavU97odeOKiU6Al1SnPTHTRnIBShvNv+Wey3dtRy70l5jRlb1pG7HyhlOiqhA94nthk8uCJapt1G+dfkMQyKA3J14cXwQKH43EnnmMw1wntLlUd1f/Usxq21sbuNYgv3iduH8oLqR84HXhHPjXzE8fxELyayyKbbtnXsQ+p1tG4OvpKhlNUaqARWadeoVNmagqwCZSpCkjG/biCokEa
+    properties :
+     x : 24
+     y : 565
+     width : 530
+     height : 155
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : lib_connecté
+    identifier : 0x2680c883129fcd78
+    internal_properties : CAAAAAgAAADoJwLwdUMyRD4MZBTDShkyKy1XFE5UqF425sb3AEHy0yAx5JVHWOUYm3oHHHRj1QbCry1+3v8ds98eI2AeWk83m+CK8njqDsNpxIp0sRB5qzt5kNJXm4VM2KdjEr0zmUYylNu9izHzYJnQg5/luH3FW38J1FFrdBng3a4c8z0FkLRd87x+tMZo6pPm6/Z5oJYJH/5TWjimHs0f2an6e+yKvB7I5VCwRLIO5hRd7uJPh8dpqBqygeluih77/L1ocrMenKanpTgTPDw8Y3LbxT/Jt61/Q14MXhq2urSnN5xlT12kuZbZq/lwMnGXW7JCyea1bZE6pslq1BRwVoe06ur8XmvFocfTgLlkOxms1uFOccIxoUD698YR5VRavOlsoAyTWoRZ67nfuKaJShdPsH1xFfoReFo9pnf5VutCdKS/lan4ZBaimPAOT25XQCtU49DaptnV6+KMmzppw9IqG5zOwI4DowI+DQS25ABNK9pgy+OHLnlqGIeamEsWm/icMO9zEOc+XzZqjweCe0c5eyZvq1l/sqVX51Jpro1p/IxfcIbcYUK0WvzM1xwK5xng+omWW4Njxw==
+    properties :
+     x : 154
+     y : 169
+     width : 280
+     height : 16
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_SUPPRIMER
+    identifier : 0x2680c88312a0cd78
+    internal_properties : CAAAAAgAAACrwc3vHfW8YOyuGtvpFMMusYWpkI83G8xMl92cGOBTqBNVd6z55DQkJImjjhxLrzfar4I6/foZmVzrIA9zorrmiclcbOR+vxOjbmu9QAoVGmpFlInw4nJ3fWWmmMzO5mpTpZxJoHD+BRTTPwCYzq4d+Dae8CUkFno82wp//hTqpel/rtTszVEKnmnAsA7t60DGEliJzhfE3AedQSrA8zefdIAkc1hOvQ+ZyfYbjjHVkPfNS//ym0MjFZFG2aiPs9Rz9/im/GCiFwzK+rMqE9kxuqdXb5PLqyfDXER6fOQ0kB7Y4pjBEG5kaJEUESfykyMSEDVgHPkLhFD0XYhpRw2ldZq07lQvp1AS5zyP+fewFzgmGBQWmHbTa91Qxycrh1fBcD16PtmD+q6Itls+9CL0V3yTMOwdD7RqOENCTN5b/zeyHHFBnDy0NleR7yQZmA/nJn48FfAeX8UR94MROd+Pzw83HaUBYlwHhuk6H3Dwi6SwoCC7hwWXM5NrLIDblGJ2cETY+KI8MnDVfLmAZUncIrNbVphf9VXakJHQFUcXJQdoza2Fg1wpJ59BHeMu5yDsaeHwAi8TjxpBpmMM+3p36vuZ9NnCvOpWc/gNOXhKzFS07SI5GkrF5whY33yMbLFgaa2xLs+Jf4F5HsVkiLzlJinLfcQyDcNa2Pk0ZLr/JHLyNyHSx9J1aCu6LBb3YzSiuy6kVVPQZR5KkLOul2Q1dam8X9YdsbkW3ei5l0w8xmSaHsDB8BcDt0AQ2Il1nvOiP/sRIwUwPc+lZgWCV3bTrTSkjAn9WcGTFQW5vQtOaaQ/anBB0JzfzbEpDMoBQNu/RNdO6J89f396R3Oew02vzDplw+QJZRUArEKNhHrxps6ZSLda6UOdKGiBBML0xbwbA9ye9jPTHQgXUwqrLFpK4MkGl2yyT+8GOApaa6yKdehXblouCHD/GCeyu6dYfahaoRfyKfIdh68pYe0myX6BepblcKNlY+DnWXRdUkFhU7ekqA==
+    properties :
+     x : 446
+     y : 24
+     width : 99
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         si CMB_CORRESPONDANT..ValeurAffichée<>"" ALORS
+         	si ouinon(Chaineconstruit("Êtes-vous sur de vouloir supprimer le contact : %1",CMB_CORRESPONDANT..ValeurAffichée)) ALORS
+         
+         		hlitrecherchepremier(Correspondants,Adresse,CMB_CORRESPONDANT[CMB_CORRESPONDANT])
+         		si htrouve(Correspondants) ALORS
+         			hsupprime(correspondants)	
+         		FIN
+         	FIN
+         	
+         	RefreshListeCorrespondants()
+         	
+         	listeselectplus(CMB_CORRESPONDANT,1)
+         	si CMB_CORRESPONDANT..ValeurAffichée = "" ALORS
+         		lib_connecté..visible = faux
+         	FIN
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_SansNom1
+    identifier : 0x248eaf4141e080a2
+    internal_properties : CAAAAAgAAAD0ioDKnTQ0jEEnBahEHMg/9D8zGhrQbCk3JQOnUus1js4zshvqqyDpsNyCqH1cZ/YAN0aV4U+IFZSaaGOPMXZE6iE/vb5zScFi0JrcVxsEo5NcOTeCAJlsqHgNqvLJmndGIaU/qDVN5mk9dZwS2eXNihuOdxbmnEVdoak0YAnynqlohTJbVLq6ymke3gFwrdXE74gGlak6hO+scf+KtUMZGfyQy1yZFHgBM3+WCIPokQq5gZcoD50sdKYjryu98m7zM/Kfp03S2SyGSLBqzUkf6E5VEu1QTvDRrYb55M/I/WI/LsvpbCyomC8bfZsWBELIPKs4NDNyONxVcNHl+8YyC+rMuPESE6UFK/dbMvfdSP6ZDOA25Ty3ELu1xxudK7FFOMUO9q61cB628mrX91vTMt6P2yI9EB4bItjIa3TSJq1Mr+BY37teJVJbzw1S4fcsI72jRxakBjxbTvVAz3QzfEPEwvi1IhCy+X3fAkfiyqQXiG3rvkyc+xoKX5b4JQxg4301IBbN6Wo0eRNmyXTLZjP7AODRXf0gdiacVZu8/CT7P5a6hc530czIGc/mjLnQVu1ppr4TjZngkAeVPg==
+    properties :
+     x : 20
+     y : 12
+     width : 539
+     height : 151
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_L_utilisation_du_champ_VisioConférence
+    identifier : 0x253607d60ac0c25e
+    internal_properties : CAAAAAgAAABB9camExLb0YTq1yiY0ju1IiDnltv+Zg+r1xO4M9ARR6BwXQBIKjBJmOBAE+szOjSyDLnpz6m5GN6ZQ1kocrDKJjVeggDXRkTQG0WLOUgGtpz+I16g1QRsOI2eMVwnrb4+88eXFtIzFpddkqbn6lc3106MVUNFS1pfvBUpnZ/XfkOXBHGuHs4FGPeELr4hRZ6UzKcpNaKCekqSV3BcwAAGAJVAW9qMd2Bx2eUJ7aG1okq5jChAiV7MUW9SPoKsAOonx17nEeTyirPzCx/jZM3aPUHf4dpe8+fH8YJ0L/Cn0sWCL1pDB9Si4HQE9C9tClb1ZJy010GwSv9ZjROhIFp9xLJZtViWR/fGKQu5Ni5xd2BFKYCD/Et+IjcgorrZbtRxzDZZejCjk62j672aVX09zl+tdCRQM2dOXPY2kexvtK8BMW7nz/kbkuf66wezue7oY60OkXeTjd3gyw0ylAN3p3njAXKklQrkDOwooBSSgMncWCfUhsrxvzz+/CIN0mLfMlSa4n7PHWhyZCgFMLalot0fCNe32SbTjqBfO5FwpdKTsUCzBg3gmMuxUXkYL9NNZtLz89dKtGpsQP7WPuoEpd5Loh+KBC+F8m0Q8qPgjwoUhN05C8C9mvzCf13IS+wO5WzYPeaqJgse3nycDpXUQ6NX2bLqHvRGmai0ibo2xQ==
+    properties :
+     x : 32
+     y : 77
+     width : 417
+     height : 43
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Configurer
+    identifier : 0x2536080d0b149a35
+    internal_properties : CAAAAAgAAABHjExjgTYlOb2awf2bhz6Ewxgj1RqRgQaZ6zWFg+MbCAxwWSx+veABcXUTg0cRzIbBie5JC7PKUgmnUsGLYFbJWJUkXQcnMMk96nKxBRMR1JnD6XGIpMaaHvgotHHUMrp5sgtw3aKedr+DwcNrNL3V+yjvGat71wJS8iZzkR1Q1oa9fPRqJhp06mMJytyUJ4ts84Y4Kg/kOO9B+A96DLwKlmzMZx0LIXwatZI8PPHskUEY6HqfCSht6tn43GQbMfXT3msyjmxsw7mGlkkRRhXaOVLn4/Fdyc10uYS8QsZyui0gBVPU7JvWD3g0eSpbRkWAeknCthAjg6b5wSD/aZ3agus4jlh8KQWm2ZLALOqggW8uisfrVswQo5zmcVF0aW9iZxWAulqKXLcU5skRUAXyPrJGi9Dh5c8eCr6ukltIaXIOsNcYg4zmPkSRxpFfpxy8H2GnU8S2VzvLjH15q3sdX2DEgB7sbg+Nnpze1k17m2REpsV4rXSsBYBAuMBWs4aOpIL0JD5qvyPrmafI71Xpf8HFYl466CXoHLaEfhHDNhZmkhC0t7vLe51KfqbKAimBn011aLAJeekZlJlwGvH3aprepSEnd1meuLoJLxCsPPB8N5lqXwuvM+XisbPpoyVCSC9naJTnA0biwsb9G3Ya80BGCqBcOb/z4cw9F2BzyH6pVSXLnT/hoXsRY0lUw42KS50IN7zgxxbWuFGAMHq+Jy7Cfv8PgxikhJO/xYMJ9S2VGyyWsoGApSNRRIWKRQReAjxClsNX5Lxmmu61/5GxnKI+ulgzrwvXhZpU/3U/fMrh+apgyK4aQaxH5KAzyEjqGmliw3jCV6l2iJPHgCoVOs4=
+    properties :
+     x : 465
+     y : 85
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         sServeurSTUN, sServeurTURN, sUtilisateur, sMotDePasse sont des chaines
+         
+         // Si la fenêtre de configuration est validée, on reconfigure
+         si ouvre(FEN_CONFIGURATION_TUN_STURN, sServeurSTUN, sServeurTURN, sUtilisateur, sMotDePasse) = vrai ALORS
+         	
+         	// Configure les serveurs STUN/TURN	
+         	// FluxConfigure doit être exécutée avant l'initialisation du champ Conférence
+         	// Du coup on utilise Utilise pour relancer la fenêtre
+         	FluxConfigure(sServeurSTUN, sServeurTURN, sUtilisateur, sMotDePasse)
+         	
+         	Info("Afin de prendre en compte les paramètres saisis, la fenêtre doit être ouverte à nouveau.")
+         	
+         	Utilise(MaFenêtre)
+         	
+         	
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : COMBO_Caméra
+    identifier : 0x255c820c03494afd
+    internal_properties : CAAAAAgAAAA+C5uvPC1ZcfL+YAuiY5GMbaQmdAyftyN38ExF+CKNS6qcmtkLDFF2u56e79674LgayJMrUWXbBPRueF7SrxBGdnriYEiAHX7jscTAvZ52TAXJehRNhHpl2vNV+2WKYUXFF1/V18Zcdbk797uxv3iJFMtc8ukQZ3PApqtwXabd+Ndjb/UTuGeVZFB1rOQkeN7bR4kRruj6FvckHp1Sh8b2CqYT/YRVlW9re7Wmc+rOIl97rhx0r5pCpv5TC2pXdmGlChQy4KGmzXDtdLsGgIhD+PVfdPuVP7IbE7RyPxtLadlbBW/LsVYKVkVhAMge5e0QLWnkTE002/jMH1EkOHRSZlsjbG4lc93joMedAvTGtjzBU2WjOr3ykhkRPtdK3At0ZhRQP06x/aLUVBQ6eOYANmjUayWfBFKmr2NYmEFI0236B1OcbrwwglqPfvfGKj8xsNn1qu8i+XvVeFSJsoY9hCsRogtOKr1MBuKYvirSZqNinkga9XBTl/h/A8wUdcIjNwLvj9km260aJchEiiB5DtsIxnLs8MOTc23rsUovUq/nVNi9ySu+I7KodytkUOS9z6cNlTmljdPm3T/hg20cjWWDohExvbTlS9MCB0voo5uQBTE4lo86q6YeNGpNBEUwIxxFaOIqeOsAc9BGWesFnkKG2g5HbT0BMHGE+5O59ZMdO6/Utay7bNJhZ4s6GwwIA3SzjqDLKgppmBE7l5KT3tsB4eXKt/J9wJ75OhUYfJTGF1NJ8kCIRRT8dwWpGVcMA8FBFsnfpMGwrxBYppPYrKyZm5NmDEPT6wfnpaktsTnSrlMO6H22517uUsFyksMvghLS16Ht9Vlt/Lvr4ja2ZlGZ4XBp0hypZ+KjgQGzTk7JzN4Syjxcffj1AuRtOI7qN38sGDbdsFtddN51oC660ZkFspDPStuzpN+Gz/igyPufmixQJSdZn38PXSmjYkkAmGUUpZbjzHCRc+d2Byju0ioM76kI6Cf4kWDOe5DFp3MpcBYtc6qpe//2vRIbEwjtus/8alEmI0juDzIau+vL++UXaSEG1yQ1Bdypx59jFyZP9J1i7Xs+FC1SIGzHAhN/gcbHVmTem4Y2XC9WV27os6yvdzHq3GX0AE89QnNa+Bf06q8olh6j2RpBxJRYWwZXsjiVUACOnKXjfFKTLvqnYPoG2svQvW7M9x/nWv5f5d36fK2ASpsDQeZ/fpzVw2+O35vjcQKw5cvYZ6tv0sJUVy4ajwORhCffDdRdfOEz8O/rhdJBjw1D+s3MVRpWPuLNC4HP6EsPlzHM1Pi6xWUW5fpYzJ+J9iub03DryvBiyvsQBPxjpNC/OZkqQ4zdSGyhXhIL94syNrIKthGOa9xQdPBZQ9ciAHzH5fljQ/0AKt/M7WG4CxVOq1Bm1X9iNcslQ6DQPiqjgWOdeSj+Vk/uH7MDVhrASPIq4jQ1of6LIqAejieCOrcxBVDIXWgAwQGtQQ5l9bZfZuAxxQEimdgchlCfetqUzPLNInZOgZ/N1jPwNJ1iOLjRfTNOh8w59mvOkflNuSlNc26a8oY7/SmfV5M3ukIRaGBQkmZicMpGBN602quLGbhqbZms0aCRFF38LyLg3Gm3bZ2JlisBqrB/maurIdLDk8WPwu6OGHMruXvLCAj6vy7+4yN1C5uAGeAo/A7CAb2rXlSO8y1BE4fMV2deLB+hQIyGHL27bSqXvUx2BcqBTpNtTZotlRIeWtPWzl4YjO505TLQzyuUciZb75nUOOc9i1UfBXd2xtK+8hMn
+    properties :
+     x : 368
+     y : 201
+     width : 191
+     height : 22
+    dropdown :
+     internal_properties : CAAAAAgAAAAZM2BQ2O1I/zOnavpyv+JW53Qzs9ItiEWLduo3fqGk8eSyhj4MRr9ZD79sss8ZIHV4JufCMfMArkXUIOJ7miLmuFmP0mMMoxmekN98jacjqQSuZX6RRUhpvnQxJRZHL52Wcn+Q9jUg1qwiUjcfZciUMxvMlKLxzEYLDOaj80aNhrK9FR3ksbufDH29UOwANX0QCxKHjknYE+BMPHMZt40FwZ5m4rqYsQJDM6gJR9A5uo1A3nPSFg5HdPDguyByDpLJFqd8mJVDED0S5b0r5ogVVGG5C7Q8H3J1UaPAyiJPrAQOCMIgCoDgm3TcHR/Ox/XE4JLDVd7p7nwZG2CNS+Q16T74+fZ5eEPNxnGyS+W78t+/HXDFte2Cuvxx2/5P+P9lsbf5+HkO9rDAEU4rsd5Pn589TmEc0CZncfP8jIO+tyETQV8P3swVYvvSL+MY4ptQSrJIgyJl69KqjAQ9S62Koqm+bJcBdMT8Hiilq4hln+ZxsVsSorWhNPUsxA+EbMeGX2+grggov35/a2dasFpHEJ7jUGmeuHZBba0k073E7eeqT5b5FKiwf2Hi187/pF6U8cHehigR3gX2PLsqUV9OrTqwjTtQkD4ihtV29O/QySu8yAfXd3Fn42BNWKxvaZPbPfaGq3K9QwgamOoSxyTb7Qcg3Ip1+zIbb8OWxUpt4e/I7gSHlRUpBYkK65IUzMvB0nSqIXfRRFLL3+b15wXZ3ozJoB4l+egDpNIoiQMgg2jDEbqvR2rWcTN7F2dX83F1h851Q6jvuQBvoW0AeAlWaRYa
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         sListeCaméras est une chaine = VidéoListeDriver(viDirectShow)
+         
+         si sListeCaméras <> "" ALORS
+         	ListeAjoute(MoiMême, sListeCaméras)
+         FIN
+         
+         // si une seule caméra (ou pas du tout), on grise le champ
+         si moimeme..Occurrence <= 1
+         	MoiMême..Etat = Grisé
+         sinon
+         	Listeselectplus(MoiMême,1)
+         	
+         FIN
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         si MoiMême <= 0 ALORS
+         	retour
+         FIN
+         
+         // Change la caméra envoyée
+         FluxChangeDriver(FluxRéception,moimeme[moimeme])
+        type : 33
+      -
+        type : 17
+        enabled : false
+  -
+    name : CMB_CORRESPONDANT
+    identifier : 0x2680c883129ccd78
+    internal_properties : CAAAAAgAAAD1nAH6GOOopctvKlFghlDttYWcg0iJmJ/URueJvuZn7HYAtIIIYdRlQxPiInAWPrctEUOOYcmqmVLZQCXDBHLd692KeuO/aKHxrhyFo/UQ2VZkatf52d+O6mrYi1nV7wbEfU+Ut/X1tanjh0fSKx2E9AcMM9cu1Quo+PbcRZ33IcD25dFWQgYWzONUcji8CRhfWni6cD48lvwo91mBN2HfGtPyQoBPiHZ8F8h/UlQUPHJ5Q0dfWVKRGA0lXXyvAOQWN53adMmpwnuOLqEm5EZ8t4d45OTSz54VjNJJajUCRZZAGgC7aYP8RzgsJaL1oSIhbdEo4/LrF4gEwS5Swa1hyfAy1y4MPzSIbasEaqBAorixd5QT8pMzy31XRRjIqJ35FOFJpAN2FUObCRmpIFOgPHYofz4VK4tDXSPug3S5m5LkVr5N7XyDYZRDF5x15VGhb2MniMhACOIIOA1r8H2UUXIrPFajX7T/8KnBBHM+7sNCoPhntaONBEKaZoNmIU2a6kc2RPOAspEC1DrRn/ejUN2akKlJA0k4OWJ5kDj4yEoY9aYX6A51jkOMKvGPNm44iaImZibosnrPN/NACzsLt3AyL99DhVFuzXg/gZ05axTscB/D6OqUgXpSwRh7L1V0Zaxs00W/MWGYjptDnOaEahTpELiHuWcVqJBzoWeqyokwzDtbITK/niTqkLqxVZG0nZ5uale4tcW60WIUdH82d47ICkc62gyCXVGHAaTAq95uS1iNbwhv165yZVeIOnTJdRXGDMqjUNnUkA7Q2zVWII3FzzsdbXPziQ3/CPUM7KHiMb4MblryPjbeZY4EazfM56j5bn2TjqTm3hpaNPfdERSMweW766I711Cec1BgUa9YfBLiuxTNxFtgov9dzkkJ5m95wGvYB5YakAn1YKpk95RWoJtaCobHPepVYCFNVK00Nv23X8n8l4H70wTTHUfr0rTC0vnMrJ3E3ekWbX+ebWcLpLviIgvv/1UGDSSeFHroMryQKFd7SuZuOHhfmqsjgBrGe8jovmwa+lI+t7PkJ+KNLMfEpHri4SfLT7tZld88kVwOpUdbf4YQ6RA5tJw9nYyq8jLmb0ZX+IhVGGOYJFFd7g7YyyWRU6bZwNDpTio87eBwRkyOPx3ELJ7ozhBZiLdTWKbaTWJOrPIr3I051UY7uNrd0HJuKTb5sYFmI9whwRTCLFeWUSF1pDQJfv0tUsrrbxkyKmXajmMR0J41Mar8I/Sr8YWNdt7omSnPuMEb1hDwUOJEaXAknEMp8gfnQ3xFaFItuJ3GaTPFZJcwlEQN76DDShJXSijU4z0xqGi3GWPnoBbOlnIqb+irn+lRlJInYqB7DbpkTNxSguNrcQQ6Srlet8Lw0f10U8IC/G8LgCLMUhemPyu7YqcjfwwsCxgbXLO8FX0J8BM4PoadLG0PLQ3zkYaJ+JKVWli46FpwryuI+xidiZscYhoc9VP16jB257QCw9QxHvs59L3R9FEMLCPudBgF2dSottw4uO1piDc+2ZrpcDr4dYdv7h6aFdxuMBl1b4hlDuMWcekai038tVgodyWEeLe5u2tKiG1/MkPMr/8bJ3F9Qv9060+zZ3pXFm+C/VmdgRgRob98fx1YNK9sIyCP2IkQd/tfv0H9n8WhQT8VRh9oJuAgtPsdUBKv6f8ma+z7uq2hz/RDl0F0rdsiLzIwQg7wXQnSZDZULSe4MjkauwlN76CbobwoaTZbsFuoZXVdH7jVwEQ4MYR0qQoPfsxbV4bjPMnpgf5k+ytbcmVuBkNNys74Ag==
+    properties :
+     x : 32
+     y : 26
+     width : 236
+     height : 22
+    dropdown :
+     internal_properties : CAAAAAgAAABF60GnEkJm8QH63IZ6UnyTlONudcOTq3TjmHvI2gbaj3z3fz5NOC+1mukyGibuaM0Xz0NNkG42dS0zkL99GfBFxm/hA8x9iXGw2Fj6wFLfN6Bt4iVssfv2y2FIIDd6vp/GeggHAhbpybjIX4HBNC/ZP5JzxGVgaxYUcvHKMGp44NQs4vXvLt80/7lkZY6uzEOs759nPU6xjug406fAESOwGCjJEK1YTdJQFzDGV42obp0sux2JR1rj09S32jv3insQYE4DMBx1hYlaRQEu7DTznAOZ7YdU1KtmXDfo0qKrJ4bIFqWazKzP8pJa23+H4cuTSRMAPWf1o0sR6JcDtfOBz/W1NG9GfbNz1AXIud64jeg69embRhUmcCoSqzOJPp2HDEc1MHV+MyAJb5eBMQfkoEzSJtW6th/TZNyh5ftE0eC9FIIqsTlaAtGNOv7QJGH1oI/VwLHGEAQGNaNc2eGoia+b+2aAbZ36VI0y+Gzjqdmh5MrxQ3zAENdfpfDAypnxh76bAQXbSvJ7kDq14ioHrxIiQ6SVORsnj45rot+ES2h2PmnUr9W5dUknzLMZZI5fPQ4ZCWGoIY2ihQh/WeE+YKiH+K5nESvKkgJr4aPS5+jaD7riqCBWeZBcbblDQ+GkAx2Z1t+Qah6sdwV9uZy99KsLif+8hJ/pm057mlTV0drMD0vuKMpmhwvDagls7tkCmi1rIiAoKyI7EFMSbRV/UXKw14X+UFvbble/IPlUJ7/bWKGGcDH5cbc8pDQtp+rT3n0mYcAUeOao5LuAMsHxAYQxB6/O36iMgjc3qk7GdfyONV+ctjTcLnKDUzXJKbNF/0GpxjYz580=
+     properties :
+      width : 198
+     type : 7
+    type : 14
+    code_elements :
+     type_code : 23
+     p_codes :
+      -
+        code : |1-
+         RefreshListeCorrespondants()
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1+
+         message("Recherche de votre correspondant")
+         sablier(vrai)
+         
+         // On regarde si le correspondant sélectionné est connecté
+         si ping(CMB_CORRESPONDANT[CMB_CORRESPONDANT])= Faux ALORS
+         	// Le correspondant n'est pas connecté
+         	// Mise a jour de l'interface
+         	GPE_BOUTONS..etat = Grisé	
+         	lib_connecté..visible = Vrai
+         sinon
+         	// Le correspondant est connecté
+         	// Mise a jour de l'interface
+         	si BTN_DIALOGUE..etat = Grisé ALORS
+         		GPE_BOUTONS..etat = actif
+         		BTN_DIALOGUE..etat = Grisé
+         	sinon
+         		
+         		GPE_BOUTONS..etat = actif	
+         	FIN
+         	
+         	lib_connecté..visible = faux
+         FIN
+         message("")
+         sablier(Faux)
+        type : 33
+      -
+        type : 17
+        enabled : false
+     orphans :
+      -
+        name : Nom
+        identifier : 0x2680c883129dcd78
+        code_elements :
+         internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+         type_code : 3
+         p_codes :
+          -
+            type : 14
+            enabled : false
+          -
+            type : 15
+            enabled : false
+          -
+            type : 16
+            enabled : false
+          -
+            type : 276
+            enabled : false
+          -
+            type : 277
+            enabled : false
+          -
+            type : 278
+            enabled : false
+          -
+            type : 17
+            enabled : false
+      -
+        name : Prénom
+        identifier : 0x2680c883129ecd78
+        code_elements :
+         internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+         type_code : 3
+         p_codes :
+          -
+            type : 14
+            enabled : false
+          -
+            type : 15
+            enabled : false
+          -
+            type : 16
+            enabled : false
+          -
+            type : 276
+            enabled : false
+          -
+            type : 277
+            enabled : false
+          -
+            type : 278
+            enabled : false
+          -
+            type : 17
+            enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2680c88312a1cd78
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADs5JTN8p9POERzieMNXLJNbW9Fe5p5wGq+zU2Lh9X8yO7Ly5zO62Mkas00ibLsNbFG80IYhFacd1w93VfsYi+ORzD98ZgV21ekn+qbDqmIzmAoY1+UI16345Cy9m5X
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAADfkoD+XcfCLfNJ+3fjfCQcfNms0y7KS1tRYezxL0K0FEBM9zAoJs0KB+D+GerJqhh28ZkrYukGMpc6Bxenn2F4C6wIBYllOD48gXVgrWZGnIMI39Px76CuiGJgI8WyPSZWvQrh2tlYdi7yG38tkrpR9aUphyJyZWKFNhdewAdhppm/vt+Y0tTJtTVLKaq33nnzf6RjOKVia/DAaZDv8iri6sGtbY9XBS3FjYIHoSS2KAqoM4PsP3F4t4f/fmtHkWGfbyjCdVR0KVKethTbV+zR+zlwkhYL3j4tTIqzL0OA84AEQm3qDBei1/FcRRsew3YOMqiP6t2SU8aZLvtCDFyIVydqkqLIZ6i9ITgUbmvGOv0hUq2gzHSeyhOos7i0i5zyZ/V0ZHM/Jnsgj/FJH4y/XIBLij7CE0j4vTEp5NiUWWKT1UVDGLMDN+JyTmEhe0yjjhfDYBAv3EAk7MXGAcILF/QUf++TUsufk56nfAT7arUJNeep4JL7FvjJWJiSeZCwMyH1kEKzG620ZaZhCfBk0e4yLFhy9jc=
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      GLOBAL 
+      	gfbCoupe 				est un booléen = faux		// Booléen permettant de savoir si c'est cette application ou l'autre qui a coupé la connexion
+      	gfbEnComm 				est un booleen = faux		// Booléen permettant de savoir si son est en visioconférence ou non
+      	gfbEnDialogue 			est un booléen = Faux		// Booléen permettant de savoir si son est en discussion ou non
+      	gfsNom 					est une chaine 				// Stocke le nom de la personne avec qui on discute
+      	gfsAdresseIP 			est une chaine				// Stocke l'adresse IP avec laquelle on est connecté
+      	gfsAdresseIPVisio		est une chaine				// Stocke l'adresse IP de l'appelant
+   -
+     internal_properties : CAAAAAgAAABYxSC3Cp1yBTyrJ/2BTkhMB4j8437pso3GJmARvJbefoMzFHNVs9rPLVES9eVbPfgC65HHpasFtl6ZO/kjk6EEFE5DrzcSkvELUv2opdnOY7ofHWDpuTnI
+     code : |1+
+      // Mise en place d'un événement pour gérer l'ouverture de la fenêtre de "chat"// Traitement automatique des erreurs :   afficher l'erreur, puis quitter ou relancer l'application
+      //
+      
+      evenement(DialogueConnexion,"*.*","CONNEXION")
+      
+      // Écoute des requêtes de connexion et de tests de présence
+      ThreadExécute(csNomThreadRequete,threadNormal,EcouteDemandeConnexion)
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+   -
+     code : |1-
+      LIB_DIALOGUE..visible = faux
+      LIB_VISIOCONF..visible = Faux
+      LIB_GENERAL..Visible = vrai
+     type : 66048
+   -
+     code : |1-
+      
+     type : 66052
+  orphans :
+   -
+     name : FluxRéception
+     identifier : 0x2680c8831286cd69
+     code_elements :
+      type_code : 64
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAAB5u2yms401VpFqZ+hMR6Y/UYsOzEY3p4uJMCtG6PUpKXv2uLhlAtVhkrlvNuzSqzxhnHi0xtrJbT3kx/j1+5e7Uvorvh6DK23HuaGv01V5CZjyy+KnRt3cl8/Uj7TUZJfmsqZcG9lTXRKkRR4=
+         code : |1-
+          // Procédure de détection d'un nouveau flux
+          // nIdFlux est une variable de type entier contenant l'identifiant du flux détecté
+          PROCEDURE NouveauFlux(nIdFlux)
+          
+          sNomAppelant est une chaine
+          // Recherche des infos concernant le numéro appelant
+          sNomAppelant = FluxInfo(nIdFlux,FluxNomAppelant)
+          
+          gfsAdresseIPVisio = FluxInfo(nIdFlux,FluxNuméroAppelant)
+          
+          
+          HLitRecherchePremier(Correspondants,Adresse,sNomAppelant)
+          si htrouve(Correspondants) ALORS
+          	sNomAppelant = Correspondants.nom + " " + correspondants.prenom
+          FIN
+          
+          // vérification pour savoir si la fenêtre est bloquée par un ajout ou une modif
+          si gfbEnComm=faux alors	
+          	// Confirmation pour l'acceptation de la visioConférence
+          	
+          	si ouinon(sNomAppelant +" désire entrer en conférence avec vous,","Acceptez-vous ?")=Oui ALORS
+          		si FluxAccepte(nIdFlux,ConfReception) = vrai ALORS
+          			gfbEnComm =Vrai
+          			BTN_APPEL..libelle = <§$0003§>
+          			GPE_OPTIONS..etat = actif
+          		FIN
+          	sinon
+          		FluxRefuse(nIdFlux)
+          	FIN
+          sinon
+          	FluxRefuse(nIdFlux)	
+          fin
+         type : 37
+       -
+         code : |1-
+          si gfbCoupe = faux alors
+          	info("Votre correspondant a coupé la connexion")
+          fin
+          // Mise a jour du libellé
+          BTN_APPEL..libelle = <§$0015§>
+          gfbEnComm = faux
+          gfbCoupe = faux
+          GPE_OPTIONS..etat = grisé
+         type : 38
+  procedures :
+   -
+     name : Connexion
+     procedure_id : 1621516330831498601
+     type_code : 14
+     code : |1-
+      // Syntaxe :
+      //Connexion (<sAdresse>)
+      //
+      // Cette procedure sert à connecter le flux de visioconférence au correspondant
+      // 
+      // Paramètres :
+      //	sAdresse : Adresse IP du correspondant
+      
+      Procédure Connexion(sAdresse)
+      
+      // demande une connexion avec l'adresse IP
+      FluxReception..Identifiant = RéseauUtilisateur()
+      
+      // Demande la connexion
+      si FluxConnecte(ConfRéception,sAdresse) = faux alors
+      	Erreur("La visio conférence ne peut pas s'effectuer.", "Détails : ", Erreurinfo())
+      sinon
+      	gfbEnComm=vrai
+      	BTN_APPEL..libelle = "Terminer"
+      	GPE_OPTIONS..etat = actif
+      FIN
+     type : 458752
+   -
+     name : DialogueConnexion
+     internal_properties : CAAAAAgAAABPK5hMiC6aeq9vUU65Il12eAZyw98xzDw92dhr7ETtTbgmu1O1G5uUDiUoJAIVxThebNhw4zhq/JDr7jLTOZ95VhcGT4xyLuV4XdXekhCVzXRFcS8EXNEert/v6f4HE5lFTKDSbwxFnhWMOeMhGrHTVjAcJgG2gZljLKxkwSjL5QCwWkISEjXTeWxXMnjFhpMzzvSTxc9+sxv6/su1H2Q0FtVpfb/yFoK8+g08BKCFu7dqdCx5mkXG
+     procedure_id : 1621516330831564137
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //DialogueConnexion (<sParam>, <wparam>, <lparam>)
+      //
+      // Paramètres :
+      //	sParam : Paramètre Windows pour l'appel d'une callback
+      //	wparam : Paramètre Windows pour l'appel d'une callback
+      //	lparam : Paramètre Windows pour l'appel d'une callback
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure DialogueConnexion(sParam <utile>,wparam <utile>,lparam <utile>)
+      selon lparam
+      	cas 1 	// TimeOut de connexion, le correspondant n'a pas répondu dans les temps
+      		// Affichage de la boîte de dialogue
+      		DélaiAvantFermeture(2000)
+      		// Demande de confirmation pour le dialogue en privé
+      		si ouinon(non,CHaineconstruit("%1 voudrait avoir une discussion instantanée avec vous",gfsNom), "Acceptez vous ?")=Oui ALORS
+      			DélaiAvantFermeture(0)
+      			SignalModifie("SIGCONNEXION",signalOuvert)
+      		sinon
+      			DélaiAvantFermeture(0)
+      			
+      		FIN
+      	cas 2 // Le correspondant a refusé
+      		DélaiAvantFermeture(1000)
+      		info("Le correspondant a refusé la discussion instantanée")
+      		DélaiAvantFermeture(0)
+      fin
+      
+     type : 458752
+   -
+     name : EcouteDemandeConnexion
+     procedure_id : 1621516330831629673
+     type_code : 14
+     code : |1+
+      Procédure EcouteDemandeConnexion()
+      
+      
+      sNomCanal est une chaine 			// Nom du canal à associer à la socket
+      
+      // On attend en permanence les messages avec des écoutes bloquantes
+      Tantque vrai
+      	si SocketAttendConnexion(csNomSocketRequete,100) = vrai ALORS
+      		// On accepte la connexion
+      		sNomCanal = SocketAccepte(csNomSocketRequete)
+      	
+      		// On vérifie la connexion
+      		Si sNomCanal~="" alors
+      			// Erreur de connexion
+      			Erreur("Impossible d'accepter la connexion",ErreurInfo())
+      		SINON
+      			// On écoute la requête
+      			EcouteRequeteDebutMessage(sNomCanal) 
+      		FIN
+      	FIN
+      	si gbArrêtApplication ALORS
+      		sortir
+      	FIN
+      FIN
+      
+      
+      
+     type : 458752
+   -
+     name : EcouteRequêteDébutMessage
+     internal_properties : CAAAAAgAAADGGsA/IVyldgoFHhQ0UOtLPQr7oXdiezBuf3evM49TuWjrgr5OgxiV6Fg6G/hZDwSv3/Ce3yNE+uMz4EQv6cZhy/cTtIAGp+gSyoNV94l+gU8Kih1KlHHE0A8ftseAnKUf1rWun5js9NRBInGCN6KXUmzzfncM+k3One2MLANb8EaVkLMn41u29fgyW9fuubx3Nsq7
+     procedure_id : 1621516330831695209
+     type_code : 14
+     code : |1+
+      Procédure EcouteRequêteDébutMessage(sNomCanal)
+      
+      sClientInfo est une chaine
+      sMessage est une chaine
+      
+      // On regarde si un utilisateur s'est connecté
+      sClientInfo = SocketClientInfo(sNomCanal,SocketAdresse)
+      si gfbenDialogue = Vrai ALORS
+      	socketecrit(sNomCanal,csNONDISPO)
+      	socketferme(sNomCanal)
+      	retour
+      FIN
+      // On analyse le résultat
+      si Sansespace(sClientInfo)<>"" alors
+      	// Recherche du correspondant dans le carnet d'adresse
+      	HLitRecherchePremier(correspondants,Adresse,sClientInfo)
+      	si hTrouve(correspondants)=faux alors
+      		// Ce correspondant n'est pas reconnu
+      		Message("Requête d'un utilisateur non reconnu : "+ sClientInfo)
+      	sinon
+      		gfsNom = correspondants.Nom +" " +  correspondants.prenom
+      		
+      	FIN
+      		
+      	sMessage = socketlit(sansespace(sNomCanal),faux,30000)
+      	si sMessage[[5 a]] <> "" alors
+      		
+      		SI ErreurDétectée alors
+      			// Erreur lors de l'envoi de l'acquittement
+      			Erreur("Impossible de répondre à une requête d'un correspondant",ErreurInfo())		
+      			SocketFerme(sNomCanal)
+      		SINON
+      			si gfsNom = ""
+      				gfsNom = sMessage[[5 a]]
+      			fin
+      			PostMessage(handle(FEN_Principale),"CONNEXION",1,1)
+      				
+      			si SignalAttend("SIGCONNEXION", 2000)=vrai ALORS
+      				
+      				// On attend 50 centièmes pour être sur que si le signal doit être fermé, il est fermé
+      				SectionCritiqueDébut()
+      					// Sauvegarde de l'adresse en cours
+      					gfsAdresseIP = sClientInfo
+      				SectionCritiqueFin()
+      				
+      				// Envoi de l'acquittement	
+      				SocketEcrit(Sansespace(sNomCanal),csACKOK)
+      				
+      				// Demande d'ouverture de la fenêtre de "chat"	
+      				ExécuteThreadPrincipal(OuvertureChat,sNomCanal,0)
+      				
+      				
+      			sinon
+      				// Time out : Connexion refusée
+      				SocketEcrit(sNomCanal,csREFUSE)
+      				SocketFerme(sNomCanal)
+      			fin
+      		FIN
+      	sinon
+      		// Le nom est vide donc on refuse
+      		SocketEcrit(Sansespace(sNomCanal),csREFUSE)
+      	fin
+      SINOn
+      	Erreur("Impossible de déterminer l'adresse IP du correspondant",ErreurInfo())	
+      FIN
+     type : 458752
+   -
+     name : EnvoieRequêteDébutMessage
+     procedure_id : 1621516330831760745
+     type_code : 14
+     code : |1+
+      Procédure EnvoieRequêteDébutMessage(sIP)
+      
+      // On crée un nom de socket pour cette connexion
+      sNomSocket est une chaine = DateduJour()+Maintenant()
+      
+      // Tentative de connexion
+      Message("Connexion à l'adresse IP : "+sIP)
+      si SocketConnecte(sNomSocket,cnPortSocketRequete,sIP) = faux
+      
+      	// Erreur de connexion	
+      	Erreur("Impossible de joindre le correspondant",ErreurInfo());Message()
+      	gfbenDialogue = Faux
+      	BTN_DIALOGUE..etat = actif
+      	RENVOYER Faux
+      SINON
+      	socketEcrit(sNomSocket,"100 " + NetNomMachine())
+      	// Connexion établie, attente ACOK
+      	Message("Connexion effectuée, Attente de la réponse du correspondant")
+      	Selon SocketLit(sNomSocket,Faux,30000)
+      		
+      		CAs csACKOK :
+      			// Connexion acceptée 
+      			Message("Recherche du correspondants")
+      			gfsnom=sIP
+      			SignalDétruit("SIG_DISCUSSION")
+      			signalcree("SIG_DISCUSSION",signalAutomatique,signalFermé)
+      			
+      			// Recherche du correspondant dans le carnet d'adresses
+      			HLitRecherchePremier(correspondants,Adresse,sIP) 
+      			si htrouve(Correspondants)=Vrai ALORS
+      				// Demande d'ouverture de la fenêtre de "chat" avec le correspondant spécifié			
+      				Message()
+      				ExécuteThreadPrincipal(OuvertureChat,sNomSocket,correspondants.IDCorrespondants)	
+      				
+      			sinon
+      				Message()
+      				// Demande d'ouverture de la fenêtre de "chat" avec le correspondant spécifié			
+      				ExécuteThreadPrincipal(OuvertureChat,sNomSocket,0)	
+      				
+      			FIN		
+      			
+      			gfbenDialogue = vrai					
+      			RENVOYER Vrai
+      		CAS csNonDispo :
+      			// correspondant non disponible
+      			Info("Le correspondant n'est pas disponible actuellement")
+      			Message()
+      			gfbenDialogue = Faux
+      			BTN_DIALOGUE..etat = actif
+      			RENVOYER Faux
+      			
+      		cas csrefuse
+      			// correspondant a refusé		
+      			Info("Le correspondant a refusé de vous prendre en discussion instantanée")
+      			Message()
+      			gfbenDialogue = Faux
+      			BTN_DIALOGUE..etat = actif
+      			RENVOYER Faux
+      		AUTRES CAS :
+      			// Pas de réponse de l'application du correspondant
+      			Info("Le correspondant n'a pas répondu dans le délai imparti, abandon de la connexion à : "+sIP,ErreurInfo())	
+      			Message()
+      			gfbenDialogue = Faux
+      			BTN_DIALOGUE..etat = actif
+      			RENVOYER Faux		
+      	FIN	
+      FIN
+     type : 458752
+   -
+     name : OuvertureChat
+     procedure_id : 1621516330831826281
+     type_code : 14
+     code : |1-
+      Procédure OuvertureChat(LOCAL sNomSocket,nIDCorrespondant)
+      
+      // recherche de l'adresse IP du correspondant
+      sIP est une chaine
+      HLitRecherchePremier(correspondants,IDCorrespondants,nIDCorrespondant)
+      si htrouve(Correspondants)=vrai ALORS
+      	sIP= Correspondants.Nom + " " + Correspondants.Prénom
+      sinon
+      	sIP = ""
+      FIN
+      // Ouverture de la fenêtre de communication avec le correspondant
+      OuvreSoeur(FEN_Dialogue,nIDCorrespondant,sNomSocket)
+     type : 458752
+   -
+     name : ModifieFlux
+     procedure_id : 1621516330831891817
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //ModifieFlux ()
+      //
+      
+      Procédure ModifieFlux()
+      nMode est un entier
+      
+      // Mise a jour de la variable nMode
+      // Mode de transmission du flux
+      si INT_ENVOI[1]= Vrai ALORS
+      	nMode = FluxVidéoEmission
+      FIN
+      si INT_ENVOI[2]=vrai ALORS
+      	nMode += FluxSonEmission
+      FIN
+      si INT_RECEPTION[1]=vrai ALORS
+      	nMode += FluxVidéoRéception
+      FIN
+      si INT_RECEPTION[2]=vrai ALORS
+      	nMode +=FluxSonRéception
+      FIN
+      // Stoppe le flux
+      fluxstop(FluxRéception)
+      // On le rejoue avec les nouveaux paramètres
+      fluxjoue(FluxRéception,nMode)
+     type : 458752
+   -
+     name : RefreshListeCorrespondants
+     procedure_id : 1546980364563441657
+     type_code : 14
+     code : |1-
+      // Résumé : MAJ la combo des correspondants
+      PROCEDURE RefreshListeCorrespondants()
+      
+      listesupprimetout(CMB_CORRESPONDANT)
+      
+      
+       POUR TOUT Correspondants 
+      	ListeAjoute(CMB_CORRESPONDANT,Correspondants.Nom + [" "] + Correspondants.Prénom + gLien(Correspondants.Adresse))
+      FIN
+      
+      si CMB_CORRESPONDANT..Occurrence = 0 ALORS
+      	CMB_CORRESPONDANT..etat = grisé
+      	BTN_MODIFCONTACT..etat = grisé
+      	BTN_SUPPRIMER..etat = grisé
+      sinon
+      	CMB_CORRESPONDANT..etat = actif	
+      	BTN_MODIFCONTACT..Etat = actif
+      	BTN_SUPPRIMER..Etat = Actif
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FenPrincipale
+resources :
+ string_res :
+  identifier : 0x3fcde26424f97f54
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Terminer
+     index : 3
+   -
+     text :
+      fr-FR : Visioconférence
+     index : 21
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

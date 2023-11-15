@@ -1,0 +1,157 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Smiley
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Smiley
+ identifier : 0x2680c88a146ee71b
+ internal_properties : CAAAAAgAAADmVvx7qX9inEZxDkU+fNe8mioZ0D6VIK5RI6vVZb4r0mGmYk7/OKTMBVhxvYmYbBBrhkL3HNLFHFLOrnD7OuoSbCi+Em5+e5R50/EKWBkHsJE1x1knQ40oH9xswz6xalpEBHfq0IePjSR94Qa/w8rqLg4GgfJBBcakTEIeEBq0INORgl4GHW0eeXPh2nggMglY8TLP8arvmfzgMzksERZdoY3zSzLAGzKHUtCPSRdI7tkLToRvvkyAysjFepdoFeZknraPq6qA+sUECzeCn/nl83bDp5b15PFVFeaZsXb81vxz4/AGvuU+OWnNrJSOmRB839e9r950CaWTAtlEFHIW4L2agsQXQHSIKYPqpt1Y5Z8wl/KGFk3FZBP7zz7eVZNZo9dI+BHld0be2IO1DtmqnvKOaiQic9pAQyg/xbXDh+Nostm1Bgt71+SLjv7QJ7VA0Dof463EDJhz22vvx0hYQCtdHV/lF7edODtfZBYrHg07KJ6T8Urk/Gg5jkiGW70FjRbUDMCkAzXnDjNl6BwagKqUYxtJyXUD4AFT1szAETeeh+QoyENvqUE2Jnjvl8vU3liPJgYjdr09jPfN3ryjLqHXyoxTavDAZoaZPVZ7PMIPssV98qhCdkKVbgxlHNpOJYmIEHognT20HKNrTIXoFLcg+ZIB+2HhIdqB
+ properties :
+  width : 149
+  height : 112
+  widthClient : 147
+  heightClient : 110
+ controls :
+  -
+    name : ListeImage_Smiley
+    identifier : 0x2680c88a1472e71b
+    internal_properties : CAAAAAgAAAC2kxR8q4CkMp5BogQFSIojWAqSGKO1ZyEw6XQLWV5jj8KQrdPkPb7Qb42fq0REg5MkGUBrdxr1yYDEz/0FKm+q2YPM7xhc2x1ZZV7BZweSz3PL1BZ4ouCAfYxykOULgyMRp9YWNqAFg2tG7Sx3/hQkbDv9nYpWvmgNAheoMEAPYqH6nw3PSgnKKZr6HsaUvxesBFtuDrKls2s/2mABe0o4PehEKvsF7Q3eFMrvwNyGWS4S6YnvNL3SSDOYCFgq9cJ08o1UeRcXwqrIDu+0AiNrTY8ldqBj3G97WxhN5QYQdzH6Tcau0tgVGkkx0RFQ7OJQJa3LVpv7kkErmUGbDVA3kr8cpev5sxt71TX1qQvPUXYUk6UKLoWWlAM8mkeQXvfUhRN39TVUlGNa2hddihIpXoC6D7sHXrRDRSBD+POF/ECOxM0Dpz1zojnaDVHY14n8RxtL0/06rjjboH8nfVl4MkBYGwNOBlBr3JinCkfHGXn1kPDAArY2EG3Zlizzu8CJWx//74INuS8fXdupCICUuEuegEJTh66zyyYsdNGXgxxSVXkwbPpqNmapE3HtltHdjRLRVKZFXqS43YVLPl6jUoMNH1Mrwp8KsZWnUjjIT1na6qO5Y9jvqTSE9Z1vTtWoSo8jOuIKPy3QKHCR408NGO8QgGck1abl+6YrFyQUgnqpNGUNGLVIDs+gUMPbdlhTBiYDlvbN0Yv1WKA1BwiuteS2qpAR0JYESpFz6+bF+UHj29lgFdN4N4N5pULJ0Ihq8/D7jp5uzhq3uWXp0w9ZpuLGyr5KifxaN2qArfF5Ozjdyfj8FjY0042ho3MwFQ5FARqU4hCtb9vj0UfPc/JLv3fWSU+uoDaEBKWSL8Uwtv6GwAS0Y3kQK1VNExKxL74ePpk9+BKIcWjGWdVN7dc6UPkxV9nv/Oddq22rSfNWkgULjjmglerTi/z1CAduA5x5om3cdGCr1EhTKqdIkWp12arXiu/EkWEWCYRPr2n32cEEU6CRWGh3jD8Vdo6wkOqVz8hPWftQYPEsfNeEkjXOySBQ7Q1hnROqsebNo+2lLg4ftvn2R4OA2LaETgF+bDVek+lUhUPcl3SvKtjDzmYkJqrbsEOByjBqqisRC8W1SAbGJ+2h/thz4lRE87jFtCI4Yd7CMHFsYRby6LA+AVXbzrHYsb7Rcx7r+/hwZO1DTCEWAFP6u7scj8n4KHY7A1w4FEPDOe2HGGz7MTRyw7r1dwE5RrPIwwUkh/LXyMmPe8d24KU+XumdxWPpnuORz/LK/3uEPmWvBmw1Q/qvMW+qG5hF7+bWorMKoZnfdxEvuaurqonfjytzq0Yw0pKWUxuKTpxNY3JXiw/9I1bRKGE6QSdfIqBi9/RLfUMgvt/3RabCG/yl1f23TTxdFeho2rpPrJ182k9jizYZ6dE8f5P+F8P30rYqCOvlynJfx6TnDtPvyd0JkGED0jWEhZPXHxmU8o3HEZe/vg==
+    properties :
+     x : 2
+     y : 1
+     width : 145
+     height : 111
+    type : 27
+    code_elements :
+     type_code : 59
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         
+        type : 21
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         // définit la valeur de renvoi
+         gfsValeurRenvoi = moimeme[moimeme]
+         
+         
+         ferme(FEN_Smiley,gfsValeurRenvoi)
+         
+         
+        type : 66051
+  -
+    name : img_smile
+    identifier : 0x2680c88a1473e71b
+    internal_properties : CAAAAAgAAABNDpCsJSTpgCmq/dLmsHBXJ//02I5C1JQ8cAKOssOBqVxAbFtCX05UcfvwXlEDDvfgl7r1D7+JDtJqNpXmusYrkVBXHF6VksFjt92v2NPQVZ+Sb/UNB4hHDzLR9y6BPA5zTuVpGUsmKydk1CGi9RI70hvz925S0yCrWjnG2zFXFncLK/d+fOIytLBcM2xNbZZ+RqvHknAJQbeGGzxDViLl0fFfS+/oHVarsWOVOdb6dClrsnc6EpfQDLtbwk4peaXlaQtY3r4WPxmEwe4ekX82k0V5T3+vYUS8OXZp45QjipT9ipnxkwrQYFpXqTRAgXoGPdibjYOe5cfOMLZLtQ6gvJ5gRp/HGAYkW9wLtFOPKcrX93iOvsnAKDwTiJYKaQfRoZ47TL+gIEzF1t+jAl35UUcx67JF4Cdj6f5axnb2LziuV9kYxKJH3c9mEqV9UeUn+OHWqxhjLX9MDi/BIeezgZt9KmI+wDiMaRRfQSPIt7/ui9eWR4RK6zkFtlYKw9Xf7Nrnr8nZJlln4zgxcVtH36zTlS/wqTrtlGB3JOsN3ylsp4bAX6qrUEVCdf9Im4IkoQROeag0HBrulSCWqUnq0rajAu0tfyl0Qa/vzzjyTRaFA3zj81SDvB5WXPq5MBAx7f/rBL1XYUB8MqgjovjpE1ES6d7NLcm2crnKYuijRbCm9C68jU1tHbLcxvXMWM69Bey4nUl3tI01/+qrZDWnI33FWh/2HOB7pCGLFnzXz8D7MnCgJjgIll2HDj6n8xFayLN4lBIKQrV29Gk/4/QMa+T7q+Uw2a2GeH4M2RtlBFuuiwcWpG3WSIErVSv3/DVnSShVJskDhrb2jGxvSpGGfCz/4vYD9bjL9IxzmCYcEqcjQDc=
+    properties :
+     x : 222
+     y : 20
+     width : 19
+     height : 19
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x2680c88a1474e71b
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACONobfQCEV4p6lM/kPXky3b2lHfZiLHiTI/0eF9S8FdwWTJyiMO8dwsgUWA+Dwve4L+O//lUe1RpHijPj5DiD40S7394ZnKSV2oeyZDKuO0GIqfbVCfbQNNSLE5By5
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABj0wANDhqeVEuylyLF24m7q14h1+edgn6tSjBhdeOp0WohhcyUF2afAR0VJwbxkZdB8yqNB3pS+sI5WPK+UTP2dyu+XBWLu2EL
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      gfsValeurRenvoi est une chaine = ""
+   -
+     code : |1+
+      i est un entier = 1
+      
+      bAjouté est un booléen
+      hlitpremier(Smiley,IDSmiley)
+      TabSmiley est un tableau dynamique de 1 chaines
+      gLienActive(ListeImage_Smiley,vrai)
+      nDimension est un entier 
+      
+      tantque pas hendehors(Smiley)
+      	
+      	nDimension = Dimension(TabSmiley)
+      	pour i = 1 a nDimension
+      		img_smile = Smiley.SmileyImage
+      		si TabSmiley[i] = crypte(dSauveImageBMP(img_smile,enMémoire),"",crypteAucun,vrai) ALORS
+      			bAjouté  = vrai
+      			sortir
+      		FIN
+      	FIN
+      	si bAjouté = Faux ALORS
+      		// On ajoute le smiley dans la liste
+      		listeajoute(ListeImage_Smiley,glien(Smiley.IDSmiley),Smiley.SmileyImage)
+      		tableauajoute(TabSmiley,crypte(dSauveImageBMP(img_smile,enMémoire),"",crypteAucun,vrai))
+      	FIN
+      	bAjouté = faux
+      	hlitsuivant(Smiley,IDSmiley)
+      FIN
+      
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+      renvoyer gfsValeurRenvoi
+     type : 2
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FenSmiley
+resources :
+ string_res :
+  identifier : 0x1185096b008c5822
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

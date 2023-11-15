@@ -1,0 +1,1686 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Dialogue
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Dialogue
+ identifier : 0x2680c8790e6ca36b
+ internal_properties : CAAAAAgAAADl91ndxoTN4yxS0I8DHrtr2VXRKxRWRnYB4ng7/2XnqZ4aeTxRpWeNzzjWCGzEmr4cbEiO+DbeouhUnLMl0sakxfEU4LhcI+rvn6PImnb6OCylLiY5gcRgmcAvx/ank9ViyZ/odLabCvFBpt/AJ0T2e6gGAaomf17E+iIv+wc0i3KVDdo7wnB8ueXLnudgt6X0ml4FKRya5Q19qH/SLnQmXcSDKMW/BU2rB85xMtIwc1XwPI/uVyiO1mbp4DzqSShmoRxcXyK/r205AKLUdsEVGooKRWsFP4IH9abvaeTps6vWLRs3uHERNxjuJ5KC8at8c5ENIMkFCdh1xoLGLnmJqC+zK8zR3lr+QA8yd0RmgDTrgMIhZTNg7k96UTchXDyNVlbYwDbD95OTzzYqLis+hFX/EZk6EnNy3pHD1YA+o3RqjGeN84Eo/qLSB0BIP6sy+rCVLR5ZFJv6tXuCeeZLfMVWWcZu+6T1QFNjf+wxt0EOO22wRfdyBm7DB5EcMV64x27aeuPyWJd3qqvyp2IjTQZf3+kEowtgcj0gLW0mHMN4rjPTfxEWax3O9U4DADAXRxpd0eoP6k91NnbYcRyUDnm2WReV2xJchdDZORQi3+tj+OXUIS86RWAjU2epfTjCU4sLeSrkZZ1FQJPq1659D9Rt6AAKolPELjbM32CV3jT8uGi5ejOox8C86cfUYhxd8IApAJBCgTdcVT8EI3ZJ9dU4NzyTye5HgD0Jng8YjhTse97c+y5oqNPMKFqfEeEJwvPM3JoNPz7wzxmXaNYpcxzgVoTONWO6YWSa/g==
+ properties :
+  width : 614
+  height : 432
+  widthClient : 612
+  heightClient : 400
+ controls :
+  -
+    name : Libellé_Connexion
+    identifier : 0x2680c8790e75a36b
+    internal_properties : CAAAAAgAAAA8DXZdOwIpluA2ecOHaUKQ178R5F6pnAEnHcJopApiKHG0myX7hJ5160RxNHOWTaAcFwGHSIE8n+ZAS6p6ABUShnazuhfAhhrpZ4i/0odf5MP2ZA1Bs5ztqcvHhYE0N32pp/vjiDQ83Bbjbp2/pQnDoUY+OUldwMdoiNZ/G0prKiTXXiEUGKeow9VlJkMtLyJ5+QxIyYD7+tfYAZuMYRZtws5Iv+zF5uMUrKxJyDgMv3xvs0NplXHMMaBNVSyeNvziWipfFqFhwwED1wpqkR8wM7JY0GDctVZSSdHNr6HEumBsAouDqPMFFuG7Ia3AuMCtP0j1JZ5W/E3B93FPRYE4u6rD7XMyQ6f6qM3fEfN8M8NL4jmY+rtAIQ/ery+lv6UoKjhsLna1t7T97kmN96pIyUUWiCZc7eA9h0lqHZoO3A0M0/ASptQzf4xFN+V5yStdRyV+lMODD/RgJURZUYcIbsp5BqGB33vgtEkY0gr6H1eSypODE2WdRubW5R9XNbg8n944kOIU3OAW1DyHAxelplw9mn6GYMdY2/Flxs6w5iaUMcY=
+    properties :
+     x : 18
+     y : 11
+     width : 407
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : Table_Message
+    identifier : 0x2680c8790e76a36b
+    internal_properties : CAAAAAgAAAAEr9ivhhG2CbgKRBQmU2uGB2sCDDwfphx1/IHQ8jhKE3/U9IkEzEObRN/MZXu/YLCwEIpZh/hCu/7toSQX7qrYaaoHNtm4S9i2M/ZvfUkkvdbt/hYy/Bb9DR5ypfoW9zSa7HmZV3z+BgKP/w72JcruOK3uDzF8GB5k0eR/V49Rv1wULbOvZEj/4VK1OTghBvN/e8eWLnB0CbKMNCfjpa6HSHSXxxVyP+XTgYeXVLLHQnV+hjeL0pVo/9wR8wtx23r/KZVuOx5wtkiWSYeVX4pnVC/TG4SvQw9cHK/U+KjnYtsJNv+fwNDxX+AZSK6Z9gXoO6UEVJT/O/yhscNELUVFZcp05C1u22E68bEHHYBE7Lsl4KOHTyUtMqGAlOX0TgjfBB53PG+XpCl4XELx06l8oC0F+AK9wFlpwwS84qkhAnoeQrbhyU2mLBPmCgfgV4IPvi6J1mT/B/yXTwDTBV1nSoujK7056eugccoZaGP7nSS5mzc437fksHwzcSeAZXZjky/FqcF1MIjm1jHL25fMZ8RLBqbJUXSoQHX1SNkRq4eF/8qSllHFPDgPdFwU7PuMgB+t2ZF+1JFm1685iEdSdjsC23/pt78aIE1RJc2X5JFRHW0wktu0kTpiLSE1YYIHjV3Pio9zLQi+/tjjnQgpRnU8qcD8hrycR8vLpSFJrW6DnCyIUzxmCwI4YYxyutaMn47IO0q81/X0bUxeYwJSBZmNLZR89Bx90i+97RsZnjvPbnoHO56b4gDInIIjTbNpFqmcxmAvumms8O7cNjR2YAsK2aEXwgSj7Id1bV+zDNEkyUJpAjnU6hpERKSFpnpagaufs8h84qat/NhGIkD4kUuejbRKOLeBERLYsORJ5aTnGFEDIAondccVATX0qk4CyKvSD5MjwK6kk0mN7tLNj5+OMdfol66ca49lrrNRN2ho3Bt4Hq3E8KcgjMj0Q+CJeXNTAi04d9FcXJ79Mnu5A2vw9jjKCexUVBUA90Q2GYCL9xvsAVqcJHHwj36K+Zz+wrqHEN2qgwZQNU7ANBhS9IrCtTzRFDrHMpRsSUHmIjyxjtoqeIsahWNA7mJ8BPV2oW7Z+tDSlmFdQ4iI24lWEl/3WWb0toQjsuFjYe7KLOg+ZWnLX0DHJyrvztnH00EeEvhAe4aR7gsjAaYGmBQfLwYe4ddAojuquvgEfdn+0eJACopKz3jZmWq6bW8QQz/A0vsC1/k53C5eyvcbATl0rTbbA3slQVHPnIKLhkQf1+Z06AI9nKdjWUM+LTWw3xiOLMHxcMW6WUXwJAulewxXBQWbEGlfcSbK3Zy+y2wijLDyWDeV0ZuxP6sGRxpvBoBNGHohpqxHTncGVf7mAW06pPlCkvO47uT4i6VdPCgMIbc/6MCJ7pZ2DlgbrLT4c0ySGlKf6PMuaIBYATBYPswE94eLjbZHlO0SCu2PkPpwlPujgrYZK2ALrlC6EomcER6OvHaf35vrsyTbH+3DLSYykBcho5gRWZyXq6JLRP6aqFRYE53Td/6s4C9T2XpIovW11PIfetT67ovAQ81JxgFss6KI3ruu1K1PlVQwW1D+/hq06MPgaluZnTvC19VplgTclTQqUPZ8DOHHk3rfIz6wXgoJCNQRfJMggpltwuLLarnaX/WO36oFApYrQJRNDQ7+EAofnK+8dJ1qxPArZ39qDY3yb3lujzWy8L0U8aB+4njt8j66oUldZDQXjaPFP0lCpqS+mM/h3A+GDVLziJKsqTAkhtXtHlz2BFY+0djwM2Ij1pVkvErBWmQ6WJklvxZGHauENxWi8wIWbUU0EsXKhD/aC0rakambDZ7j4hOiAD/XNyPEZR84lG7x5vYuiWSo4ya0c6w6Lu1vA1kROlDu27y9VCB3+IwnSANLcSKVdTNu9y1mTAq26GJtX3LtWvRoGRamnqlVQbTWVlXpUj0eF7KP57ACWPQhW6tBNUpRczGK9Wl18dFX7aGH/3zfOl9YN1stsJAC1jDWtAm03XnAeLqJKhRWoDxBZ6pqoVUdlFEerqZijd5jd+JKUFjBtrGleQAtLxvVzdnbEg04rnznC75yt2x3lLPrsxHmnmfnJzdEaEyF0D1Jhp+t7KKf4arHDqShgjefonH0pg/yzrV4w61+i42/BwFu+50BQrROaJQynozbMtiTr1RVx8lsy868ACGmRS9TEzx7jWOYwgj/EMVSMMk+oXzao+26k5xLEgfzNA0VTAPqcUFqerVeu7bdMEh4z3MpAb5ASsKoUPYYQffZULwu+E7FGM1+NuH3d9+sU4NtkZ99Q4gszCixG2y4+zK468uOSH8Q7FLZq312uC1J4YCLFSaSdk1cHCqNLdCF2SZpaTeWhywZ9kwREyUBrv04oNqIbARRfH8Y4GDO2YctT33bnIpezrGtN8bmmEn7bJiMiwWOYG7IgASefMaxBYNFEvc2CkEhdQhCsXGiGFB5Ndu5L7vd/leLPjoI0l3xmgdh+0DbHSmqR3hjZ9wy87xzORKMvcs6fcrwKgG1FVIKz9bMLuBdf/5vsnajvTaQMGOT41h6f7GoFX3/OI5ZEhU9KNL+FgRfk0LP/hwKVjBX4vZ1fA5m05bte7bfL1lhxvJBwqMxPbRVpbkaexvj1KKH/VJNpgzXAdMVw6E0hwgEiJ83pWhk9QCJwiO9RxMcAAKMd3e/5wEHna+qsiNMMUTg1rcUlfSUhCFuHb9SwWjJuin5vcQneG4lew3ltSgITjnWEmrdsjuusSbzPjNKUNlcmv33CntpNRl0Y3RUHozFyq67vmRxg+SIzTq/rC5Q9m6/ZY5PBe3GBJBlPHP7/XDyqxIMhCQ2lw9EfH7X/nRLKuj2hmxW+5P3fI6CdoWq6wsMYBVbKz5IiVh6yuq6BJXX+V+H083xgnHel3JdLD0v4BQ+ofqG3oPut2iO3G0JP8Mloc1hHmSIYkpkZ9EiByzxjOECA9s25QJ9xefgb1ttWVQ3uzk8IWOxxL/X+aamBCCw/q0ku9+QzW1KCycrHMSbGmN2+7GVKHVkEbLV56DkvpobGuUwK5ulf6xK5MtPw6Rjj/MplYzFEq0GG2beVkG155tEfbgDV9fyljCUetOHSHjz7QJvXn5loYvhBAoTE+NicDF7ENHsfgxkRdK9YFpM6pPmYPbCCtA8xJ8jlYr8XrzxURopwFMP8I0bI5gJJNYJ9of37LzQH0ib0M4F8s8lbLnyOiUvgKtSNq/HOuwb+905qX+iPZKCcpEzxrF8LN+9AlrbGEF1RLle7UQ0mRHUk8dBYtlF2ADN6zUmZnggLqDSB7bIUb9VtUpS29PHAuacayCc/N5UWPRMKUan56mXZu2i4+1/CXmo3F57pqcRm/y/DNh9QuQH70R+7EsKzbE0si7REwAqh97A6gEnMOT71vVbsEyGBrOUAqJ1mAVWoz1+o3SnpPX/Vjful17nnjfg72EWoCDf0pEZpkvKSAze4fItHEeH7yHd2kvx7Vl4IDSYZu7VsULM9NYEjlsM1DsKlWQA1qMlXuRgybJMGl4PAnH23aKbOufAGOJl8qYGqTXfH6l7dcO7iqIAFic4yrEVghOU3esrtSOslql5zJdIDMLsBODi6Y74IOgd2mzM9n+wFTzymPFhcIsEUt7hJCVbfNeq4WbkOrYMDXvRLZ4fqrLW/3hGGEHwEblNYtvJqvowShZcxVF4Eqxoih1CBF1tZ4Rp2WR4csI++2FDjv1S2S2wiVa4QOSQRhwljI4JsKANfOFf8P+W4biV5+TxkHbNP5PqzN8T2JzZViZx+XZ9nObSd+uRCHBjSpo37mZfLYmGRySSsAGgpzxYnm9Qj3xOHgYhp0ZC5fivML+8alPtmBlVnN2STbSfhoRjWKT1fCwQ/atRmcoS+pSHF/Wcxa3PqKok2iMlBJBxIq3oGJ6xYIx8Cxo9DN88b8aA20TJpIyctFkROpK+X5PYrYHPct+MQHJoYqYOPxTio77WIeJeanFyYusXKc6Cj4GCS+5gY1mIogRMOkKHhn5D29EofwtMAnTqls0Tf2vUBhbWWhfxXBnPgQ2tLai6m5HthrR2eWZh/cDrUI7BK60GwFkTlPmDzGCtwFfQb3MN4vQiWjgLAr6TJEbJy+T6hRFc/nMm8bGOI8fB3cCXv0uRXWYjuqUyjhSPuYm7lvgev6SI9jTNICpyOyB/XhEr1tURcITZACucXoSdcM5zW7WbV2wuLUBaBut7yRtmcWmKmx7iTgpoDCxDxSe0X4CEwavr0aXCUtPdAd/DHYUwr7YYPOrx9AZmF4a6eIC7ilRxoewPQ5PeKlN7mP1zksS8PEonnvFW25yXQ8bHfxj8TV3A3aUVbvsDUxtG/4EkBUhg7ZEwtAIDYnMmEX+cK2iju65mmvj5bXs5skd6E52QiBob/TiMPkg8VeXh68SgZYO4G/YYHsh0ke2BkWEd/p5Zu0e8G+AdMpeFSq/W2CRs2y8g9V8HKkzbBCcD5sKxGHdmr9MPv+b9Wao/tnrzYhmueT/CW3NuRSAsl1zlHGMVODxBclMLpWoLvk/oJvTyGuJqIiDQ1Qy8/4uc4r0lRcBuCEj0z4+uPBGolC4N4icnhYwRMbkLKmzNU3TPRX0sdQH+BFQo+BcMU94HF1xuiPOe3KbvH3ok4qBPYKakeKQKQrUvwAOHJnH3TUXuSuWgOavO/9JOr+ip85HWNNaAXplU1j1AV+WelCJ4xx7/NPvx2aURwkQH5oDCJZA0/Rsoucjyig9mg0eTJ9Aj2SQfSfGdGhBAvlqzT6ULBL9/ri9eIckeCjOfUNmHsG3KqGX5nwqX/D7mpF/ByyLK+mkWzOac7vuY9PR1s023qGb0EWn1PMpIkOumPEB7RnVvpjHbOlzYQfZt9qR9r8RtM80TyWgVHZLVfZb2vPFAQ3zNcTkALt9cs+6srrBgJ6E41F0N3XH+pjaN5AxSTMMroxWYmi4ARcJrnEzMtZ4vwOduR108+4O5pkQf9RufggHEk79cuHBj2+Ak5NhzTai/N76bWRbLNUJrB74P9bLtmtcNXuZcLvf1amAFoyQBiF8exV8SjL0i0umi5x1CHCevpXlgLu9dh3Ml+cpBh7Frk1fbsXABN8SiedBg2Z1KJI3imrNeZhQS2iGmIYeZC27WGStTxPkk6Ro5ZlRRzmCTyHKOXzljTNHw4ynP9R5kxVEhlEi34AcoPDMTh1VqYSMYox4ODD9vCIkI7ln7GWGOCUvqb3n11iblQ3xTgc81kZGfF2eOOztdnuyVeW3cklmZZGN/hsfpr7hNbgw+Vu9b+Ix2DDwunaslvmf04grzM5nkt1a0ut3hef51+QNTR1apRKTiBLAihiPuGD0mW5S3nOgyWKuJti5fk/2a4rCXumr+YSN79uc5vUf1w/wH2Z1JSUGKyBBxqCRayAjLtFnJfhUIZhadvrdMPnyjqKWtqd00qF3QdMAou7bxql5DQoUWz6jgvu2p13493/fACDboVGWFRxtnlMY905FGsPuLqdEr97d3EQDDotaygiDTFGZxpxms7TkiV9vP+1JZctzkaEtUwjCMWZshJeM/WJjHBUaB+ez3qf9a4vFPPWIG2IJdw8p5j72jLrQiRXuTCRfdt2+0b+AYFSdoIONZ1jZvl/V85OiS8fKwXB41slCbD1KqI2XaD7ROpXig3c6lM4UZi/IBculqoNVn7TdXVczpQAvl6gfCvXTgdy2L3vyyQ1hT5mOpXr97MertMhn+rc2frT3KOvirSPrbUBT5J4t9QBbTcRXBkhq0tV3qRdT1dk7QaKCxXs6GmPNcLigEYrf9btGnzkB5lPsN7TLOPGzRex2An96A7P/uZJlIBcWiJsH19f4w6IYVG5mHf1jD/tmkNZIXKlGJyRq9GODCTSbLCaD8d3lBpxlZygaY2MinIW9pLB+J19i7yk0Waz2Bmpq/CH5qfxUTlHftzJ0LxshZ9+0Bh0JkXPNKh0OaaP/hpmrlyfqRB34ZstdVre9x9mUTfwbQagPqfdLDvlMZZCWSA3dHRDOpUhyhaLLFQNrXxrI9/+hcvQREbBrAOgEoqLqLa7z7789A7fZU4M7n1AlkfjjGtPm2pXDgNQhz23Fh9/+C+Kt7blINx30RAA==
+    properties :
+     x : 17
+     y : 46
+     width : 574
+     height : 173
+    columns :
+     -
+       name : Colonne1
+       identifier : 0x2680c8790e77a36b
+       internal_properties : CAAAAAgAAAC5OeelBShHwlmZKhCWv7LeGGU3NZp1vUQ4pVh3SV3exql7ktOhGKBvqxpbS3JPJNIEAcHCFgd6JXo4Cq0tOYsGuls4pJUadQo/y8gkM1Ma93J/41zfhpPADG8TmeKs1Bm5CNewCEeR+YJUbjkCn/YqLdxOFqlHMWu9oN6XHzs3Uce238exfaXRBLaUWBptOOYNLOyXkH73f7ZhHtqlO1jU2f3azUVc
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAADLfJITxcNXxqSgv0IkkXQGeRa351sLpLbkDaWa5HugC7RymW9o3MZIG1+mkfxvYDXPRWWQ+kTKQ+Oo/wEKpYQRLunlzazOjT/Lmo0yp490KKz4+AaP11YE+9ijGq4HyGfT838hIe60CMwRuzCKH69armgM6pmO+Axd1naeCluzviYeCT9oP+cgOA+LaY1pnWnozqU7AU9TmuULANrrxjV7exvtagOesatlltdxYoM0AseaK83+bcmNymWgyvxyfBgxvroxIHlH8Atl5LISOk9hecX/Pc/WoBGwywuD72X3NzEHq/sbA3TRkOZq7aVVsEk/BdTaxBlSxRNTuCgYM2o/KZUPToyKPvz4SGkxYw1JuEn+GVaWBaDrGEB84CrW0rp2F7Mzfnvw118LGlK4iAKnvFEoG4WHJR61+EBFIgp3uNvu0UuyMFDlI1U1MDt8i79jADFTC6N3dgEXHgOyfLhkq+s/ZFAw75xeMnIpT6oV+OlFmglKeP9eqHYfV3Shpv1dXd0l0bdcKXmgsROJIFXdZG61CdSSgoMDp2Iz/93FpNxDYmm9/0Lx39V+ctfoyv6c27SZDrjV+FVgpp5VBm4NrkrV+fOnm7rlDF5+uwNRP9kbs1e9RdrLaPdPkvT7Z6z+1+vCA/Ndn5s9WHTSSrJK9zxXm2acp5vbE9UOfEqiAwf6Mi9E/5fnmMFSZBrn0/X7ILd3F6B8vbgIpwxx1UglCGQUN/KzONIkNQXU6QttqRasDrdBjoYjnICGEogJ4Pw5waKtykhXdRAMaQO0nfqUW5DJ7BPePeaRm81RMngkMxyW/UCSteATtNb1TRT7XWZMnEDj8oBhCacktUcbRTqPKTRrZL8+fddHHSXE0zQKOfTszXtUWbjaCLmBl284CKTNoXLBjcKMC236eP3vkKuWaYv4lDwyA/I77ntIF5Omj/S79cyggNP6cCDyEG2EnFk2pMvLeLA7PH1SEutOiCI1YcXGl7A3sA==
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAAX7HGBxCzmMMaQp4o0Mc33sE/DTE/MSy+J7XY5Wy10/v6YaeBYXOMDjTD54LOwyQPTqCrfhYpS3XVwx0LRLqdn+oRQLpD4Pv8=
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : SC_ChampRTF1
+    identifier : 0x2680c8790e78a36b
+    internal_properties : CAAAAAgAAABzDF6w2UVGDW+VDNZT+KleE45HX10E4LVvooxFxSJ9xiIUjahhAQmEXgbTPVQhfveYrAcqKjG+c3E6qPPu05xUABXuZJjkWNuaOQvBa13sl2qfeH7PEqJN6c3H6BJMktbYY0QZT+XpQkBzMjc9isE2QajN0TZDfL6hnvArONYhPSnF21qk/nHRtNzrrd4zqo9QZKtmzLrbEfjTUZwYIPPS7moUw5UNPGOXrDZRfEY0xe8okAOSqoQdwXIjdbxYA8qzF4S3CYEANTSYBaaBywUGDxYfK2qq39VQQvGyiDUFn/5uW2OVUyyZJpnzVeyfugdGj9sprLXQ+CRHsP/sk6RhHguQypFpyzqNx6P4+KV6icEJF4fKCfwcg4WTrXXL6KBzd2LwcpbrELr40sZNgDSAhJLRdUgSdT7kCmBNO7xTyqwsa3+iEtC6jecDMPxovF756WZxufch1/dY1sPDiezukWV8n5lF0f9sBWMBP3PSrgwUn2qRIWWPQZnD9gxI20nO9ANEWt+HzlpMoe6FCe41XOYzZqHKXkoONcRySQa0bqKiKG4ljIlInx0aq4P2kpdv9HDX/y8VibvlGUiRkbHYbzZhSx0F/WNuZTlncU4c5SuVZ7G3FLLbDXTxEoVZySSVpvPDXDuzgXwimRRKQHl4sZDd/F9uSWER+sxtPkzefgfsC6rqxTGL/eHr6t2rW5FzG9HYeS6/iyevY33nvW2xjaKk/ED9RB0IK98BwyO+488stLV+fedxAXve3PRMp24ht9pgCLgsXF5YfpYZq8MduMmtqCz62hZA0ZHmJ+Zp5a8fLYuqsiLQWyuA50UAqzF4vTITn+iQkbs=
+    properties :
+     x : 16
+     y : 218
+     width : 576
+     height : 126
+    controls :
+     -
+       name : BTN_StyleSouligné
+       identifier : 0x2680c8790e79a36b
+       internal_properties : CAAAAAgAAAAM1d1fJO+5vygDV3jw1AZ2t3Gib6yP0pUXWfpEiv5jbxNvI3mZqQkXAjwYIZqfpgrzBDrKVBu8AjE6kecADc9WPu5gKZrlFPaIk8HH3i0tZsSjxbDJ4AtVNaDCq4ykahhPLXxm+HUcNERgnkGiDXZUbH07vaXkkdyex2KENk9JSIdl4ylCgOuK8+Ql67vlFy+CP/EJfz0l7Q9MjFP3sDVdmBuA1Bv9QZJRnu1UgGVqLRPcoFldFN6+tWKnzb0tJkM0+7aoja0Hf9JL3uSkbH3W619CouIDTkCNLLH9OLKFi3NUzwm0k9Mrw90tou3wpzL3BowzlG8/bEQKx1YVwbZFVDYlEujO856r0xEv6oSRbuq59kUuEfGfOfj6FKL2DbYDbm1PeYJM81J3fViVHskg6yS2d4qnWZky5SvRFHp8c23PvTiB9ThEyRAkGJQWfxAaS9krE/gt148+AwQil4NOnvsswQAQdu5Y43bPi62huQjWyWS/lpcicCBiQyXhBqFsY3i5CdIblmsDFO7soRKNnoGzV/h7Xp+i4pbBDmdmfjX9xygBYr+FkhGdSXmjyio1P7dny0eGOiQNP4L4z1aoik8lUdXG7SXcmGTEpKz7kfK8h3xzVNW4OXxZ4eDP0h5WySkwy6T1y9FUCSUT31xmOJlLbo+uderZ4d/x7SzmEScthzE1teSUwRvog3H/oIFosNJveQSm61qaV2U2eY+zaMu8ZVdAkY8iv41bHhNgbsXuVjGIBZUO9zo4n73uqZjA0XAZj3yvoSd2e8i0ioFf+1Z0fc8cL6cM8PUkZakro93FR1wB+Zpuhcw3tssEkQ3yS+DeZOceUv5oY6uRc6tL+Lk+IMPY8qpNVbi12D+cAOSJX9ukjqogFVhkiwFs+tkJ6he4EMAjnQMtUZqdsV82hmurox9JOAiW8eDSDhTTNGRUElrz6A==
+       properties :
+        x : 415
+        y : 16
+        width : 24
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            // Indiquer que le texte est modifié
+            {gschampsaisie, indChamp}..modifie = vrai
+            
+            // Vérifier si le texte est déjà en souligné
+            SI RTFSelection(gschampsaisie, rtfSOULIGNE) = faux ALORS
+            	// NON => Mettre le texte en souligné
+            	RTFSelection(gschampsaisie, rtfSOULIGNE  , Vrai)	
+            SINON
+            	// OUI => Mettre le texte en normal
+            	RTFSelection(gschampsaisie, rtfSOULIGNE  , Faux)	
+            FIN
+            
+            // Redonner le focus au champ de saisie
+            RepriseSaisie(gschampsaisie)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_StyleItalique
+       identifier : 0x2680c8790e7aa36b
+       internal_properties : CAAAAAgAAABS/6DHGpTbdAnylW1WuEfhcxefn4GRd1wqZAHq+2k+yP7nc/+RPyEBWNppvVmwEx0tosRWgu7E6M4V4P0EgDCejKKVtgskFC7uIrAX0KgPPsxy6AYczszQUbgE2TLERThpnwmHRic8e1tHBkP1fcHyJL3ek1upfQJjCc7sd0t8u87P8t96IsDcY6Zfk2QIlk1C/Fc/u2xM+ZwkitMyokdihP5aLnzZkyZquf2IAIuPrfnpAzzfpT/Tgp2tJcyR8vrLfwrdmQwHVYkEYikK41uSGY8bvMEt8loGzeeT7B30tkJUnEHx4gzcPdNNwq+sYS4TwB/kH8DNklI8CrF2uL5ojF0oeOluCkjeil0KrorrOKodVE3u0DAqXLW502BkaiXBk8zREqw+mOLwwBimyHzDUQPQ9RaWqrJm8LsepvhYvc5cexd4QvLTK7UmXDS/uVy3hQPvPRDpAoiZp8/w+1lvjkoKAmv5fo3rKWiXBRv5+mpRR/b1xpL7yFIsjhKC0otTtgGz2j5N5T2vTkAq9jm68YlpTzL1KUDL0ED/4QFqFIOvcen7js1NYGkiWmA6cQd0Ce6lJA92To9SsdO3tQAqhtfAk25eT1vVb67PZ2RHsf40LoWhN1Wmu9dJEqIjctaZ84XtMZvMFGjd3t/FwXUEscNpZ5JMwcUV0/5p8y9JInNg7bDEYci1e4s5GSI+BIYnY6INQPdwsUprlDrs6ADW3V+kqZ2s5f8ftJDDGpccRRjPk7oWLmQ7Q9DcDe1ptKvSpT5nho7bztZAY8DTQur5ZH4acHPRAkDQKrSq+rpDrB/zxK3LpDdopA0Q2YjjPoEYtxqLpxWIADXhJbxMOt9vOE1WdZcZJ30QvmwFzkm0sCCbWwCsqzplxo8I0WCMjlKVw0TMRfT22D3GPUIMlY94HDTdtgnG//VCn39Mw/1CIBcqPwg=
+       properties :
+        x : 386
+        y : 16
+        width : 24
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            // Indiquer que le texte est modifié
+            {gschampsaisie, indChamp}..modifie = vrai
+            
+            // Vérifier si le texte est déjà en italique
+            SI RTFSelection(gschampsaisie, rtfITALIQUE ) = faux ALORS
+            	// NON => Mettre le texte en italique
+            	RTFSelection(gschampsaisie, rtfITALIQUE , Vrai)	
+            SINON
+            	// OUI => Mettre le texte en normal
+            	RTFSelection(gschampsaisie, rtfITALIQUE , Faux)	
+            FIN
+            
+            // Redonner le focus au champ de saisie
+            RepriseSaisie(gschampsaisie)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : COMBO_TaillePolice
+       identifier : 0x2680c8790e7ba36b
+       internal_properties : CAAAAAgAAABZXvUByI79YAbZ/DYjHrMBeL53XPxjsUVzyMBirJ1mRYW9cLHl8XDWEs52HKO4TjG9kxJjJPaygoPg6aUBrnBVdiiju1bkx5HhvGFOzB4mPIZMe+xiJG8lAwoQDD91nGyjxF8lpDBECM/lPk8S/yBjX0+rwttv6mL0YcTs50CrLXVfasfh22MQAcM99uWkjqmqfaMqxqEL4h0Zq1w86LBHCYEDJGwl+tKaufRaaGwBx1wQTY07WcUKxGDnCHmBLFEDyHCQWBUdRRZEdcdHhcJIX8eDexiyGcgjnEHtBM8/puRfvKetuSHsfmF8XqTrwwReGT+5lrZ2NJ3PDxzBs7Q+qhoslRZnItmLGUI/raZY6d9L21xdqfKvBLUyTwQ3gtp74JPnu7yTUe3PC8XYJ0pXoayA+372sTHJBZWOGttZUZV4hIswosiiXsV54mRsG6EUb7R1msDyEHZqZ8DsaYusYYNUrPeVD6AaqmSnGxQQhDL35wa2+yLsLsTtwc41rf0Q+yR8XzQL293ux+GNgbsiDwgWdHyIGOWnYPbcHjqnfAOjADTYm2mlchAlFukEkgh5qeDBXOxZ7NMDvVHCWXKzUt+w7NrY9l024jVvJivlL07BsqYsCLOGFoFC6bxdyBnc314rb0seYwWJ84POqwT9/46sTUxC3QaUbcEkQ2PWW1On1swOrEnzeMLseTxUrbOGCq3rWj8H/mI25icCbUzS7JnsRmoCQ6mwJdIJJs8fA0gGvW3YsWxTVL20GidEuzcdbCrKAK0uAGI3XI2ift9NfM9QiwiF32uHsvpquwXiCFy1auDZph5Z/9sdDbreFs1XhHlzeBAq2mQ00XDx0KFiHgCzhJvTTBUbBdG88UXT0rHpAMjYzTS1Cfl/Fp6EU67nLjBsWosWU//4a43MrGH7ozs2YblaKRkoJl/ISbme9gX0iqyGi4R3m1IHJDHdxZa0NLl0mdmtrOvc0j8WLWLAFoUB2W9Nab8yBZcS9fAZdBt3xZxMQScEohrNSwYkalgI8qi/fjYy7qyG4B1th8ceZF4e2QuYUmRO6zBpvK610HtGJ3jBQkUTn/E+l81pGJ80LklKxZjVdlR/P5zkM3u/fIF6bgK1ACNn3WGMlnXvw2//alD7FY0h+5Z99RoeVZCOdsgBQ3IhjHxDuq6leMwlG1LNjQ6UkOyxo1bzAFMiCb5ob1Ovs7Z0c8o4JaRWGgKJ5bH6xXAHhkWrzNMGo3TjqkGs9ON6T0ctiQ0b4po6rQqhaCmeGHZtWxOq+WCkH7GGQYHQ/zDkGSKjDFU4KWFkLDqFHWa2jeoLAO3YQIFF50Hwfd1njtoY5QpnQHIWG2FRHW9Q5u0i+Rk1itQfSFgSiXpm9uN2Y22hWuHQ5ehbuCHWdJA3sabXe1d8CxGOxnZRxF3SaNUrViOsPRM9nDcxHvFjK6raiwtG+utOpNeETy/j6KqPi7gif8tB7MJcy/G+dxxb7xjQoLWAzYR4iXJeUu4mb02Q864XSn3d8konJf1qQqDLZXFsiL232bGLCu+cVzEi0pvPmVQQq6LsObTLlMbC7vrcWemr9NLkEbySEMUS5lhchFnjFMd7cKgW9MZuH3Pgf98CZJOhzW56jWlZD6Q9HAm6Htcfo8/IBemEn4rdv58U7hsFokI/lAXzT5XhL4IFe8vdDEcc8AH1seyBDwBm+mdzN/wnjSsIYmN5mcgswq/JqyJ1loN5vlvns1XUOwjNO6tiF+tXPDOhVJygjao3qBZ/Gfo36mAZWfeM34HQi84OVLKid4omTb3S/tDXz1AX
+       properties :
+        x : 289
+        y : 15
+        width : 52
+        height : 25
+       input :
+        internal_properties : CAAAAAgAAAB9MJqrEWiMQT3cfQEoUAECmA97JzZaoMpUMvXSXOemobNlohLd1enk4Fv4TIKmzXa+VeV3p4LVWHcOJm9hKAUI5sG5GcVqkBIBy01ledknFBx4i+GfcpBZkue91XHpY8I/ZfKMfFfgveJ3xovexEqQeedKuAEJtqb35xFWbUTY48oZL4rDbLmSrrMMThxbaOP5MMGshjBCYUC1OZkrnX4CLAJgeTcDBj13Bv/LxeNRXd6y1hHh/Hj0WJ3sAsYffzF4V7SzCLx7nPyCIa7ryvqEj7kIXxb+u//mHsgyA2QBnHWteE2i4Ow8Snx7tWBYvymCPoXx5yb/IfOvVq8HVuzJSK20fOpXIT2GIR2MXoIEWI5owIdjukzEDIs3rZhZZsM4v8+QAYdZ6TMYZCtMQ6lDXTTgjIaMPEetdyYTRh7KbgLMnKg0o+KsIhatDtyGc80pBN0eO1GE2FB7nHb34Cs5PoVWNPraXDFsnWS0sQZShAkP59ja8TeMENwb+JoTVJPfa7xxHofTv1fokB8Rdqq08mm6QHkfRXdCZfaNzL0RQRJRJIZJ6S9nQzk8v5CzCAjZ
+        type : 2
+       dropdown :
+        internal_properties : CAAAAAgAAAADz45DXYhpKlYw+zbiDgR+m+Q0QnWQrIP6EKM5/cGJtNSF+yIKBZWm7AN2oWqDpIpql7uT7iyXUT3A7fMoPFD0EKc4g6ctgaHx3/1eNy0T0dMHAUDaiAY3MQFzlYm5CGgb5kQa4x50+7Wy2CBqXknuQRTYG84iGnlWOQJeE4otQcNVghTI9CthxRwAL9PQAy/Kbc3ME4UaX/KAZSBL8c/v4eZ/KagMnpXjLavYp5znP4PMrhCo9dsEOrpbYs0+IGNnYHaAo3XE55SUN3jD770QXc0vPkdH4Ei6Uzj3oK7hQYva+3QNb358L8moprnYyXZTI2D/H/JJielIK31Q/aJDCk4d2QHyf3bTwqhzhV6XXExhCt8BC8so2sAoQwKw1ZMePFERy6fyFv2UcdxW6akU9PSN9iCltSlKd9KbFXDpMArw8peQ/OKdS6zFY85A75Xgx3+EkIBjYyEBVTQmv/LGSNAp6uCl1C43PRfDHOio07iUqme3pK+Zfyw7Jrw0Ex9cmhagc+pSAz1c8g+3AGGZyDG2QjaicGhGII7UBB0DFbGlmKIcjnrY4uYzU8nTH4y4rBCq/8xpQDTBA2fBx7zq++X3e56Wnv6n3aJy9X+fIXE7d1PU3+3NBi2InJc1/OdNoG/Y9lZNqZFzISqnjzPVuepbpmMxO5gCWPwuJApu35O9j+zaLUkL8Nglo6fe2dfX3RlgqgfV8jkoQo6Y50D95JHgxC+1NWaYxe14PL3N1zYY8pQCkzL8BloMf16BgdSuldERNQtMiVsLlICFVU5LRcfh3LflbBu/1o4vBmKV2eadseaQ7wzQQTjHRWjs68yPdfVj8A+bFkTa5SbO9Xdc/go=
+        type : 7
+       type : 14
+       code_elements :
+        type_code : 23
+        p_codes :
+         -
+           code : |1-
+            // Se positionner sur la taille = 10
+            COMBO_TaillePolice = 10
+           type : 14
+         -
+           type : 35
+           enabled : false
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            // Indiquer que le texte est modifié
+            {gschampsaisie, indChamp}..modifie = vrai
+            
+            // Modifier la taille du texte
+            RTFSelection(gschampsaisie, rtfTAILLEPOLICE, COMBO_TaillePolice)
+            
+            // Redonner le focus au champ de saisie
+            RepriseSaisie(gschampsaisie)
+           type : 16
+         -
+           code : |1-
+            // Indiquer que le texte est modifié
+            {gschampsaisie, indChamp}..modifie = vrai
+            
+            // Modifier la taille du texte
+            RTFSelection(gschampsaisie, rtfTAILLEPOLICE, COMBO_TaillePolice)
+            
+            // Redonner le focus au champ de saisie
+            RepriseSaisie(gschampsaisie)
+           type : 33
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : COMBO_Police
+       identifier : 0x2680c8790e7ca36b
+       internal_properties : CAAAAAgAAACnSoSTHZs/HXsOBxjYAzf/uLC48PmJ7VSo5Hy6t7/4gvgZFJgxIYUf1opfNlLxAv8xESMK7CxyzFejbOQxlBfLFtYDwZY5NaKtz5jY+XWnPkwvO6Q2iTeehqnazHka3jVWcSzPAT21BC1/qmG+mtKKzcrV5kP8lZUkwV9IcDDZm+t4Or/FxG/51MkTA45yCRM2Dz+e8oHWbAuxN1HMBROBB9UlkK3y2BaDoZZFFPqXITLXosTUrtjT3KhrI/KdGBiN/iE1K31iLZiAKSN5W/G5tCyaAri95f1xHK92TNc9JRqa8JMuHiggiwCZ9rQkCmoGsLUjgNajEi7vdBpGBW09JPTa+uAahmJDy1FNAhoLnWnLOUT491V7mByI/lTP2f77LAY5PSxUMtaFGRX0hFaVLQrmzs3tejCnzTwv1uQxK7FynxrLqgq0nh9SKXYjHpXFOBzuLayMADzELB+cEHEEyVUNAQKxuo0b7v+UK617BM8p8YMzh1n2dJwxycSZaN9epdaU2gSbvupMF2bm8LKTcpu90tBXw4VmydH/aZhSYHToaVu1HhKMzx9l00NqzQ5uJ8lSMJ4gZeaxlzkbr5nmqtCKKoyYjz+nLxeeVYd9+/KJa4LlQ4Xsg+kEjOOUl0Gme6LWxK6EEnJL3DFi/nrmw8ATqQwuqHhWAswAmjvSJEvjYYIsI5NyMjDKGJvV7D/94goCImie8axHmewbh1BI0PFhyK/2O58UNUydB3rc2WPYduHJkf+hTXL/VflkbBZGpuNvmDgoSUeNQLunnZA37EKuWJsDQuKSGIk1DyZ7hWd6n4QnuoLWUZlGTXAYfq4zDI4dc7yrGT3L6GFZTVu10bDqYe0hf6od180l5C0eO9bfT4ohSTJkRHExKTKIW3YVuzlP1rgYUaSwqWf27HSJZ73p9aLgo+82dry5fCDXj2njBFCdec+XQA3L2xFtTFvlqgC1rWAonybc3BeBdQhFiIWcPJVh7RQX4JgkFYDPFcqSSTUpfIRj+8qaYBevoyNdgb+jHpkkD9wQ++ANHJatwQ0IL2hj4VXrguVbvHvFK725wdQbH5rkdCgvLEzFAuYA0ow03XFamuwCDpVFHsqITJgvU4UHRsp1yMq5PkCKxnz6hDeDOEWONbMUUwapj0FgryWEICmi8+3UdoNZ2GPBKnnyS4l9d7nrb3FB2f637NgbvOXSDLOl0HBSbTNE25+3/zbpzIyY0QJU+BLp7b+SD1/JohBymHGe4vlJTy9hWQi3x/Us3w32rWxuUCsX3Ehzz//9K6Cy++1xJh85gs5UWhRM5xTgALM/QYPg980Il7kp0sXMypbFKey70HuLzsM5I6AA4P/sVqGchMSp6omRcONt32/Cgri9Hi8pYXebE7dqHRbyAAf9nKVmm/DzsRNXKaCr+vcKZOJru8SvUfH3tLQB37RUkxWTlRHfxZVaZbdeudENE9MY+xYt/ef8brCWuqwGT9T6e2+bs3ydVGZmdbeKpMeyq6j0wm6PX1XdpjR92Q/8JRKonzFzjN91UE8NypVXaCAuip72gVo2qtXEkMAQPzuyOR3lhA7UbThsSh2gzR5GVmB5gg/MVLtHBtja7wZJBMKrW61Is6YwJMhBLaVsxmqO9FCeTxCPzzMc6hgxLivAsiXA+zz+LBWw4/eKhpxzbYVDwJpPGHwEzbs2zZ4EVnqf/NmFrn/LLSrfSsx6wBxSkn7Sn2Pom5wersvzExtGJJ5R1+tjHQRxrrWBBxCU3w9GL1ffILK0ZvZ71YYjhqQQvek5Cy15SPFOhMWmsqoO4uKgDxLhK1A=
+       properties :
+        x : 81
+        y : 15
+        width : 198
+        height : 25
+       input :
+        internal_properties : CAAAAAgAAACG5Hz7romHVaueLDca6cHjZzFqeHiHg6XfcfUjyGkD8+PaRacELbjN/CkAUtDSlCCiSvtNqwxd7lgeirxSGBjoAB9P2IXd28DHyqaftmUHIu37yrZ2KQttwXdwbmbIJr9PIP5c2JiK/4+wEZ28J+cNxPOxuB1UOaqatbts/A6ZT9tS2oe1OtvTesMGUdqq/I7RVgL2ufFGYxjvnSG4hfHiSVTJf37epSJoxObzIKhvIzs2Ct9oAoTWjaDFVIB6C17VZwPl52CCQ9VfSw+TbfPaIOTRi7Plt1bTnR7MyaQlrVlicK3+nwsmafVLA7pSObwceRu197XyF7TIrE2RREJCHIKiyvzaLOUbiDugptIoq3aLPl/3o51i0+59+RD9XuDq2tNKv3C+ET5dbmuYNdPWj8mYqkgTI1vKHiDX1ozwOXi90sg4or0ktxnLaDquj3xlhc16eyznkBkwng5jBoHyHrxudgCTrQ8TtPRkfXAU38XoCyxa4pR+Ffn9BuQ5OhCDQOSlzgR0M8YljjFnsHzpgjIM0o+2QIemAI3i7RX1ttnwevRL6FXyOb3jLXnSO+WkiYU=
+        type : 2
+       dropdown :
+        internal_properties : CAAAAAgAAACHhdraWlcCMW2dhABkMmx6ITgckw6ZGD0nrjpzSsVM5diCAhYQomfpA6/EhqMFwFnsJoM6pbcIJskUsH7HBuq6vDn7AocQU2Gi8I/gmUOzLeheebaF8eARklTZmYp7t7mKgluAMpngxkjqIkN78ciwn8MQrAbtDIYPPEY3l1rtgt4dyVW4fZtHQJ19rAicbZkkoy7/EqWAWySsFDdFw2Uphe768h4sAQI/q4C1G7wR/tkgakOuAl4vsGj4vwReZi5tBqNs7NF7kEm6NXl/EvCRCEmdG8AoZ+ohGeucHmZPMHAGdHL83ihon7T8qYPaf+GwkJ4bGaoxJughc6xhR4xhdc5sAao1SKtpfpEGd4G77jvX6QjB0b0q1tTB38pjIHNxSUM5TBW+BswG66B9w8y5eS2fyHsGviQFp122TvU8MQM5s+GJUDrzALE8YR2iqF0iUJRKHVyTebBILoa/RbsMXP/wvtHLQpKSBGJvBYJTCaC3YxXUnKsnsvMe9kHOqgG4FfEKQIruVTS9DVFMWuDJkjQNQouwzqxfa69GPYfCb0lg6Sjbdg6mZQccmYCpArhmjyt46Lqv7GvEbnX0Y024P1BCZ21qtlQYLF/oHnlO07XyyvlxmZ8FQY4far7Rv+1VsxDwPfyDuXawwuxkkYK9z536/tQvsQhBzUWw3wwTC5lu4PaBl9O3219UjXzWkg0jqGZcc9k/wvApQQAPQbOLqML78jjHn/5p0oR6I+XWtTJxQ4xZ6RAMv9mVecHRWUP8CkuKiMIFT+qZW6tGAofQ44iE
+        type : 7
+       type : 14
+       code_elements :
+        type_code : 23
+        p_codes :
+         -
+           internal_properties : CAAAAAgAAABlbKQ3EU+YTWvEAS/4pGK1ygQWzJ9VtKmdDhyeGp1DARRhUSEA7y3zUl0y//HYDSwn263LiJnGO5h11QKTS9Osb9OzdzZNiz3LdKztZ4EwJ8VqH20nrTM2v3Ap913JQErzHwBKNB0dbPxGBJ8y0xFloE9VC/0AhdmcfccuCb/qaQ==
+           code : |1-
+            sListePolice est une chaine = ""				// Liste des polices installées sur la machine
+            sPolice		 est une chaine = ""
+            nIndice		 est un entier = 1
+            
+            // Supprimer tous les éléments de la liste
+            ListeSupprimeTout(COMBO_Police)
+            
+            // Récupérer la liste des polices installées sur la machine
+            sListePolice = policeliste()
+            
+            // Extraire la première police
+            sPolice = ExtraitChaîne(sListePolice, 1, RC)
+            
+            tantque sPolice <> eot
+            	// Ajouter la police dans la table	
+            	ListeAjoute(COMBO_Police, sPolice)
+            	
+            	// Incrémenter l'indice
+            	nIndice++
+            	
+            	// Extraire la police suivante
+            	sPolice = ExtraitChaîne(sListePolice, nIndice, RC)
+            FIN
+            
+            // Se positionner sur la police de type "Arial"
+            ListeSelectPlus(COMBO_Police, ListeCherche(COMBO_Police, "Arial"))
+            
+            // Appeler par timer la procédure de mise en forme du texte
+            ModifierMiseEnForme()
+           type : 14
+         -
+           type : 35
+           enabled : false
+         -
+           code : |1-
+            
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           code : |1-
+            // Indiquer que le texte est modifié
+            {gschampsaisie, indChamp}..modifie = vrai
+            
+            // Modifie la police du texte sélectionné
+            RTFSelection(gschampsaisie, rtfNOMPOLICE, COMBO_Police)
+            
+            // Redonner le focus au champ de saisie
+            RepriseSaisie(gschampsaisie)
+           type : 33
+         -
+           code : |1-
+            
+           type : 17
+     -
+       name : BTN_Coller
+       identifier : 0x2680c8790e7da37a
+       internal_properties : CAAAAAgAAACIa3j1ZKdeJeB+vT1f4qupJTO3Su2KWs84YjXlV9kJcHyPCPTAY60t1+HKoAFByta2Lh151IKNo04oIS/TyAFnYtyXM4WNSHJNLlAVckZdTFKw9xDfcSKzy8bM6jvTNhGedSVyQNTT+7OaR0VPAcxkc0dEIEqpuA3l8iaovOgUhA8BHnvGHWGWeGIux8KqNDcX6nHSkFi3GrN8epgY+zdVxMofKw9zAaog1s5HYT6COzVxuohLmLnzloFvrXQD8tSWJVRNkWIBuMLnXM9C++uqeHZXnnXkP8suy0hhPWaDN465gE81uhU8WDGbDH2aPJrkOqBAAeQppaJzlLtug9jSrzRSKVcW9y6ZaNzcb3y7Ph8zYamgarDIxLLNJVnedpXrAqk9XtcNtwp7Oc43Yq5QuoY6gQ6uQ0VEHlHxPaOz69ataWST6hnE8hi3MSbUiZuk6wIo4mKkG4V7aviSD8pmxGVPrcjhSXghmKhUs1bBbaDwIhzuXXGMZA/npWzv2gcNYCbq1ChGZSTcaAQKQjcRqXgakC+NsUEAPKhgBHnxEqezI2uqiJ1xBId112POnLiXF2Fw/7mjyN6cxgJ5aWCltvleJZZjCXRU5wTIc76+a1BGFV5byyPGIxN1XXW+UiVGNBZXLX4A19prB12G6+GEM/JNjACJgK3Qg2/dp1g8hZcByOrAm87YifB4SOzPgxQB64U6S0obseYC+Ia9Dy0A80WkDIESLH9llNKbkxhyMSrJ51getSQlA6rWsg47AXFAhGYaJYtHN3L0/91NFcgPMvFVkFc37NOgN9cTDjRh4esQXCwVRB6d5/0YrhHzia0eTb4dQZlJHvRpTHjYecdUo88qsF5KDoc01/sI5LGZ9PACtAvMM0j5IPvt6x8VBSxDtMyALUDOk02aiMSWi+7iuJQ7cgdh+34=
+       properties :
+        x : 53
+        y : 15
+        width : 24
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            WM_PASTE  est un entier = 0x0302
+            
+            // Indiquer que le texte est modifié
+            {gschampsaisie, indChamp}..modifie = vrai
+            
+            // Coller le texte en mémoire
+            sendmessage(handle(gschampsaisie), WM_PASTE, 0, 0)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Copier
+       identifier : 0x2680c8790e7ea37a
+       internal_properties : CAAAAAgAAAAbo83uBdvu19NlxHX0MBi1p7PRt1ekLkSNquAurJvh9TgR7Q9TTeYAAQlUHXDe19mKiiyzdxaDyl9l1FHeDqNWga5HFdFP0g8ND5cTFuyHHEiCEAUaWB+i6Wh4E/P+qwXx1lfpKhKREtvjQ7vEiQhU105CRPvIiBv4x4RR0D4xYDMQrsbwYO2/afC8M6ryS11L0DToUIsdAsjCB6B8tmntmATVA+7oEmCfLvjREJHtBvFZslfws7kCrtsNFS+iM2efvvbopRAaHTkzZAoSljinE9rmyZvVGuvFS7iPSId1oe0HNH4AmL9wa6efB8kYfmbMHpu4RPQw0reaxmFaoggRmfQgmuBvwr5PkSToqgEsK+OLeMB6yuOsq/YLgfjN0AmLHbXwaBM7lYtdkXkcxeBu5cocxV8I90kY9Wx+MeDsp1ZHWIVW2pIYAL5YYJxpmIhRi5OeOiCAkeJ35VUhVnJU2J7vnBxsuNCFB7Tt0FPjsUSjNllmdtYqiJ7H0u0E+ofvPfTtDIEHYTpHBP33vw+h0fcYYY241Gdi5fJHv4z/Xk2yBTiaN4BTODbjxOTffvidoj9P2zb4bKhxahVI0HRX6MJ+4iCYrpZSHgpl5I9yZ67Pxzul+o6+P3gdSOR1GKvUF54OsXEDPToSj34T6Eeyw/2Be3wsM3/INtPS0AGgqYWkctMMSKt+S/02Y3vavfATMu1lS7lipTC34DF0evdqlXRKSYEbUQ0L736mkmf++xrmZQ2QkqX/E/GGFh3bIsqAS/MFdlhEcZB/iHP/YHDPfa08s1CVTyuKeViNLDfLCxafnaea7aVTHe3IEzJgq5XGiocNksdNGQhX/RQ452WdxriANCUybQP5A0qdjn6fCMQlgI0T2IhVvbFdiQ0RpK1K4FV+5r9kKCj8c4NxlObRDUVn3et8IzEr
+       properties :
+        x : 27
+        y : 15
+        width : 24
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            WM_COPY est un entier = 0x0301
+            
+            // Coller le texte sélectionné
+            sendmessage(handle(gschampsaisie), WM_COPY, 0, 0)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_Couper
+       identifier : 0x2680c8790e7fa37a
+       internal_properties : CAAAAAgAAAA2ts3EN+tj0QkyqrcDPDKoYqOcEWhgUpndpvETpQEblHxWMwISzxFukvI3xU4BEK4xWeCRZn3GRdkNmmMUi8oQ5fWSfqzf1GDj6fbX4kvaRvLXVYJRIi9bftnXW0+nujWi+VUcCqfzWclFi1Xq01FlU2ja0c/dd5C968O2KKrpJVXq0o4ieKWGq1Xj4sFq42hgHDjPhDUMSsBg7flOMEwoV52QJ5/NJrav8U0B/wruIsaODLhzcX3KZdyqY8oXCt4mwhIyTHRvYAPq1kJCq28URdjlozn2Fj3BQJld30dIzTNctM9OKWTMf6KNr4Qx5x0TtIEmeHK31fCujVIm1g5LQE2mYccUyIODXeuG1xitqQxpGaZTZIeeHcWmYYGJxTq1053Gq5piP+eeUc71s+UskaP/O2/38ui2hB2GPWGwkOM1wVQ8LobRX/ilOFrqs1FB4bnXFV3JPRwVVv2UAC0RoqDtIj599qM1O5zknYvoGmDvxsOMNYpBAiAlk+AkO6jH1WDV4M5LMo45Ul72A0jUPUEu34dn4KpkE1wY0q6gnf+cu4CWLky0jKC5H0ElrXXhZgeNbXV6IzD/HLhZJNEsikTcCqT70qtKUABINSMb4Kyn2zsJc9wp+/iJJSOjK1y2Xwq4r14/LnqKWyVsEtyjow+HD4wHWRqKnK3bs/NfqNOgClNYdbPDrZN4bLakSqc5EsE5G4h8BrYTKMofZOJTS5hCy6cmiR5voQwll8UVkDjmuSMCj7NoG+UedEDMUM5K9yAVzzukpJABL9FTsO0IsLR3Owkv7xiM5utzaNG2vjG7Jo3F6gWM+x6oshNi8nzkcJr8V7lyo7aawDim5hbpZ16EM7rgszAaADWipIYgcRhrfB4Y2Ql+whBD8VMkrncdXj98nOM+XcZAt4HFq3akpsQiRZBqrQ==
+       properties :
+        x : 1
+        y : 15
+        width : 24
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            WM_CUT  est un entier = 0x0300
+            
+            // Indiquer que le texte est modifié
+            {gschampsaisie, indchamp}..modifie = vrai
+            
+            // Copier la sélection en mémoire et la supprimer
+            sendmessage(handle(gschampsaisie), WM_CUT, 0, 0)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : BTN_StyleGras
+       identifier : 0x2680c8790e80a37a
+       internal_properties : CAAAAAgAAAC89Sw2HNIFBWyY5gF/IakUvHNgNBl1N9XAoXuSSf4TCRrrB8RgAnVf29NxghDNkJ5LILSCunrZtynynrP3AMha0rHFZPlZA0+kNcaNNwuvZuvD3+Lsjj9fhKEk12/HHwPvPItLcbgZNei9+/vx58LZ/aCHkU/PTsmcop9Q9udy3OR+RbqwhxeWRg+De24qqA0bvF6rnvRGXf5RehvrG3VpDqCP0rYiiKtC5/CA1/P/Nuw6Gn+ZGEObLzsZMK3sIH69ve13cuKAiExiuVdtIs+obLsTKtSxaFepXxJwoIp7+9C+49FFZOvwVlvBsKhvFb/pk+wgZbIB4GSrqjQq1e4tifvuRDWReDmyMgvuh9TgH6kIBCeUxzADDtyTDWVgCTW4T+U/L6A/b714iKSIO8od3ngLAVMP+s4t7F38mBfRHfFAk7V8WlLs4mf10Q8wggFYBKNyKkSIu5H4O+yoDGY0bk38z6BjyHPwbY+Fwo4+CTKG8k1ryh7xbITFfsHCkG3MTBqhcpoxTBTQ0HtD45+I+prMO1TnIeUZHABwwx7BSHYpWpWCh9m4qimVUABCekes7Qwm+2TTWodmvZhjW/Sk8EIJedjYp2JRlilCsZnuRAgvb42iIbQYvNdw8aCmfvwwEzUX1pU7MKjAbYZKidKV6ZUvgU34smloKFmI87Jwrec0L1w0bv1T+PqDfy/PmObTvmDZf9bIIGYEwzRWyTvGJTmKNudSYYXdS5hBWI6bV6t7etrRrpwlVWoUnCMbERexuICob6OH/OMy2q3RxCq8ecSS4GVn5k+/NmPQrRGTIqkLuc8qEnyN6NoAk7qIv2XBhyxd+eRDDnXsYfa8qR9GRIgZsEgzqytKnr/LneeXbNCCKiI13d050ERgVnEmVdWHjoBhQi+NKAlT2CAv10comrv9aTK14CwQs7syxRGr
+       properties :
+        x : 358
+        y : 16
+        width : 24
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            // Indiquer que le texte est modifié
+            {gschampsaisie, indChamp}..modifie = vrai
+            
+            // Vérifier si le texte est déjà en gras
+            si RTFSelection(gschampsaisie, rtfGRAS) = faux alors
+            	// NON => Mettre le texte en gras
+            	RTFSelection(gschampsaisie, rtfGRAS, Vrai)	
+            sinon
+            	// OUI => Mettre le texte en normal
+            	RTFSelection(gschampsaisie, rtfGRAS, faux)	
+            FIN
+            
+            // Redonner le focus au champ de saisie
+            RepriseSaisie(gschampsaisie)
+           type : 18
+         -
+           type : 161
+           enabled : false
+     -
+       name : SAI_Texte
+       identifier : 0x2680c8790e81a37a
+       internal_properties : CAAAAAgAAABI77PbxPkH1xSPdElDOHEggyNJLMLBA3AeFDFASqMFqshAlMaYNz+ld6YUCdKEmvcbuGMT8FZ4XVln38fZEM3R/HG81ggOd7bexf28cadfKKVZwBCNfBy9G02dkrewtBGKDqlcYT3ahbkd1DBpluVlVAMoUTSdsbM3k0TZHaEzfS4v01ySf3iCUH2URw9igFQlVpdsWvW7ZbkDe/YfaOTkLd0PP+rRulkP8MbCIPRY4zO5KDsOlyBFWvdO5z/OV/EaQPY2r27tzFWsD8C8jVW8uiDAZ1pghYBjZP+5L8ZeHtSa2kL0Kvw35GimGXTtb29JJ+/r0oDG8mBWgsZwBOSTyQgoIaMIkxIELKDW6HBrklcBK4J+k+uEdCsoCWsNCcmqsPjNc9/zRn/n6ZYHWbbjEfXDQlyO3oUGGabXTBbKjRkAuKcnzDPrcL/GWRhvgkMj1+j1juUHwJniWlWbdsQ3V9Z4DLriHBm9uVlWYcgnbmqbYOeX0XnBPecfgYNpECmhVoyvRHKxBJo0f8tYV2Z3jnADY+INZ3N9Ytulu0fSgd+4e/hyB8IxoN3g9ZV5qYevZ2Ytdc0o1R9nbbLZmu7YGmRQnyaEzZpO0Gnr8u3OQzpr1ScEpC3E5F5upLvTw24zesDp58S6GZwokM89hgrh6KC8qVclqfgF1nHD0x6S0xVqlSnH7jAZZewGbSG2E9lvtbAavF7YqZGTJDX8hP3sWu0KwnsB65QNfcxYGPFETRbUzIZQ2xp5Mbj8aDpkgDbLo75LG+YqCwvnQmxL91+QfCTIPTnIJWsz/CqjTYXwKwO1Nxkd/ma0MIrE6cJ4AZyjvrW0zPV0uecIrRrYYB6WwBSrrhe2PKZaXxWu6M1/nknFk7+r/LC6nWzyygc+b2mR81U72dLunv88EXp1IjFwiu8CQUm1uMtGIW0/gxUd8cZ2nKby9Dzh4KVx3frNbFzCrcSoWf5RenEkk/RmfYRxC72OXuxPG39NKgNFSFwFlxHMOjUbQUyI62am0zwG15rgoiwPdSs2KhpAMIy1cJdIUYxGs604md13ZucFPMqKjVhm+mus0PtxAqEbiJLIL4W/p/970Dwf556QC94BS26phBUi9ptVuQfGtpRzvjbRygDU1P/mH3po5eQTSRMOs17NMpy797OEq3uCUPcsU2akMCfl+Gv5ZT/iXomM4Gl/Yxx8rb607SpxuOBOeR/DTYFX5sDfxlZ578wuB6GuwP3qTZNjQYH5ViB/V62BhGKYBFs54OWvQV8YoWhdi4Xi7OZTIXohLVnWkaJ+lR5SWYNSPNIB09EfEnqc0HhiCoWutiVCOBrHnjMeXZVc3yPg195N4MTqZUa9/CAd3nVYR9s4HmQfx2M=
+       properties :
+        y : 42
+        width : 574
+        height : 86
+       type : 2
+       code_elements :
+        type_code : 3
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+         -
+           code : |1-
+            SI TexteHauteur(SAI_Texte, RTFVersTexte(SAI_Texte)) > SAI_Texte..Hauteur ALORS
+            	// Afficher l'ascenseur vertical
+            	AscenseurAffiche(SAI_Texte, ascVert)
+            SINON
+            	// Enlever l'ascenseur
+            	AscenseurAffiche(SAI_Texte, ascVert, Faux)
+            FIN
+           type : 15
+         -
+           code : |1-
+            
+           type : 16
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           code : |1+
+            SI TexteHauteur(SAI_Texte, RTFVersTexte(SAI_Texte)) > SAI_Texte..Hauteur ALORS
+            	// Afficher l'ascenseur vertical
+            	AscenseurAffiche(SAI_Texte, ascVert)
+            SINON
+            	// Enlever l'ascenseur
+            	AscenseurAffiche(SAI_Texte, ascVert, Faux)
+            FIN
+            // recherche des smileys
+            RechercheSmiley()
+           type : 17
+     -
+       name : BTN_SMILEY
+       identifier : 0x2680c8790e82a37a
+       internal_properties : CAAAAAgAAACflHtd5bkvtFXuk5WDjYQTa8r7uVVS7znhAPJAUwijDcJtG4FkaG0/KfEj24nbVZRHvI0JpilRXk5bHHrLqe3yjVGXmuqyW4GuBPrhbALsrzECrXJHgt/jSxAE27GtqpYDK67FNmakXnyHJ0JQFSlaTdcjnPJqOLmJejLFolMG6HajUl1a+FRnwLRJloEIeTBWjy5AMNsvRMT+Kc4jgcSQ5oU+IQg62t6fpNHidXQDqPcCP61CmNgeccPJQucabfjCpXtA1aI4tyAdUF+PW7lx0ypAqIAGJ62NDArrzc7+avV/b30S4Uhp+Y6QwFWzSSFDoQtPxKVe4ICJy5QEpSivjzfpkM2HVw3XbUa4aKs0XsCL/6EhPTyqT7JGd37Nl2pCruBdnU4L79nproQzh+gJKGeDAfZsd1TQIATNKulHNzTm6DnYqLPU+tnyQtcAVRs3cpqIzfL8GYMNIQvrnzOXH33gjc8exZa3xPCI/CBiHEr3IajOh7PW0DHijnGjQSoLyDCrFOC41OKk/jTCVVzsyvK28WvInZDVR6e6TLFZguUCRu/J2rLlVQRtUyZg0cM/PcNpHadHe6YnY3o1ZLIrwxadvQu7K+vg6B0iEX/g52XdDD5w6QdfHxgcqWXl5t2pIhb+mYPBOTOZ2T6TxSR/f3g9cxSCFU/pQWPU48DZCuxJpyeousJtWN1Zd081fj3sXB42y/+Y7S5TpeYKz/w6ITo9HpdWI7tGi9LttFYDuoACg5S3xHpFDLrU+kS/4O9G2xUSjfmJQiN60Bl37sDreJ+zaIMOYMJWO1ic6hgNsqRZNngNeGL1OeP1nBuNA+YF+xt+tolsQ1JzHym5Yd9kHrGPTvG+cC4IRBbxbh5xMFh5mZJBP8u3qWc9cCvBKipo8PZHD2sKoMOEFuoZVmwWktOQPhNSYIzuRc6TSpabpUov2KzKW4G+dMaWU01CkNpwsHw=
+       properties :
+        x : 443
+        y : 16
+        width : 24
+        height : 24
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1+
+            sSmiley est une chaine
+            sSmiley = OuvrePopupPosition(FEN_Smiley,poSelonChamp+poHaut+poDroite,moimeme)
+            
+            si sSmiley <> "" ALORs
+            	// recherche du smiley choisi
+            	HLitRecherchePremier(Smiley,IDSmiley,sSmiley)
+            	// On met son image dans le champ image
+            	img_smiley..valeur =smiley.SmileyImage
+            	// copie vers le presse papier
+            	VersPressePapier(img_smiley)
+            	// On le colle dans le champ
+            	ExécuteTraitement(SC_ChampRTF1.BTN_Coller,trtclic)
+            	// on met le curseur à la fin
+            	SC_ChampRTF1.SAI_Texte..Curseur = taille(RTFVersTexte(SC_ChampRTF1.SAI_Texte)) +1
+            FIN
+           type : 18
+         -
+           type : 161
+           enabled : false
+    type : 40
+    code_elements :
+     type_code : 34
+     p_codes :
+      -
+        code : |1-
+         global
+         	gsChampSaisie		est une chaine = ""			// Champ de saisie sur lequel sera appliqué la mise en forme
+         	gnCurseurPrécédent	est un entier = 0
+         
+         // Récupérer le nom du champ de saisie
+         gschampsaisie = SAI_Texte..nom
+         
+         // Mémoriser la position précédente du curseur
+         gnCurseurPrécédent = {gschampsaisie, indChamp}..Curseur
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         
+        type : 17
+     procedures :
+      -
+        name : ModifierMiseEnForme
+        internal_properties : CAAAAAgAAAC4rglXuCyAiSi23Ib+QG6Jg4MuaryXygl+4+G17GtpWhyrOQY9sAvl4LRwjC8TQcEq5GV08FLprWZkI+xTLHMDRVlJmud63OyAmXdkaq7gVCElH+giLPJ8Sd28EcPtfFfVAwiLiU69LMF9/46UJByH9OvUO85+a6P+Gjk4Wk3KPXMCpwblJ4tdGzqUP3duOk0KFLiSF6KTjRgOydWZlGidrA==
+        procedure_id : 1621516287879652203
+        type_code : 14
+        code : |1+
+         Procédure ModifierMiseEnForme()
+         // Procédure qui permet de modifier la mise en forme du texte (taille, police, couleur, ...)
+         
+         nCouleur est un entier = 0
+         
+         SI gnCurseurPrécédent <> {gschampsaisie, indChamp}..Curseur ALORS
+         	// Le curseur a été déplacé : mettre à jour les infos de mise en forme
+         	// Positionner la combo des polices sur la police du texte
+         	ListeSelectPlus(COMBO_Police, ListeCherche(COMBO_Police, RTFSélection({gschampsaisie, indChamp}, rtfNomPolice)))
+         
+         	// Positionner la combo de la taille des polices sur la taille du texte
+         	COMBO_TaillePolice = RTFSélection({gschampsaisie, indChamp}, rtfTaillePolice)
+         
+         	// Mémoriser de nouveau la position précédente
+         	gnCurseurPrécédent = {gschampsaisie, indChamp}..Curseur
+         FIN
+         
+         
+        type : 458752
+     procedure_templates : []
+     property_templates : []
+  -
+    name : BTN_ENVOIFICH
+    identifier : 0x2680c8790e85a37a
+    internal_properties : CAAAAAgAAABlBZShSMaCBAAmiKaia3CkU2HBgRY5fnUNF471rvxex3zuwKZwBTTWnHEs47dhQsBI8sQ0/GTU7bwDKceywYAgphl7kZPgP3fbr06eJiw9HgB1CiYJy7R5c7rwPc+0stMPk2xpwv8O+04pYvNyZjsoQgjJKbqERLrvM7SS2UKCgY5ddk3ILQjyzBKQ47UyygEmjU231Yu6AR5ZidOwJFx3oEb7+Sf1otwmiUQd3nRYwInQS4iRF820HYOu2T0Q/9r8N0iejGt8qofAQG507ARVuNplNCmfy7E8FTJ43WC1Pa91WNa4zTauMCT6I2qCsSjpNRVX+ZlkM+Zk7H98gvTFqz98f81uDwx5zEZffkI1IaqqCEZyLwRwscoSlvjpep6ALOs4o+MbuDbRMzOPKygIP8kyZNyy1W3cGEUDFtQ8xGbSsErFGMiI+bwZTyAS6qXKQ/BVqiL7mXVcZDyRKPSRJWp3hdvqh7+jtv+9bpiyQ2pJGAIQsjruROSlDWzmh0j/5FM65P7zkHqjOXdYtuDBNpFkxKE8CW7/I846jyTBvQMtfOtvSFvFBYvkp0PC/zqziEe4BLDlkpeTEo4k8eOHDdFUFMPxCZBKz2RXEuGdxFcqpcmRE6Sl02R9U7LNx6euTx3IuMinWWWlAypbeVqnqDGhRD93ImwB1UmU4MccT/Kk7VdyYs4/72RXFI9Tv3fsZJXuCA7FTHGNzRx/0QQrjovddBQSaLCfq/xdhQA2y0LJzqiRo5p3DdN2gp/AGXH57QoRTg06qr/Srf18nf+ucxSeCcFTZvBNpcJUxOz4D0Aoo8xt6V5e0dV9ApxCCtlGeeXe7bT/vHAc6pbjKYUdaWL1+HHl0tOQLI/Kbfcspll6y2Lp9bCb3/cApKhM4fy20JgV+Zm9IqZxzw5pmlgqKPz33d9GOc3AWlyP5K/1+3dln3ZzJroTHPHn2no20e7FtL18QoBkQ90Z7IpPPBlJz2qw7ZTZ/YRwmoBy24P5EME=
+    properties :
+     x : 431
+     y : 9
+     width : 159
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAACZW0zHL0xtRhEaV1jEz85fmatunFY3xzPh2FOemLVp8Wv+YICNKr3RUhkPRlRqIxypnFhEZsqVSVHA69yRr1v3nlZXugrn91l7VYVz/wk9RYSeh05j+imoKyu4ExD4uGOi/mIoR80o/PLEZT4=
+        code : |1+
+         
+         sMessage est une chaine
+         nRésultatTaille est un entier
+         
+         gsCheminFichier = fSélecteur("","","Sélectionnez le fichier à envoyer","Tous" + tab + "*.*","",fselouvre)
+         // Si le nom du fichier est vide, on annule
+         si gsCheminFichier ~="" alors retour
+         // Blocage pour la taille pour éviter de surcharger le réseau
+         nRésultatTaille = ftaille(gsCheminFichier)
+         
+         si nRésultatTaille = -1 ALORS
+         	erreur("Impossible de connaitre la taille du fichier","Envoi Annulé")
+         	retour
+         FIN
+         si SocketExiste(csNomSocketFichier)=vrai ALORS
+         	socketferme(csNomSocketFichier)
+         FIN
+         sMessage = csFICHIER + " " + fExtraitChemin(gsCheminFichier,fFichier+fExtension)
+         gsNomFichier = fextraitchemin(gsCheminFichier,fFichier+fExtension)
+         moimeme..etat = grisé
+         gbFichierEnvoyéEnCours = vrai
+         ecriremessage(sMessage)
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : img_smiley
+    identifier : 0x2680c8790e86a37a
+    internal_properties : CAAAAAgAAAC2B0x5n+72x380fssXWIxRTOKbaLnGnQn1WibWLl/QbFyy25rqNKX/G/mqSuPb6VgYQQc+J5ob1D6clrggH3PQ6aj4g6VxNplvW6zuvHtLeEhPziGhhvVbSeS8ea22m6ifq0puHmSa1p9BwPcuvygV4BBVRbhIJDCapfunmMRQqilIa06yIqTzD4n9YE4YPm6yzCgK+eOZLbvaMlWBV2Te0gIftm1qnDv/YwSpfpYwklP3uyRv5/ABAPSkN8SolIgzHLi9V9nKKILYCmLg7hEAoW+a0MgMtUr1vqzEGfPpK8vZnP3cAcMWVk0UE61He6K7kL3MAPK7t4Z++JP25Zv+WmsrWzQa35CyDZ/yPnQpN0lMKNEwEWCEqjcgvwsWiyYTckWrj6xkt9Y738oOnalm+Rc5AVBLxyTPFNlj5z0fi1TGYyOabzb58jYPzf1k/LIPUauqcLZRqsTmuj3rQBcT0MaTDIANJiBekrFeQGyfoVUc0RoWxfM+B+YUiYAjBrqkzkKIgWGO1K8aX9a3+8Dh/RE2VE4pjA1KUGOKVVapiPFvq0IRXKmyB86km2fHvpG2nQm46rDMsbI2qOM9tkr3PUarWtB/0a5nM7yE4ENEUBBo9J9LSAelorGELU/3MsnG2TZJ5Lu3dZqxOGpmSAxvrsEw45PBlEusawLVw9QkGbO0cuh3TdaUNGqt2N8VNySSgIoQPfyI4FaMgVaz13TjYtBg15dBvmBNETiYbXGf3nBBFo3nUhSH52vGplJmycBo4351lM898nn4iP3R6wUAoCHkj8jQxJG6G+mWBlOEhmnyEYXpBno+xc/+McSnKXDXnaLyneN+HA2zGfZR0SWBzrp8uJvhvXhZhUKpDQ==
+    properties :
+     x : 647
+     y : -21
+     width : 19
+     height : 19
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : SAISIERTF
+    identifier : 0x2680c8790e8aa37a
+    internal_properties : CAAAAAgAAACx+l5Y4naq9Kt7LYai0tbbolpskaNCerreGZgU6lK+zHYvxE2gx+PY+vdKEPvV1Ux4IgEjDfdtGiKsGpqDdO+ChZPixEUTESLmeHEFNgwxEu6ksTJlIWsYeREDajo26UdjmV29XfJstUcwub6yHAvd2x122xTWCYcU2ClSkWGlRNByDI35f1mNK6lQ4Es16plcjwQr59glfMebURroHjNP9Xv4a+DSZA4TtLB442cr1L/rhLmBc9sG8J3n3prJxjKa7wLZhKar8zI6Mds69w1O+rqkGgO4j5FFn/ABY//PR6eXJd7MAs1GuAoQ1QlW49JU29FBcOLcKSTvQOqCl0EJHWg6eji5L4Tr/06vC41tJOYOElwC9TinCX0ZiqvszJ6wxYkqS64oWfx+UI6g2bldgn6Fi1dIuEK5Ct44ZPlaM5Zk1mIrk5jucMB7t+rHSjCS9dOMhrYZSDkKtAlICg2VXmnYrEYaNDjMe2es9CKVLsoY7+5TlI9sAfimG/i+lV1mWtCC4SNsgzA5B7BER0BtvItUblQQQmSHTHvPw2Ek+iurxXCen64PaO8FwwQ/nHkLBRWhErAzVvngDFBzHhJ4P5uIgciIigp+3Tc/LfUq0hvjPrroXBiyrQvq3wtqLB33mUsBKAYMx89snFsRoFzCTBLuyxZmqgqRrAgp4f59yzfMEE5BADtcqPYz4uTZ4zi9VvJuR9b5B4a01E4Z0ZenVHwHcpsn+uCizu2Unp2HeZV4lzxZjcRlSMu1KF6+4Qyescvak2g/UfjQ0cSpd5zn5TVCBRA3P8Dp5q5mdIyLm4Cs7V7qFhwvcUsCSrPClmw4nrYRXP0VCRxaPVH3JWiLFj99Argd0P8Yg5dFgyY1p4W08zGKC8iVF5oWyUT76fzD6t21chGYC8t0SxN2m899SPo28zKU4kIS+cem1sQ/zIRhDoLvU/b2bT7E54MMHnVK+NiQ7nimjOd6j21LuErstRKqBB0y/ZR3MNuejfFZQguL+OFH4YRsIGdVdSbukCKryl08fQFVfhUf3Vg9unQECFZb7EW0JsdFEuhk8CilFyHqHUUPdxFRfi9fQczIt+yvcfAG7R/LXJOTFG/nLum99xbF0+quWuTK4i11IOga0g9jqS+QKqXccHA0u2sskD2ectZRjp26ZTBXcdz7Lir0257Ys4eUri6Kk0NBU3veuaRgF0CqGIGp7tzNTILML1V+ZvtOipYxUAlb5YYtDX+9S+W2DkjImejBxFPnjnHJkljwJt70PMkhgMZq3/aJiVZyGaN2oW4/JbkMxsL2bHRFo1aOBhmk4Lu00h1VG0BxB96RccOFYX7mwHNfl18l8Y2gATE+mWE2TK2qM68+N9DfKqLwIkP4LN4kc1ZQTrVLwcDdhw1OVQ==
+    properties :
+     x : 640
+     y : 6
+     width : 276
+     height : 22
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Envoyer
+    identifier : 0x2680c8790e84a37a
+    internal_properties : CAAAAAgAAADuvS+PA5SZgy5K3GkE7hfmlBQWIfH2T4w+0Qnjseh/18143lIQzg2RAkHaP+BrfscaQmrOROZ0lbxSjmgEFLzuzV0nPQ8Q77K2IAQMl5b3RXFrRymX6/qpGn1uTaSTa8BugERXXaGvl2ACDtaWpVL+9ezxJUJ2m0xYvExJcncGz4tDhHL+wvzgWEgvbNNSGQnIjWgLAvtDvPlNzJW/vxTlk4VMjoMWGnPRYl2mRuy4BiFZhbBWX9AoQQdBgF2vrIyvSwOCF8ODXr81rDK2HNCRVTB25zs6TXwAo/L0CcngGkjV2R2YYlBBYG9HoJHxXQITJVhGFDpfq+TW5ZTw7zlkuA+PHXonZosSeUAfXnVOUfH6dHNC3DA3vJQgLIJD9JI8vJqMqtv8wPONH5V0jBT5SqXktOSYFwBgzmPDheP6b6N/GO8o6vAhh7U5O1Sq3+92/JzTry7RKHLkrxdC7+hmU08s54oUocqg1pWqCh/++hGcVu23iv2JiYLRnOnnYT3J8UWaWk3WwS0lendVUKduSVeFviOE91zz5v1xOGmNe2B+Q0nmWVAxn7J/FBIBy8C5BSe2Z5QD0Dqaddb6E7peKdhyDbLRaJzvwlgwFD3s0SW1xax1E3vgEEiyD+3FZmJaVBHjhafOlprd4hkrYZqYA32b2QLz+sZrc+AyppOBhE9S5vJmTrtpGzYNrOlEHqJiz5WSUYWCb0g3VhwSEGpQFajtg96eEYDjYnUQq+P1iwQuBE7k/XvUr0nDP5zXsWyRgyuXp4UKrrM8q4Urg0nVmEI84rzxX0RVjv+Axbts879wYbbN0cKA5BC2eLijam/ukT8/Bx6xlq/O44MxdNSxonKsZ6KV+CXRRWDlozKY8GKr+QWaJiPyPCdfM4k+Ka6tUdym72x88a24RqsYW0uPaVV1b34m67vo3wagVk5ISx4hMAlK1xar+yogNGRdETP3RGAUD4g=
+    properties :
+     x : 422
+     y : 369
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         si rtfverstexte(SC_ChampRTF1.SAI_Texte) ~= "" ALORS
+         	retour
+         FIN
+         
+         // On envoie le message
+         EcrireMessage(SC_ChampRTF1.SAI_Texte)
+         // On vide le champ de saisie
+         SC_ChampRTF1.SAI_Texte = ""
+         SectionCritiqueDébut("AA")
+         // On se positionne sur la dernière ligne de la table (correspondant au dernier message)
+         TablePosition(Table_Message,TableOccurrence(Table_Message))
+         SectionCritiqueFin("AA")
+         // On se repositionne dans le champ de saisie
+         RepriseSaisie(SC_ChampRTF1.SAI_Texte)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Quitter
+    identifier : 0x2680c8790e83a37a
+    internal_properties : CAAAAAgAAAB5++pxKEi3NlYXIp2Uuk/YQlVx1k2f2Oku45En7gO1OO5lDA88votOntWAx/oW8fx3WDc8FzEfe5FMTMM/HLUTxU6e+N/n7jphbU+XBZa11aHUp3/t0fsnBAhMdgkP6xwb/jCGr7XL+hZ5lKaD8EAcGTRLzXMFM6eQesuflN6tsxaZTKZZIDftOnSCRKsCRI4Lxuv7iXWiSq8s0Y2izeP5/n3glM3o9LRoqqMsLEdGePe3mISEyiNtQPa0GXY29v5KS9q4oQprqBeiYuJ/b5hbweMWKIvseKo98g1kkM+9ZybeyTRD385IaIyA/mprpX5QSBHv9EMy6FP/DHZYoUVXkxCKf5ytVy7WPjZKpiYWs3W+mk3L9yd2bsAO0dJbclJ+CddzINID2IMFSHjMVJ8v1/CwvCKe9UdtWbCxSzmf1EMj9FGDlPq/ZmILDfTSEWmZlxpzewTtt5eB5Ky8M9pHNFj40pXYAnDCsyNbkEjfftLEYZZ4DNNbYuUzYYzuRYtGXd5UklhoD3/LQdBx/BUvb/zB/Bo7a6BBa7O5yqr+0dMc6gNrDBkFfuJNfy3+lw35jnfWnatL1BlRGldlehUjVimHTOE7Ky81WG3DgcHpc4U2+/A5ESOVc8EmqmcQNNGTyoHZSPM9Er4K8MrcQTZ3Gp62YI4wn/aO0CbWCpDpozcfGU75ERj8xYYoYH/0PeM0huIhtH6fJpBq1rUDNvw/oXc5qIgXb7QX9tcb5pz52vxEXeL2G7y7LenslWRdDMky2K5NZc8bo5jhn7fknAV7OT9KLObsN17BIK+nSQlBGupFqQRlpNHggjf191z9LuMF9n06pDXC9BE7Gihb1IJU92pCB6hoL9kbWkfcoNNO14G6WxQeiSPh7mC5CBo/9IUMG9uWIVH7V0x/BfhSOafk3AEKDnhLY3TAnIjWvhEG5rZr2nwJrX3PKKf5IxRm08dnz+q1rYSCS7gyDehS4qqJ+GWYqU2P61s4qnw7q6QZac2pRL43K3ncn8TABmI=
+    properties :
+     x : 512
+     y : 369
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAABpS3y353xlBpEaVxiEDw5fGWvu3BZ3BzOhmJOeGLXpMSv+oACNKj0RUpmPhhQq45yp3FgEJgp1qXHgy/yxj3vXvra32qrHVzkbdeUTH2ldpaT+Z24D2okIy8uYMzDYWENC3kLI5yWQLCK0VQ4=
+        code : |1+
+         // Demande d'arrêt de la communication
+         // Demande de confirmation
+         Si ouinon(non,"Voulez-vous mettre fin à la connexion ?")= oui alors
+         	// Arrêt du thread d'écoute	
+         	Fermeture(Vrai)
+         	
+         	// Fermeture de la fenêtre
+         	PostMessage(Handle(FEN_Dialogue),"FinComm",correspondants.IDCorrespondants,correspondants.IDCorrespondants)
+         SINON
+         	// Reprise de la saisie de message
+         	RepriseSaisie(SC_ChampRTF1.SAI_Texte)
+         FIN
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Jauge_Fichier
+    identifier : 0x2680c8790e88a37a
+    internal_properties : CAAAAAgAAAD32O2DVqFplGlxj0+VUjNR96lsNnOa6kXo9g6R8XlZjajCSUR/BvamGgg3HFR0M+FyODgnJltG/wHQllhN41Cu08vRY3/NTJ/KNZJFyaWqxyX+TkFvizznGAX1OJwX5ZK1pNRtC2XCRoyOBd9IA0vNwBXUeifXtD2SVVx1yyX4Xh2Z93Fc1K1C5OPK8miZURBiNQ2XR7jnqAkrNkpg6wKH/qGPdV41sm+JcTF68Nayol7rGg33HoE21ZK9VzWbQNh4cCO+NWeNr9NJE/nl5CcthasyF5OpS3/wYdN73YvhuAeyzaEsaAHAtmDg5AhphYFAbBMfZUK2c07li0txPdVTyPuEXTU6dEFM3pXBXjBvIQuk4z2ZyjqOrTb5z6b/InTwtnD8HBq49DDAv6teloInFtkOZau4CBS9+3pdsV1wsSnxokqbbg+eNBF735ppVoKx9cCmuGGEU/7idfKsTVbEXsH79lJEYyJYJks8U1Q6jJ7EH4veIX/C2NqGk4ih/OxmYequKhWmfHKUc6mILtTEKi1ZIiGv4H7uY+iih5C7ppiOnYHEVZJRm7oBa8ZUDndkKrNKaoZRcnj0Q6a0huE0lsq18Lj5GtVmFtOqagD6aTUJ7fqq23GE8KmIYskhhhJJT+yCB29zFXjV3Si3t6OmzIXkkhuizkAaNamGqyjk9bjpvlnewt5dHRlLw4P3l5Q6PvlveQHvNM371NXckpPDBmmPREZzuqo04cyeZIsWc1vQo3eNHDL3DU6nC1eW/1KH+WCE3Lzodx59BXbfQOn19gNwwW2mM+jRLyvahgfuSCXTv34wW6tNwpI9o/aPlOmYikzRMVx+hL8xkOoB9rdXk1OmZNA=
+    properties :
+     x : 17
+     y : 370
+     width : 234
+     height : 22
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+  -
+    name : LIB_FICHIER
+    identifier : 0x2680c8790e89a37a
+    internal_properties : CAAAAAgAAAC9e4gxJ6p7Rqi/wnK7gqAZDV0hvkxaV2UlwSGN67bTDGhKi+lNrl1b7h9ZHbLGDMJ0qdLjIEBE404GFyjg9xqkPuCeYeM7CHezXw+MdLL8XwKMgWBRDmAm01J6A+n1cgrShjkTqbQjdw2qmuf8XG+IrBIedAQoM+I66KTmoX0I5vEQhKMH+uJ6rfo4Qz5C77y6N9uE/bJaGI0laN19ogQ8e8t2w0MDbkt4dFzMxs692OoTj7suPrVwms23trjV01en3olKBqeiO+qyFZO0D89lZH6nqPKfhC8bUQf86D7C79a5gdVmM1Um0gUb6etvtNIL2PKb9YHlqXQpCPYbgf9ERTHuHNw0GN2rlpXJ0QbK/TnnuRPp3FWwtgdAWuRPVTKEO6WfgZiAJEbgRWmqEzFmutUDwS5RLdMlubQA3ko3tbRUtXOTsasEH+0Ydbnog3JQXeeW9XNlpH2+CLS95pn+MSy/Vcbh4l5hYmcmP+CjoDEfKXG/bLIsaczjzdemU3Tq4iaDiQzjLtdH0Ooe
+    properties :
+     x : 18
+     y : 356
+     width : 234
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Annuler
+    identifier : 0x2680c8790e87a37a
+    internal_properties : CAAAAAgAAAB+fhHiPRzwO0C892luwHoB1HbZg9CYdsF4zr+9V6tQ0aBE/QNgqE4uzwdZ8Kk0f+nx/Z9DDe8hMSTnuSmFHABjp5yU/Oy409ENLSeIhFNhrhUYzxfvMiknBK6vOreftya88F0/UYatje3SeFWzXblrIzDsZYw8bdYb6HjLDNrxPjafhvnB9vklcIxyM/c26MXCQQxvG1c7RHLMYddhGKXnGrKdRLbNVWA++aarTmU+1r9JiRvN0L7eCJ6O4pDfRkTnR+uLmJQVlfho9qL8Y18LDNugzJzamVqbBmN7vWKvx4AFD8CW63De6Y9e+NmtsvBWphRNbb0x32HUgXxFlVhOMpjAiZ4AdFU1EHqBzP/vTUZW7Xwu85vAYiAbjHI+HsDfGVXYlq/exdDlWTd0R45Hou4jsSRFyBgos2vOrlK1wXZ8VKu4fWQYdunXsdv0gLl9bOVCQntKuGWHOnTVuR0YWn+Dd2gpabCZC8GH3Jx5lfVNF66P4oCVpyP2iQMCIsaD4h+ZdBDHbYnfdRVVlxJY8c14wfcwJviLJU4al0v0cxc83XCGrk59AuwkED7JwunTJ4yXlU/pAktHk2LimoDp2+RBccr6rLkaPvKfMycRyMS9NVADtKJ/dxh0fY0/CDjPsP0Oia0HTpZy6tJkJPLxMoYB3Exexsu3+HVL62AJoZm4l3CmfE/PZKRBj02y7XeDPl8/cTalBJ7Q+QU3Q0fVv95AWduTCbGQt8ogF0xj1sDw774WgyQxXi6hB6Ve2qAfQyoYmgK+528niv052n4yJIJQK2o1jXhWc4kdrj1Wm4+gNfndsOAwNTnSWxe9g5hRtOWHph132Hx3DEZMN+P8TiAiH4vKrGeHasGAT2jBuPEPblfTBJbSD9sLAofQJdm+49OMByiNTocxt8G76kUEnjV23hJcJLtT+BjAzESs9i7WomHa03wn6geXKV0=
+    properties :
+     x : 252
+     y : 370
+     width : 24
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Demande de confirmation de l'annulation
+         si gbFichierRecevoirEnCours= vrai ALORS
+         	si ouinon("Êtes-vous sûr de vouloir annuler la réception du fichier ?") = Oui ALORS
+         		gbArrêtFichier = vrai
+         		gbArrêtFichierDemandé = vrai	 
+         	FIN
+         sinon
+         	si ouinon("Êtes-vous sûr de vouloir annuler l'envoi du fichier ?") = Oui ALORS
+         		gbArrêtFichier = vrai
+         		gbArrêtFichierDemandé = vrai	 
+         	FIN
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2680c8790e8ba37a
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAC6IlKDVDXpJqLJF2WDwiBb0+3LucSnCjD0C4NJMetJc557q/x+y6PkWt006RIM1YmuWyoQnF6kf8SltS+Eqmy8Feo7M1pLFRFi3aglkDd6PM6e6dkuSXhRSTbouCiN
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAA3E9COyEtB5Ca857NB+9omYq1OW4rpeozZCbw5aV35/hnzOJHg15KYZwJb9LDFyI5G/UPJyMZ92ULh9mLQgsDQu+yCPxEderzvrN7ma5o+XfV608rzja4E2xldSgaMJrpNYCujU5jM3+MidTJDoV1O28Ajh6AK+QSRyD0rZ1LzGTFZlWx17LMuzMNlz45LNthB4hHEbIvb7xtqy0hpmLWPteGL2Dqdurd70rCluk84DFmeP5NYZlmE7uwbMxGgbvjTOs9NlN34caGIz570xTYP/vH+ABAKIH1VcCP4d+4pz9LpyEnkmwID9f0Mv4+WiGbC1H1fVLmoJ3+7mhF2Ay1++VVFeBSm4MgXOV4XV3NoULlU8EVAHetCoAvcRtVJaQ9ZocVsiY1BrTJCoD6zaTigsMEOFOwk3sdqlMTfmJD7RclwbDC+mh0IAmSFxlHw0hDCBg==
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAAL168wqwJbRm8/jcsdQRrY0+PvbuF3oNOQ8BmunTSlRfzM5D7kaEBv2hCMNartYRllyQH89RkcOqg7u5g86HUov/aBHqQeIM0/seSKCLiDdKFERxR1wbyWl+PdAWbGchrdju5oITF0j9GqZbbX+kgVYDKt6uWSDdY8y7AD4376MrzuEcUPbT9G37KTjtOxnT28+QXw
+     code : |1-
+      // Traitement automatique des erreurs :   exécuter le bloc de code CAS ERREUR
+      //
+      
+      PROCEDURE FEN_Dialogue(gnIdCorrespondants,LOCAL gsNomSocket)
+      
+      gsNomThread est une chaine = "Thread" + gsNomSocket		// Nom du thread
+      gbFichierEnvoyéEnCours est un booléen = Faux			// Variable permettant de savoir si un fichier est en cours d'envoi
+      gsCheminFichier est une chaine							// Chemin du fichier à sauvegarder
+      gbFichierRecevoirEnCours est un booléen = faux			// Variable permettant de savoir si un fichier est en cours de réception
+      gbAccepteFichier est un booleen = faux					// réponse de l'utilisateur
+      
+      gsNomFichier est une chaine								
+      gbArrêtFichier est un booléen							// Booléen permettant d'indiquer au thread d'envoi de fichier que l'utilisateur distant a annulé
+      gbArrêtFichierDemandé est un booléen = faux
+      
+      
+      
+      
+      // Mise en place d'un évènement pour gérer la fermeture de la fenêtre de "chat"
+      Evénement(FinCommunication,"*.*","FinComm") 
+      Evénement(GestionErreur,"*.*","ERREUR")
+      
+      
+      // Recherche de la fiche du correspondant
+      HLitRecherchePremier(correspondants,IDCorrespondants,gnIdCorrespondants)
+      si htrouve(correspondants) = vrai alors
+      	// On a trouvé le correspondant, on indique son nom
+      	// Note : le nom est indiqué à partir de la liste des correspondants
+      	
+      	Libellé_Connexion = chaineconstruit("Connexion établie avec : %1 %2 ",correspondants.Nom , correspondants.prenom)
+      	FEN_Principale.gfsNom = correspondants.Nom +" "+  correspondants.prenom
+      SINON
+      	// Le correspondant est inconnu	
+      	Libellé_Connexion = Chaineconstruit("Connexion établie avec : %1",FEN_Principale.gfsNom)
+      FIN
+      
+      CAS ERREUR:
+      	// Erreur lors de la mise en place de l'évènement de gestion de la fenêtre de discussion ou 
+      	// Lors de la mise en place de la gestion des messages d'erreurs
+      	Erreur("Impossible de mettre en place les événements de gestion d'erreur et de fermeture de la fenêtre","L'application va se terminer.")
+      	// L'application ne peut pas fonctionner sans cet événement
+      	Ferme()
+   -
+     internal_properties : CAAAAAgAAAAS3fZWd1YdCDfWS26uA0wb70CVKRhhlJbNcz/rgXOOywPIUE3hgUdHwoITMXF+/7jzgGuz10P/9v1KeBOFHk3BWkUYRfCkjSJrCxiOW54LI7BPckv7a/c9Jbc1tKoNyL/ME6FVrcdSaQLrAw==
+     code : |1+
+      // Lancement du thread d'écoute des nouveaux messages
+      ThreadExécute(gsNomThread,threadNormal,LectureMessage,gsNomSocket)
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     type : 12
+   -
+     type : 17
+   -
+     type : 13
+  procedures :
+   -
+     name : AttenteConnexionFichier
+     procedure_id : 1621516287878996843
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //AttenteConnexionFichier ()
+      //
+      // Cette fonction attend la connexion de la personne qui lui envoie le fichier
+      
+      Procédure AttenteConnexionFichier()
+      
+      sNomCanal est une chaine		// Nom de la socket acceptée
+      sNomFichier est une chaine		// Nom du fichier choisi	
+      nHndFichier est un entier		// Handle du fichier
+      
+      Tantque SocketAttendConnexion(csNomSocketFichier)
+      	// On accepte la connexion
+      	sNomCanal = SocketAccepte(csNomSocketFichier)
+      	
+      	// On vérifie la connexion
+      	Si sNomCanal~="" alors
+      		// Erreur de connexion
+      		Erreur("Impossible d'accepter la connexion",ErreurInfo())
+      	SINON
+      		// Sélection du fichier
+      		sNomFichier = fSélecteur("", fExtraitChemin(FEN_Dialogue.gsNomFichier,fFichier+fExtension), "Sélectionnez un fichier...", "Tous fichiers (*.*)"+TAB+"*.*", fExtraitChemin(gsNomFichier,fExtension), fSelCrée+fSelExiste)
+      		// Si le nom de fichier est valide
+      		si sNomFichier <> "" alors
+      			// On l'ouvre en création
+      			nHndFichier = fouvre(sNomFichier,foCréation)
+      			// Exécution de la fonction de lecture des paquets envoyés
+      			LectureMsgFichier(sNomCanal,nHndFichier,sNomFichier)
+      		sinon
+      			// L'utilisateur a cliqué sur annuler
+      			// Envoi d'un message d'erreur
+      			socketecrit(sNomCanal,csFICHIER_ERREUR)
+      			// Fermeture de la socket
+      			socketferme(csNomSocketFichier)
+      			sortir			
+      		fin
+      	fin
+      FIN
+      
+      
+      
+      
+     type : 458752
+   -
+     name : EcrireMessage
+     procedure_id : 1621516287879062379
+     type_code : 14
+     code : |1-
+      Procédure EcrireMessage(sMessage="")
+      
+      // Procédure d'envoi de message par socket
+      // Envoi du message
+      // Note : cette fonction n'est pas bloquante
+      
+      // Si ce n'est pas un message de demande de fin de connexion
+      // ou une demande d'envoi de fichier 
+      // ou un fichier
+      // ou une réponse à une demande d'envoi de fichier
+      
+      Si sMessage<>csFINCOM  et sMessage[[a 3]] <> csFICHIER  et gauche(sMessage,1) <>"#" et sMessage<>csACKOK et sMessage <> csFichierAnnulé alors
+      	
+      	// On envoie également le message en local
+      	SectionCritiqueDébut("AA")
+      	RTFInsère(sMessage,">> ",1)
+      	TableAjouteligne(Table_Message,sMessage)
+      	
+      	
+      	tableposition(Table_Message,TableOccurrence(Table_Message))
+      	tableselectmoins(Table_Message)
+      	SectionCritiqueFin("AA")
+      	// On envoie le message à l'interlocuteur
+      	SocketEcrit(gsNomSocket,csmessage+ " " + crypte(sMessage,"",crypteAucun,vrai))
+      sinon
+      	socketEcrit(gsNomSocket,sMessage)
+      FIN
+      SI ErreurDétectée alors
+      	// Erreur lors de l'envoi du message
+      	Erreur("Impossible d'envoyer le message",ErreurInfo())
+      FIN
+     type : 458752
+   -
+     name : EnvoieFichier
+     internal_properties : CAAAAAgAAABlDKB9RhtnTQdkMwYYjJH+/0x4VKMMg+/Nd5FKHAbulBWpuTrvy45nztYbSPgtDr676bO6fiqsnvbHqYicIqpmwQzltdjpxERpkUKMF4H/JIUcdHciXs9sG/Dm0C76mmjk7vpPDf3WN5dgHVCWZNRV1X60Y++7HoZT6u6NKuQBl/vEVA2k45r4r6B7543+Q3wQC2Y40YPFSNx9CtmpVlvrX7kTe4aK2M6lfs4o5sql8rN6I0GO37ac9tvfFQ4kQdhNBCLtETt4t7tm4g==
+     procedure_id : 1621516287879127915
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //EnvoieFichier ()
+      //
+      
+      Procédure EnvoieFichier()
+      
+      nHndFichier est un entier  		// Handle du fichier en cours d'envoi
+      nbOctetsALire est un entier		// Nombre d'octets à lire dans le fichier
+      sOctetsLus est une chaine	 	// Chaine lue dans le fichier
+      nbOctetsRestant est un entier   // Nombre d'octets restant à lire
+      sMessage est une chaine			// Message à envoyer
+      nTailleFichier est un entier	// Taille du fichier
+      nPourcentage est un entier		// Pourcentage du fichier envoyé
+      nTailleBuffer est un entier		// taille du buffer d'envoi	
+      
+      // On met en visible les champs servant pour le transfert du fichier
+      FEN_Dialogue.LIB_FICHIER..visible = Vrai
+      FEN_Dialogue.Jauge_Fichier..visible = vrai
+      FEN_Dialogue.BTN_Annuler..visible = Vrai
+      
+      // récupération de la taille du fichier
+      nTailleFichier = ftaille(FEN_Dialogue.gsCheminFichier)
+      
+      // La borne maximum de la jauge est mise sur la taille du fichier
+      FEN_Dialogue.Jauge_Fichier..BorneMax = nTailleFichier
+      
+      // récupération de la taille du buffer
+      // il est calculé en fonction de la taille du fichier
+      nTailleBuffer  = RecupèreBuffer(nTailleFichier)
+      
+      // On ouvre le fichier
+      nHndFichier = fouvre(FEN_Dialogue.gsCheminFichier,foLecture)
+      // Si le handle du fichier est valide
+      si nHndFichier <> -1 ALORS
+      	// Le nombre d'octets restant à lire est égal à la taille du fichier
+      	nbOctetsRestant = nTailleFichier
+      	
+      	// boucle pour parcourir le fichier
+      	tantque nbOctetsRestant <> 0
+      		// Vérification qu'une annulation n'est pas en cours
+      		si FEN_Dialogue.gbArrêtFichier = Vrai ALORS
+      			// Il y a annulation donc on sort de la boucle
+      			sortir
+      		FIN
+      		// Si la taille des octets restant est inférieur à la taille du buffer 
+      		si nbOctetsRestant < nTailleBuffer alORS
+      			// Le nombre d'octets à lire est mis sur la nombre d'octets restants
+      			nbOctetsALire = nbOctetsRestant
+      		sinon
+      			// Le nombre d'octets à lire correspond à la taille du buffer
+      			nbOctetsALire = nTailleBuffer
+      		FIN
+      		// On lit le nombre d'octets correspondant au buffer
+      		sOctetsLus=flit(nHndFichier,nbOctetsALire)
+      		
+      		// On crypte la chaîne pour éviter la perte de données
+      		sOctetsLus = crypte(sOctetsLus,"",crypteAucun)
+      		
+      		// Création du message de la forme :
+      		// #NomFichier#TailleFichier#TailleEnvoyée#Contenu
+      		sMessage = "#"+fExtraitChemin(gsCheminFichier,fFichier+fExtension) +"#" + nTailleFichier + "#" + nbOctetsALire + "#"+ sOctetsLus
+      
+      		//	On envoie le message
+      		socketecrit(csNomSocketFichier,sMessage)
+      		
+      		// décrémentation du nombre d'octets restant
+      		nbOctetsRestant -= nbOctetsALire
+      		// Calcul du pourcentage du fichier envoyé
+      		nPourcentage = 100 - nbOctetsRestant*100/nTailleFichier
+      		// Mise a jour du libellé de pourcentage
+      		FEN_Dialogue.lib_fichier = "Fichier en cours d'envoi : " + nPourcentage + " %"
+      		// Mise à jour de la jauge
+      		FEN_Dialogue.Jauge_Fichier..valeur = nTailleFichier - nbOctetsRestant
+      		// On laisse le temps à la fenêtre de se redessiner
+      		MultitacheRepeint(FEN_Dialogue)
+      	FIN
+      	// Fermeture du fichier
+      	fferme(nHndFichier)
+      	// Si la sortie de la boucle n'est pas due à une annulation
+      	si FEN_Dialogue.gbArrêtFichier = faux alors
+      		// On envoie le message de fin de fichier
+      		SocketEcrit(csNomSocketFichier,csFinFichier)
+      	sinon
+      		// Remise à jour de la variable d'annulation
+      		FEN_Dialogue.gbArrêtFichier = faux
+      		si FEN_Dialogue.gbArrêtFichierDemandé = Vrai ALORS
+      			FEN_Dialogue.gbArrêtFichierDemandé = Vrai
+      			SocketEcrit(csNomSocketFichier,csFichierAnnulé)
+      		FIN
+      	fin
+      sinon
+      	// Erreur lors de l'ouverture du fichier
+      	SocketEcrit(csNomSocketFichier,csFICHIER_ERREUR)
+      fin
+      
+      // Mise en invisible des champs relatifs au transfert de fichier
+      FEN_Dialogue.BTN_Annuler..visible = Faux
+      FEN_Dialogue.Jauge_Fichier..visible = Faux
+      FEN_Dialogue.LIB_FICHIER..Visible = faux
+      FEN_Dialogue.BTN_ENVOIFICH..etat = actif
+      // On remet les valeurs à 0
+      FEN_Dialogue.Jauge_Fichier..valeur = 0
+      FEN_Dialogue.LIB_FICHIER = ""
+     type : 458752
+   -
+     name : Fermeture
+     internal_properties : CAAAAAgAAAD4jQyr1hsdjJk7v+LUPOPgN/W0CxcEuiWRkN3b573KyC5pZCYNFUQEtp9+3oXxDXhJYdVb6YRqbjdwzDbsRkFnX9R/RL5DdofHnZ0juCcgusY/Bq+axK2I1O/H5tHeuke5EGN8L4jKkmbbpO3A6dJnnM5t0kH67P+8e0sCBtEIzp9ngGmtm8HAA1wLPU52UgVRZf2hF8pt26+E/SrtUeCeUZR1Ag==
+     procedure_id : 1621516287879193451
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //Fermeture ()
+      //
+      // Paramètres :
+      //	Aucun
+      
+      // 	bDemandeArret : Booléen permettant de savoir qui a demandé l'arrêt de la communication
+      //					Vrai : c'est l'utilisateur de l'application
+      //					Faux : c'est le correspondant
+      Procédure Fermeture(bDemandeArret=Faux)
+      
+      // On envoie un message à l'autre utilisateur lui indiquant la fin de la communication
+      si bDemandeArret alors EcrireMessage(csFINCOM)
+      
+      // Arrêt du thread d'écoute
+      // Arrêt des threads
+      ThreadArrête(gsNomThread,1000)
+      ThreadArrête(csThreadFichier,1000)
+      
+      si SocketExiste(gsNomSocket) ALORS
+      	// Fermeture de la socket d'écoute	
+      	SocketFerme(gsNomSocket)	
+      FIN
+      
+      si SocketExiste(csNomSocketFichier) = vrai alors
+      	// fermeture de la socket de fichier
+      	socketferme(csNomSocketFichier)
+      fin
+      
+      // Remise à zéro des variables
+      gbAccepteFichier = Faux
+      gbFichierEnvoyéEnCours = faux
+      gbFichierRecevoirEnCours = faux
+      // Si la fenêtre principale est active, on met a jour la variable
+      FEN_Principale.gfbenDialogue = faux	
+      FEN_Principale.BTN_DIALOGUE..etat = actif
+     type : 458752
+   -
+     name : FinCommunication
+     procedure_id : 1621516287879258987
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //FinCommunication (<sMessage>, <nParam>, <wParam>)
+      //
+      // Paramètres :
+      // 	sMessage : Paramètres Windows pour l'appel d'un callBack par un événement
+      //	nParam : Paramètres Windows pour l'appel d'un callBack par un événement
+      //	wParam : Paramètres Windows pour l'appel d'un callBack par un événement
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure FinCommunication(sMessage <utile>,nParam<utile>,wParam<utile>)
+      
+      // Fermeture de la fenêtre
+      Ferme
+      
+      
+     type : 458752
+   -
+     name : GestionErreur
+     internal_properties : CAAAAAgAAAAW6jAPJUw9XjI19mTcKGubBdJ7WT/6K6BuB9dnA2/rYRj7Sp5+8xDdoLhCWzBRH/RX9wC2J1sU2qMrENxPid5p6xeLVBDmHxCqqj+Ja32C5avm5kEW8NXwrDO76hskcPnLAlECSyRwMMA1DkVGO7a7TphfItMYHmla8TlgkKcf1NJBjKczH48iEdyOb1tizaxHBhrr
+     procedure_id : 1621516287879324523
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //GestionErreur ()
+      //
+      // Paramètres :
+      //	Aucun
+      
+      //	nParam : Valeur
+      // 	nCodeErreur : Paramètres permettant de différencier les messages d'erreur
+      Procédure GestionErreur(nParam <utile>,nCodeErreur)
+      
+      sNomCorrespondant est une chaine		// Nom du correspondant
+      
+      // Selon le code d'erreur on affiche le bon message d'erreur
+      selon nCodeErreur
+      	
+      	cas 1 // Arrêt de la communication demandé
+      		DélaiAvantFermeture(500)
+      		Info("Le correspondant a demandé l'arrêt de la communication")
+      		DélaiAvantFermeture(0)
+      		
+      	cas 2 // Code d'erreur Refus du correspondant pour la réception d'un fichier
+      		DélaiAvantFermeture(1000)
+      		info("Votre correspondant ne désire pas recevoir de fichier")
+      		DélaiAvantFermeture(0)
+      		
+      	cas 3	// Demande d'envoi de fichier de la part du correspondant
+      		DélaiAvantFermeture(3000)
+      		
+      		// Recherche de la fiche du correspondants
+      		HLitRecherchePremier(correspondants,IDCorrespondants,gnIdCorrespondants)
+      		si htrouve(correspondants)=vrai alors
+      			// On a trouvé le correspondant, on indique son nom
+      			// Note : le nom est indiqué à partir de la liste des correspondants
+      			sNomCorrespondant = correspondants.Nom + " " + correspondants.Prénom
+      		SINON
+      			// Le correspondant est inconnu	
+      			sNomCorrespondant = FEN_Principale.gfsNom
+      		FIN
+      		// Demande de confirmation pour la réception du fichier
+      		si ouinon(non,chaineconstruit("%1 désire vous envoyer le fichier suivant : %2",sNomCorrespondant,gsNomFichier) + rc + "Voulez vous l'accepter ?") = Oui ALORS
+      			// mise a jour de la variable
+      			gbAccepteFichier = Vrai
+      			DélaiAvantFermeture(0)
+      		sinon
+      			gbAccepteFichier = faux
+      		FIN
+      		DélaiAvantFermeture(0)
+      		// On modifie le signal pour dire au thread que la réponse est prête
+      		SignalModifie("SigOuiNon",signalOuvert)
+      		SignalModifie("SigOuiNon",signalFermé)
+      		
+      	cas 4	// Erreur lors du transfert du fichier
+      		DélaiAvantFermeture(1000)
+      		erreur("Une erreur s'est produite lors du transfert du fichier " + gsCheminFichier)
+      		DélaiAvantFermeture(0)
+      		
+      	cas 5	// Transfert de fichier annulé par le correspondant
+      		DélaiAvantFermeture(1000)
+      		erreur("Votre correspondant a annulé le transfert du fichier " + gsNomFichier)
+      		DélaiAvantFermeture(0)
+      	cas 6 // demande d'ouverture du fichier que l'on a reçu
+      		DélaiAvantFermeture(1000)
+      		si ouinon("Voulez-vous ouvrir le fichier " + gsNomFichier + " ?")= oui alors
+      			LanceAppliAssociée(gsNomFichier)
+      		FIN
+      		DélaiAvantFermeture(0)
+      			 
+      FIN
+      
+     type : 458752
+   -
+     name : LectureMessage
+     internal_properties : CAAAAAgAAABRg4xDQIagGVdOYzW84bd6nt1nyJylshWTOZ3BkTecQPjLYFUEsP6089eguNLEtNllFTQMgRACZI6kBU0ErTjabiFr5YSKXFK0sksnximAQgkVYEQvgwHaiX21rTBbt8YDM3HhglHiXGtpHIh55PWIyv0Z6faZoAE5C5utO0ALd8lu7OBAZEnaCiiHAoFXg0BdZIDF6VQXLIZfARUXm5kQZKA=
+     procedure_id : 1621516287879390059
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //LectureMessage (<sNomSocketLect>)
+      //
+      // Paramètres :
+      //	sNomSocketLect : Le nom de la socket sur laquelle il faut lire le message
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure LectureMessage(sNomSocketLect)
+      
+      sMessage est une chaine			// Message reçu
+      
+      
+      // On lit tant que le thread est actif
+      // Note : On utilise une fonction bloquante pendant une durée déterminée dans la boucle : on ne va pas monopoliser le processeur
+      BOUCLE	
+      	// Lecture d'un message (fonction bloquante pendant une durée déterminée)	
+      	sMessage = SocketLit(sNomSocketLect,Vrai)
+      	
+      	// Vérification du message
+      	si Sansespace(sMessage)<>"" alors	
+      		
+      		// Il existe un message demandant l'arrêt de la communication
+      		si sMessage[[A 3]]~=csFINCOM alors
+      			
+      			_TermineCommunication()
+      			SORTIR
+      			
+      		SINON
+      			
+      			// Un fichier est en attente d'envoi, le message est donc la réponse du correspondant
+      			si gbFichierEnvoyéEnCours = Vrai ALORS
+      				_TraiteRéponseDemandeFichier(sMessage)
+      			FIN
+      			
+      			si sMessage ~= csFichier_ERREUR ALORS
+      				// un message d'erreur Fichier a été reçu
+      				// On remet toutes les variables à 0
+      				gbAccepteFichier = Faux
+      				gbFichierEnvoyéEnCours = Faux
+      				gbFichierRecevoirEnCours = Faux
+      				
+      				// ferme la socket
+      				SocketFerme(csNomSocketFichier)
+      				
+      				// Envoi un message à la fenêtre pour afficher le message d'erreur correspondant
+      				PostMessage(handle(FEN_Dialogue),"ERREUR",4,4)
+      				BTN_ENVOIFICH..etat = actif
+      			FIN
+      			
+      			// si le message est une annulation de fichier, on met la variable bArrêtFichier à faux
+      			si sMessage~=csFichierAnnulé ALORS
+      				gbArrêtFichier = vrai
+      				PostMessage(handle(FEN_Dialogue),"ERREUR",5,5)
+      				EcrireMessage("Transfert de fichier annulé")
+      				BTN_ENVOIFICH..etat = actif
+      			FIN
+      
+      			// Si le message est une demande d'envoi de fichier, on demande l'accord de l'utilisateur
+      			si sMessage[[a 3]] ~= csFICHIER ALORS
+      				_TraiteMessageFichier(sMessage)
+      			sinon
+      				Si sMessage[[a 3]]<>"100" et sMessage[[a 3]]<>"300" et gauche(sMessage,1)<>"#" et sMessage <> csFichierAnnulé  alors
+      					SectionCritiqueDébut("AA")
+      					smsg est une chaine
+      					smsg = decrypte(sMessage[[5 a]],"",crypteAucun,vrai)
+      					
+      					_AjouteMessage(smsg)
+      					
+      
+      					SectionCritiqueFin("AA")
+      				fin
+      			fin
+      		FIN
+      	FIN
+      FIN
+      
+      // Arrêt du thread d'écoute
+      ThreadArrête(gsNomThread,500)
+      Multitache(-30)
+     type : 458752
+   -
+     name : LectureMsgFichier
+     procedure_id : 1621516287879455595
+     type_code : 14
+     code : |1-
+      // Syntaxe :
+      //LectureMsgFichier (<sNomCanal>, <nHndFichier>, <sNomFichier>)
+      //
+      // Paramètres :
+      //	sNomCanal : Nom de la socket concernée
+      //	nHndFichier : Handle du fichier dans lequel on va enregistrer les paquets
+      //	sNomFichier : Le nom du fichier à écrire
+      
+      Procédure LectureMsgFichier(sNomCanal,nHndFichier,sNomFichier)
+      
+      sMessage est une chaine				// Message reçu
+      sNomFichierEnvoyé est une chaine 	// Nom du fichier envoyé
+      nTailleAEcrire est un entier		// Nombre d'octets à écrire
+      nOctetsTotal est un entier			// Nombre d'octet total à écrire
+      nOctetsEcris est un entier			// Nombre d'octets déjà écris
+      sOctetsLus est une chaine			// Contenu du message
+      
+      
+      // Mise à jour des champs relatifs au transfert de fichiers
+      FEN_Dialogue.BTN_Annuler..visible = Vrai
+      FEN_Dialogue.Jauge_Fichier..visible = vrai
+      FEN_Dialogue.LIB_FICHIER..visible = vrai
+      // Boucle
+      boucle
+      	// Récupération du message
+      	sMessage = SocketLit(sNomCanal,faux,60000)
+      	// Si il n'y a pas d'annulation en cours
+          si FEN_Dialogue.gbArrêtFichier = faux alors
+          	// Si le message est un message de fin de fichier
+          	si sMessage= csFinFichier alors
+          	
+      	    	// On sort de la boucle
+      	    	sortir
+      	  	sinon
+      	  		// Si le message est une annulation
+      	   		si sMessage ~=csFichierAnnulé ALORS
+      				FEN_Dialogue.gbArrêtFichier = vrai
+      	   			// on sort de la boucle
+      	   			sortir   			
+      	   		fin
+      	   		// Si le message est une erreur
+      	   		si sMessage~=csFICHIER_ERREUR ALORS
+      	   			// On met a jour la variable d'annulation pour exécuter le code de suppression du fichier 
+      				FEN_Dialogue.gbArrêtFichier = vrai
+      				sortir	
+      	   		sinon
+      	   			// Le message est valide
+      	   			// Extraction du nom du fichier
+      				sNomFichierEnvoyé =ExtraitChaîne(sMessage,2,"#") 
+      				// Extraction de la taille totale du fichier
+      		    	nOctetsTotal = val(ExtraitChaîne(sMessage,3,"#"))
+      		    	// Extraction de la taille à écrire
+      				nTailleAEcrire = val(extraitchaine(sMessage,4,"#"))
+      				// Lecture et décryptage du contenu
+      				sOctetsLus = decrypte(extraitchaine(sMessage,5,"#"),"",crypteAucun)
+      				// On écrit dans le fichier
+      				fecrit(nHndFichier,sOctetsLus,nTailleAEcrire)
+      				// Incrémentation du nombre d'octets écrits
+      		    	nOctetsEcris += nTailleAEcrire
+      		    	
+      		    	// Mise à jour du libellé
+      				FEN_Dialogue.LIB_FICHIER = "Fichier en réception " + partieentiere(nOctetsEcris*100/nOctetsTotal) +" %"
+      				// Mise a jour de la jauge
+      		   		FEN_Dialogue.Jauge_Fichier..BorneMax = nOctetsTotal
+      				FEN_Dialogue.Jauge_Fichier..valeur = nOctetsEcris 
+      				// On laisse le temps à la fenêtre de se mettre à jour
+      				MultitacheRepeint(FEN_Dialogue)
+      	
+      		   	fin
+      	    fin
+      	sinon
+      		// Annulation 
+      		sortir
+      	fin
+      FIN
+      
+      // On ferme le fichier
+      fferme(nHndFichier)
+      
+      // On remet invisible les champs relatifs au transfert de fichier
+      FEN_Dialogue.Jauge_Fichier..visible = faux
+      FEN_Dialogue.LIB_FICHIER..visible = faux
+      FEN_Dialogue.BTN_Annuler..visible = faux
+      FEN_Dialogue.BTN_ENVOIFICH..etat = actif
+      // On remet les valeurs à 0
+      FEN_Dialogue.Jauge_Fichier..valeur = 0
+      FEN_Dialogue.LIB_FICHIER = ""
+      // Mise a jour de la variable des fichiers en attente de réception
+      FEN_Dialogue.gbFichierRecevoirEnCours = faux
+      si FEN_Dialogue.gbArrêtFichier = faux alors
+      	// On envoie un message comme quoi le fichier est bien reçu
+      	FEN_Dialogue.EcrireMessage("Fichier Reçu : " + gsNomFichier)
+      	// On envoie un message à la fenêtre pour qu'elle affiche le message d'ouverture de fichier
+      	PostMessage(handle(FEN_Dialogue),"ERREUR",6,6)
+      sinon
+      	// Annulation 
+      	// On remet la variable à faux
+      	FEN_Dialogue.gbArrêtFichier = Faux
+      	// On supprime le fichier
+      	fSupprime(sNomFichier)
+      	si FEN_Dialogue.gbArrêtFichierDemandé = Vrai ALORS
+      		// Envoi du message à l'autre utilisateur
+      		FEN_Dialogue.EcrireMessage(csFichierAnnulé)
+      		FEN_Dialogue.gbArrêtFichierDemandé = faux
+      	sinon
+      		// On envoie un message à la fenêtre pour qu'elle affiche le message d'annulation
+      		PostMessage(handle(FEN_Dialogue),"ERREUR",5,5)
+      	FIN
+      fin
+      // On ferme la socket
+      socketferme(sNomCanal)
+      // On arrête l'écoute
+      ThreadArrête(csThreadFichier,100)
+      multitache(-100)
+     type : 458752
+   -
+     name : RechercheSmiley
+     internal_properties : CAAAAAgAAABktH7dVDI0Gg7RIqBspKtTSZ4b3SPGg9R6qxPbUyMzkXRnGlJS52hRfBzux8id58xjA5hy+w8U1pf/FNgv7f6Z3wvrwOyafzwWjiXvjSNYLx3I1E8AzrOGFskhqPVyjvtNrI8gNYLepqpbzKMgSRwNKKqtOM1mZDcEJ8eOgh0lLgQ7OjXFvT2Qc5rMJbUP+FqV1Ggd
+     procedure_id : 1621516287879521131
+     type_code : 14
+     code : |1-
+      // Syntaxe :
+      //RechercheSmiley ()
+      //	
+      //	Cette fonction permet de rechercher dans les caractères saisis par l'utilisateur si un smiley à été ajouté
+      
+      Procédure RechercheSmiley()
+      // Cette procedure sert à rechercher les smileys si les caractères convenant ont été trouvés
+      hlitpremier(Smiley,IDSmiley)
+      tantque pas hendehors(Smiley)
+      	// on compare les n derniers caractères du champ rtf (où n est le nombre de caractères de smiley.texte) avec le texte du smiley
+      	// Si c'est égal, on affiche le smiley et on quitte
+      	si droite(RTFVersTexte(SC_ChampRTF1.SAI_Texte),taille(smiley.SmileyTexte))=smiley.SmileyTexte alors
+      		// Affectation du smiley vers le champ image
+      		img_smiley = smiley.SmileyImage
+      		// On met le contenu du champ image vers le presse papier
+      		VersPressePapier(img_smiley)
+      		// On sélectionne la suite de caractère qui correspond
+      		SC_ChampRTF1.SAI_Texte..Curseur = taille(rtfverstexte(SC_ChampRTF1.SAI_Texte))-taille(smiley.SmileyTexte) + 1
+      		SC_ChampRTF1.SAI_Texte..FinCurseur = taille(rtfverstexte(SC_ChampRTF1.SAI_Texte)) + 1
+      		// On exécute le traitement du bouton coller
+      		ExécuteTraitement(SC_ChampRTF1.BTN_Coller,trtclic)
+      		sortir
+      	sinon
+      		hlitsuivant(Smiley)
+      	fin
+      FIN
+     type : 458752
+   -
+     name : RécupèreBuffer
+     internal_properties : CAAAAAgAAACTkcFaD+vkAq37VzftANme0avtYsludN3+8Br7XNWOTD3YkxT9AxoT+G7kL/FEGuqtli0HmyHt7/RcIEzttM3fWdf639LtvMDXlGI68LjHwGDiAF1xKeaQVBY0Wd/ZlErVQloNl9O8KPY4t75oZChumnKQOXH5jCNqvsyBQtzYPmzaohNO675LiB6nRccSmasKjFs5tjZ+Xpx6I/jsj4iBmYJQm5IKdGcD6EBvaNZ6WZdsgA==
+     procedure_id : 1621516287879586667
+     type_code : 14
+     code : |1+
+      // Syntaxe :
+      //[ <Résultat> = ] RécupèreBuffer (<nTailleFichier>)
+      //
+      // Cette procédure sert à calculer la taille du buffer en fonction de la taille du fichier
+      // Paramètres :
+      //	nTailleFichier : Taille du fichier dont il faut calculer le buffer
+      // Valeur de retour :
+      // 	entier : 
+      
+      Procédure RécupèreBuffer(nTailleFichier)
+      nBuffer est un entier
+      // Selon la taille du fichier, on alloue une certaine taille pour le buffer
+      // Le maximum alloué est 1 Mo 
+      selon vrai
+      	cas nTailleFichier< 4000
+      		nBuffer = nTailleFichier
+      	cas 4000 < nTailleFichier < 500000
+      		nBuffer = 4000
+      	cas 500000 < nTailleFichier < 5000000
+      		nBuffer = 10000
+      	cas 5000000<nTailleFichier <20000000
+      		nBuffer = 500000
+      	cas nTailleFichier >20000000
+      		nBuffer =  1000000
+      FIN
+      renvoyer nBuffer
+     type : 458752
+   -
+     name : _AjouteMessage
+     procedure_id : 1730379337884979343
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //_AjouteMessage (<sMsg>)
+      //
+      // Paramètres :
+      // 	sMsg : <indiquez ici le rôle de sMsg>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      Procédure _AjouteMessage(sMsg)
+      
+      SI PAS sMsg ~="" ALORS
+      	// 	Affichage du message	
+      	// On formate le message pour le mettre en gras (c'est un message du correspondant)
+      	SAISIERTF = FEN_Principale.gfsNom + " : "
+      	
+      	SAISIERTF..Curseur = 1
+      	SAISIERTF..FinCurseur = Taille(SAISIERTF)
+      	RTFSélection(SAISIERTF,rtfGras,Vrai)
+      	
+      	RTFInsère(SAISIERTF,sMsg,Taille(FEN_Principale.gfsNom + " : ")+1)
+      	
+      	// Ajout dans la table
+      	TableAjouteLigne(Table_Message,SAISIERTF..Valeur)
+      	
+      	// On se positionne sur la dernière ligne de la table (correspondant au dernier message)
+      	TableSelectMoins(Table_Message)
+      	
+      	TablePosition(Table_Message,TableOccurrence(Table_Message))
+      FIN
+     type : 458752
+   -
+     name : _TermineCommunication
+     procedure_id : 1730379724432126374
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // _TermineCommunication ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      Procédure _TermineCommunication()
+      
+      // Fermeture de la socket d'écoute	
+      SocketFerme(gsNomSocket)
+      
+      // Si la fenêtre principale est active, on met a jour la variable
+      FEN_Principale.gfbEnDialogue = Faux	
+      FEN_Principale.BTN_DIALOGUE..Etat = Actif
+      
+      // Arrêt de la communication par le correspondant			
+      //Poste le message pour l'affichage du message
+      PostMessage(Handle(FEN_Dialogue),"ERREUR",1,1)
+      
+      Multitâche(-200)
+      
+      // On va demander la fermeture de la fenêtre			
+      PostMessage(Handle(FEN_Dialogue),"FinComm",Correspondants.IDCorrespondants,Correspondants.IDCorrespondants)
+     type : 458752
+   -
+     name : _TraiteMessageFichier
+     internal_properties : CAAAAAgAAADUL9Cmuig/+Qq6Rw3qBnuyf3R8PHKTLf7IIkyFffSiA9Z70Vyx6iDFsIiacL5GlR6UbCSFHi4Nw3BM5Q78/HQFZxCKKnzS3+I2fuoElpeok7A9K8PfYA0q5ot26K1e4P1ttEuRlmv/KGptmI9+mtP+h91R+NJf+iEqb76wLxuR/Ej6pChBYG/Ktht9qw52t84QXvn0L6Q=
+     procedure_id : 1730380020784938689
+     type_code : 14
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //_TraiteMessageFichier (<sMessage>)
+      //
+      // Paramètres :
+      // 	sMessage : <indiquez ici le rôle de sMessage>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      Procédure _TraiteMessageFichier(sMessage)
+      
+      gsNomFichier = sMessage[[5 A ]]
+      
+      // Envoi d'un message à la fenêtre pour afficher le message correspondant
+      PostMessage(Handle(FEN_Dialogue),"ERREUR",3,3)
+      
+      
+      // On attend la réponse de l'utilisateur
+      SI SignalAttend("SigOuiNon",3000) = Vrai ALORS	
+      	
+      	SI gbAccepteFichier = Vrai ALORS
+      		// L'utilisateur a accepté
+      		// Mise à jour de la variable permettant de savoir si un fichier est en attente de réception
+      		gbFichierRecevoirEnCours = Vrai
+      		
+      		// On crée une socket
+      		SI SocketExiste(csNomSocketFichier)= Vrai ALORS
+      			SocketFerme(csNomSocketFichier)
+      		FIN
+      		// On crée une socket spéciale pour le transfert de fichier
+      		SI SocketCrée(csNomSocketFichier,cnPortSocketFichier)  = Faux ALORS
+      			
+      			// On envoie un message d'erreur
+      			gbFichierRecevoirEnCours = Faux
+      			EcrireMessage(csFICHIER_ERREUR)
+      			
+      		SINON
+      			// Avant d'exécuter le thread de lecture des messages, on vérifie s'il n'est pas encore en cours
+      			SI ThreadEtat(csThreadFichier)=threadInexistant ALORS									
+      				ThreadExécute(csThreadFichier,threadNormal,AttenteConnexionFichier)
+      				// Envoi de la réponse
+      				EcrireMessage(csACKOK)
+      				FEN_Dialogue.BTN_ENVOIFICH..Etat = Grisé
+      			FIN
+      			
+      			
+      		FIN
+      		gbAccepteFichier = Faux
+      	SINON
+      		// L'utilisateur à refusé, envoi de la réponse
+      		gbAccepteFichier = Faux
+      		gbFichierRecevoirEnCours = Faux
+      		EcrireMessage(csFichierRefusé)				
+      	FIN
+      	
+      FIN
+     type : 458752
+   -
+     name : _TraiteRéponseDemandeFichier
+     internal_properties : CAAAAAgAAAB0z7CG5YAs4frqd3WKJitSp6SkbBojhd7w6hSFxTy6qwaTkVThUmDN8LgKWO5GlZ5c7Ix15v4Vc/gkzV60pDz9V+iakgxKv1q23hrwMsPsn9zBLydjBMnWos/KRPn6BGkJ2P91yt/LdKZRLAuKZqcKM3F1HKaTdg3242Kc+yfFeOQeWIzlhIv2kv9h5/pi2/eZPtmUjwQ=
+     procedure_id : 1730380437396797708
+     type_code : 14
+     code : |1+
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      //_TraiteRéponseDemandeFichier (<sMessage>)
+      //
+      // Paramètres :
+      // 	sMessage : <indiquez ici le rôle de sMessage>
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      Procédure _TraiteRéponseDemandeFichier(sMessage)
+      
+      // Le correspondant a accepté,
+      SI sMessage~= csACKOK ALORS
+      	SI PAS SocketConnecte(csNomSocketFichier,cnPortSocketFichier,FEN_Principale.gfsAdresseIP) ALORS
+      		gbFichierEnvoyéEnCours = Faux
+      		EcrireMessage(csFICHIER_ERREUR)
+      	SINON
+      		EcrireMessage("Acceptation du fichier " + gsNomFichier + " enregistrée")
+      		// On exécute l'envoi du fichier dans un thread pour que cela ne bloque pas la discussion
+      		ThreadExécute("ENVOIFICHIER",threadNormal,EnvoieFichier)
+      		gbFichierEnvoyéEnCours = Faux	
+      	FIN
+      SINON
+      	// Le fichier est refusé
+      	gbFichierEnvoyéEnCours = Faux
+      	// On poste le message à la fenêtre pour afficher la boite de dialogue correspondante
+      	PostMessage(Handle(FEN_Dialogue),"ERREUR",2,2)
+      	EcrireMessage("Refus du fichier " + gsNomFichier + " enregistré")
+      	BTN_ENVOIFICH..Etat = Actif
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FenDialogue
+resources :
+ string_res :
+  identifier : 0x1185096b007b57e3
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
